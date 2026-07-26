@@ -2,12 +2,17 @@
 interface Props {
 	title?: string;
 	description?: string;
+	canonicalPath?: string;
 }
 
 const {
 	title = 'Cabinet Pro Supply | Wholesale American Cabinets',
 	description = 'Get low wholesale pricing on top quality American-made cabinets from Merit, Starmark, Nations, Kith, Lectus, and Mouser — delivered factory direct to your home or jobsite.',
+	canonicalPath = '/',
 } = Astro.props;
+
+const site = Astro.site ?? new URL('https://www.cabinetprosupply.com');
+const canonicalUrl = new URL(canonicalPath, site).href;
 ---
 
 <!doctype html>
@@ -19,16 +24,16 @@ const {
 		<meta name="description" content={description} />
 		<meta name="keywords" content="kitchen, bath, wholesale, cabinets, home improvement, American made" />
 		<meta name="author" content="Cabinet Pro Supply" />
-		<link rel="canonical" href={new URL('/', Astro.site ?? 'https://www.cabinetprosupply.com').href} />
+		<link rel="canonical" href={canonicalUrl} />
 		<meta property="og:title" content={title} />
-		<meta property="og:description" content="Premium American cabinets at wholesale prices. Stock, semi-custom, and full custom cabinetry delivered nationwide." />
+		<meta property="og:description" content={description} />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content={new URL('/', Astro.site ?? 'https://www.cabinetprosupply.com').href} />
+		<meta property="og:url" content={canonicalUrl} />
 		<meta
 			property="og:image"
 			content={new URL(
 				'/images/Home-Display-kitchens/stock-white-shaker.webp',
-				Astro.site ?? 'https://www.cabinetprosupply.com',
+				site,
 			).href}
 		/>
 		<link rel="icon" href="/images/cabinet-pro-supply-logo.png" type="image/png" />

@@ -1,5 +1,9 @@
 ---
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isHome = pathname === '/';
+const quoteHref = isHome || pathname === '/pros' ? '#quote' : '/#quote';
 
+const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 ---
 
 <nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
@@ -14,10 +18,18 @@
 			</a>
 
 			<div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
-				<a href="#why-us" class="hover:text-[#C8102E] transition-colors">Why Us</a>
-				<a href="#pros" class="hover:text-[#C8102E] transition-colors">For Pros</a>
-				<a href="#diy" class="hover:text-[#C8102E] transition-colors">For DIY</a>
-				<a href="#brands" class="hover:text-[#C8102E] transition-colors">Brands</a>
+				<a href={homeHash('#why-us')} class="hover:text-[#C8102E] transition-colors">Why Us</a>
+				<a
+					href="/pros"
+					class:list={[
+						'hover:text-[#C8102E] transition-colors',
+						pathname === '/pros' && 'text-[#C8102E]',
+					]}
+				>
+					For Pros
+				</a>
+				<a href={homeHash('#diy')} class="hover:text-[#C8102E] transition-colors">For DIY</a>
+				<a href={homeHash('#brands')} class="hover:text-[#C8102E] transition-colors">Brands</a>
 			</div>
 
 			<div class="flex items-center gap-x-3">
@@ -29,7 +41,7 @@
 					<span>1-877-477-7784</span>
 				</a>
 				<a
-					href="#quote"
+					href={quoteHref}
 					class="hidden sm:inline-flex px-6 py-2.5 bg-[#C8102E] hover:bg-[#A50E26] text-white text-sm font-semibold rounded-2xl transition-all active:scale-[0.985]"
 				>
 					Get Free Quote
@@ -47,16 +59,54 @@
 
 		<div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 py-4">
 			<div class="flex flex-col gap-1 text-sm font-medium">
-				<a href="#why-us" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Why Us</a>
-				<a href="#kitchens" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Kitchen Pricing</a>
-				<a href="#pros" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">For Pros</a>
-				<a href="#diy" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">For DIY</a>
-				<a href="#brands" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Brands</a>
-				<a href="https://www.cabinetprosupply.com/cps-blog.html" class="px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Blog</a>
+				<a
+					href={homeHash('#why-us')}
+					class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+				>
+					Why Us
+				</a>
+				<a
+					href={homeHash('#kitchens')}
+					class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+				>
+					Kitchen Pricing
+				</a>
+				<a
+					href="/pros"
+					class:list={[
+						'mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]',
+						pathname === '/pros' && 'text-[#C8102E]',
+					]}
+				>
+					For Pros
+				</a>
+				<a
+					href={homeHash('#diy')}
+					class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+				>
+					For DIY
+				</a>
+				<a
+					href={homeHash('#brands')}
+					class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+				>
+					Brands
+				</a>
+				<a
+					href="https://www.cabinetprosupply.com/cps-blog.html"
+					class="px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+				>
+					Blog
+				</a>
 				<a href="tel:18774777784" class="px-2 py-3 rounded-xl hover:bg-slate-50 text-[#C8102E] font-semibold">
 					<i class="fa-solid fa-phone mr-2"></i>1-877-477-7784
 				</a>
-				<a href="#quote" class="mt-2 px-4 py-3 bg-[#C8102E] text-white text-center font-semibold rounded-2xl">Get Free Quote</a>
+				<a
+					href={quoteHref}
+					class="mt-2 px-4 py-3 bg-[#C8102E] text-white text-center font-semibold rounded-2xl"
+				>
+					Get Free Quote
+				</a>
 			</div>
 		</div>
 	</div>
