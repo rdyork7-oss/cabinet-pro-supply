@@ -1,0 +1,76 @@
+---
+
+---
+
+<nav class="bg-white border-b border-slate-200 sticky top-0 z-50">
+	<div class="max-w-7xl mx-auto px-6">
+		<div class="flex justify-between items-center h-20">
+			<a href="/" class="flex items-center shrink-0">
+				<img
+					src="/images/cabinet-pro-supply-logo.png"
+					alt="Cabinet Pro Supply — The right way to buy cabinets"
+					class="h-12 w-auto max-w-[280px]"
+				/>
+			</a>
+
+			<div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
+				<a href="#why-us" class="hover:text-[#C8102E] transition-colors">Why Us</a>
+				<a href="#pros" class="hover:text-[#C8102E] transition-colors">For Pros</a>
+				<a href="#diy" class="hover:text-[#C8102E] transition-colors">For DIY</a>
+				<a href="#brands" class="hover:text-[#C8102E] transition-colors">Brands</a>
+			</div>
+
+			<div class="flex items-center gap-x-3">
+				<a
+					href="tel:18774777784"
+					class="hidden md:flex items-center gap-x-2 px-4 py-2.5 text-sm font-semibold hover:bg-slate-100 rounded-xl transition-colors"
+				>
+					<i class="fa-solid fa-phone text-[#C8102E]"></i>
+					<span>1-877-477-7784</span>
+				</a>
+				<a
+					href="#quote"
+					class="hidden sm:inline-flex px-6 py-2.5 bg-[#C8102E] hover:bg-[#A50E26] text-white text-sm font-semibold rounded-2xl transition-all active:scale-[0.985]"
+				>
+					Get Free Quote
+				</a>
+				<button
+					id="mobile-menu-btn"
+					type="button"
+					aria-label="Open menu"
+					class="md:hidden p-2.5 rounded-xl hover:bg-slate-100 text-slate-700"
+				>
+					<i class="fa-solid fa-bars text-xl"></i>
+				</button>
+			</div>
+		</div>
+
+		<div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 py-4">
+			<div class="flex flex-col gap-1 text-sm font-medium">
+				<a href="#why-us" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Why Us</a>
+				<a href="#kitchens" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Kitchen Pricing</a>
+				<a href="#pros" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">For Pros</a>
+				<a href="#diy" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">For DIY</a>
+				<a href="#brands" class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Brands</a>
+				<a href="https://www.cabinetprosupply.com/cps-blog.html" class="px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]">Blog</a>
+				<a href="tel:18774777784" class="px-2 py-3 rounded-xl hover:bg-slate-50 text-[#C8102E] font-semibold">
+					<i class="fa-solid fa-phone mr-2"></i>1-877-477-7784
+				</a>
+				<a href="#quote" class="mt-2 px-4 py-3 bg-[#C8102E] text-white text-center font-semibold rounded-2xl">Get Free Quote</a>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<script>
+	const menuBtn = document.getElementById('mobile-menu-btn');
+	const mobileMenu = document.getElementById('mobile-menu');
+
+	menuBtn?.addEventListener('click', () => {
+		mobileMenu?.classList.toggle('hidden');
+	});
+
+	document.querySelectorAll('.mobile-nav-link').forEach((link) => {
+		link.addEventListener('click', () => mobileMenu?.classList.add('hidden'));
+	});
+</script>

@@ -1,0 +1,61 @@
+---
+interface Props {
+	title?: string;
+	description?: string;
+}
+
+const {
+	title = 'Cabinet Pro Supply | Wholesale American Cabinets',
+	description = 'Get low wholesale pricing on top quality American-made cabinets from Merit, Starmark, Nations, Kith, Lectus, and Mouser — delivered factory direct to your home or jobsite.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<meta name="keywords" content="kitchen, bath, wholesale, cabinets, home improvement, American made" />
+		<meta name="author" content="Cabinet Pro Supply" />
+		<link rel="canonical" href={new URL('/', Astro.site ?? 'https://www.cabinetprosupply.com').href} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content="Premium American cabinets at wholesale prices. Stock, semi-custom, and full custom cabinetry delivered nationwide." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={new URL('/', Astro.site ?? 'https://www.cabinetprosupply.com').href} />
+		<meta
+			property="og:image"
+			content={new URL(
+				'/images/Home-Display-kitchens/stock-white-shaker.webp',
+				Astro.site ?? 'https://www.cabinetprosupply.com',
+			).href}
+		/>
+		<link rel="icon" href="/images/cabinet-pro-supply-logo.png" type="image/png" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+		<meta name="generator" content={Astro.generator} />
+	</head>
+	<body class="bg-slate-50 text-slate-800 font-sans pb-20 md:pb-0">
+		<slot />
+
+		<!-- Statcounter -->
+		<script is:inline>
+			var sc_project = 12893854;
+			var sc_invisible = 1;
+			var sc_security = 'db91dc07';
+		</script>
+		<script is:inline src="https://www.statcounter.com/counter/counter.js" async></script>
+		<noscript>
+			<div class="statcounter">
+				<a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer">
+					<img
+						class="statcounter"
+						src="https://c.statcounter.com/12893854/0/db91dc07/1/"
+						alt="Web Analytics"
+					/>
+				</a>
+			</div>
+		</noscript>
+	</body>
+</html>
