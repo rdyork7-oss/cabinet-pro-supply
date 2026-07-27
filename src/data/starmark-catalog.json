@@ -1,0 +1,2254 @@
+{
+  "generatedAt": "2026-07-27T21:10:43.131Z",
+  "brand": "starmark",
+  "doors": {
+    "inset": [
+      {
+        "src": "/images/brands/starmark/doors/inset/style-175.jpg",
+        "name": "Style 175",
+        "slug": "style-175",
+        "construction": "inset",
+        "sourceFile": "175.IN.00_MPL.Nov_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-177.jpg",
+        "name": "Style 177",
+        "slug": "style-177",
+        "construction": "inset",
+        "sourceFile": "177.IN.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-179.jpg",
+        "name": "Style 179",
+        "slug": "style-179",
+        "construction": "inset",
+        "sourceFile": "179.IN.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-182.jpg",
+        "name": "Style 182",
+        "slug": "style-182",
+        "construction": "inset",
+        "sourceFile": "182.IN.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-191.jpg",
+        "name": "Style 191",
+        "slug": "style-191",
+        "construction": "inset",
+        "sourceFile": "191.IN.SM.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-268.jpg",
+        "name": "Style 268",
+        "slug": "style-268",
+        "construction": "inset",
+        "sourceFile": "268.IN.5F.00_PNT.Nov_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-735.jpg",
+        "name": "Style 735",
+        "slug": "style-735",
+        "construction": "inset",
+        "sourceFile": "735.IN.5F.00_PNT.Nov_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-736.jpg",
+        "name": "Style 736",
+        "slug": "style-736",
+        "construction": "inset",
+        "sourceFile": "736.IN.5F.00_PNT.Nov_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/style-737.jpg",
+        "name": "Style 737",
+        "slug": "style-737",
+        "construction": "inset",
+        "sourceFile": "737.IN.5F.00_PNT.Nov_D.png"
+      }
+    ],
+    "overlay": [
+      {
+        "src": "/images/brands/starmark/doors/overlay/abilene.jpg",
+        "name": "Abilene",
+        "slug": "abilene",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Abil.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/accord.jpg",
+        "name": "Accord",
+        "slug": "accord",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Acco.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/anita.jpg",
+        "name": "Anita",
+        "slug": "anita",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Anit.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/bedford.jpg",
+        "name": "Bedford",
+        "slug": "bedford",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Bedf.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/belfonte.jpg",
+        "name": "Belfonte",
+        "slug": "belfonte",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Belf.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/bonita.jpg",
+        "name": "Bonita",
+        "slug": "bonita",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Boni.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/breckenridge.jpg",
+        "name": "Breckenridge",
+        "slug": "breckenridge",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Brec.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/bridgeport.jpg",
+        "name": "Bridgeport",
+        "slug": "bridgeport",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Brpo.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/chappell.jpg",
+        "name": "Chappell",
+        "slug": "chappell",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Chpe.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/clifton.jpg",
+        "name": "Clifton",
+        "slug": "clifton",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Clif.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/coralville.jpg",
+        "name": "Coralville",
+        "slug": "coralville",
+        "construction": "overlay",
+        "sourceFile": "Coralv.QW.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/cosmopolitan.jpg",
+        "name": "Cosmopolitan",
+        "slug": "cosmopolitan",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Cosm.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/covington.jpg",
+        "name": "Covington",
+        "slug": "covington",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Covi.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/custom.jpg",
+        "name": "Custom",
+        "slug": "custom",
+        "construction": "overlay",
+        "sourceFile": "Cust.FO.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/edgemore.jpg",
+        "name": "Edgemore",
+        "slug": "edgemore",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Edgm.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/edinburgh.jpg",
+        "name": "Edinburgh",
+        "slug": "edinburgh",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Edin.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/emmerich.jpg",
+        "name": "Emmerich",
+        "slug": "emmerich",
+        "construction": "overlay",
+        "sourceFile": "Emmr.FO.00_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/farmington.jpg",
+        "name": "Farmington",
+        "slug": "farmington",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Farm.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/franklin.jpg",
+        "name": "Franklin",
+        "slug": "franklin",
+        "construction": "overlay",
+        "sourceFile": "Fran.FO.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/fullerton.jpg",
+        "name": "Fullerton",
+        "slug": "fullerton",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Full.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/hampton.jpg",
+        "name": "Hampton",
+        "slug": "hampton",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Hamp.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/hanover.jpg",
+        "name": "Hanover",
+        "slug": "hanover",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Hano.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/harbor.jpg",
+        "name": "Harbor",
+        "slug": "harbor",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Harb.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/hasbrouck.jpg",
+        "name": "Hasbrouck",
+        "slug": "hasbrouck",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Haso.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/huntingford.jpg",
+        "name": "Huntingford",
+        "slug": "huntingford",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Hunt.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/katmai.jpg",
+        "name": "Katmai",
+        "slug": "katmai",
+        "construction": "overlay",
+        "sourceFile": "Katm.FO.S-11_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/kobuk.jpg",
+        "name": "Kobuk",
+        "slug": "kobuk",
+        "construction": "overlay",
+        "sourceFile": "Kobu.FO.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/lehigh.jpg",
+        "name": "Lehigh",
+        "slug": "lehigh",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Lehi.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/manhattan.jpg",
+        "name": "Manhattan",
+        "slug": "manhattan",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Manh.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/medina.jpg",
+        "name": "Medina",
+        "slug": "medina",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Medi.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/melbourne.jpg",
+        "name": "Melbourne",
+        "slug": "melbourne",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Melb.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/milan.jpg",
+        "name": "Milan",
+        "slug": "milan",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Mila.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/oakland.jpg",
+        "name": "Oakland",
+        "slug": "oakland",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Oakl.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/orian.jpg",
+        "name": "Orian",
+        "slug": "orian",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Oria.5F.FO.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/osprey.jpg",
+        "name": "Osprey",
+        "slug": "osprey",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Ospr.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/overlook.jpg",
+        "name": "Overlook",
+        "slug": "overlook",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Ovla.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/ozark.jpg",
+        "name": "Ozark",
+        "slug": "ozark",
+        "construction": "overlay",
+        "sourceFile": "Ozar.FO.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/prescott.jpg",
+        "name": "Prescott",
+        "slug": "prescott",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Pres.5F.FO.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/princeton.jpg",
+        "name": "Princeton",
+        "slug": "princeton",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Prin.5F.FO.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/remington.jpg",
+        "name": "Remington",
+        "slug": "remington",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Remi.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/renwick.jpg",
+        "name": "Renwick",
+        "slug": "renwick",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Renw.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/ridgeville.jpg",
+        "name": "Ridgeville",
+        "slug": "ridgeville",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Rila.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/roanoke.jpg",
+        "name": "Roanoke",
+        "slug": "roanoke",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Roan.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/rockwell.jpg",
+        "name": "Rockwell",
+        "slug": "rockwell",
+        "construction": "overlay",
+        "sourceFile": "Rocw.FO.00_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/roseville.jpg",
+        "name": "Roseville",
+        "slug": "roseville",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Rose.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/salem.jpg",
+        "name": "Salem",
+        "slug": "salem",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Sale.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/sawyer.jpg",
+        "name": "Sawyer",
+        "slug": "sawyer",
+        "construction": "overlay",
+        "sourceFile": "Sawy.FO.00_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/stockton.jpg",
+        "name": "Stockton",
+        "slug": "stockton",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Stoc.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/stratford.jpg",
+        "name": "Stratford",
+        "slug": "stratford",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Stra.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-175.jpg",
+        "name": "Style 175",
+        "slug": "style-175",
+        "construction": "overlay",
+        "sourceFile": "175.FO.SM.01.5F_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-177.jpg",
+        "name": "Style 177",
+        "slug": "style-177",
+        "construction": "overlay",
+        "sourceFile": "177.FO.01_MPL.Tst_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-179.jpg",
+        "name": "Style 179",
+        "slug": "style-179",
+        "construction": "overlay",
+        "sourceFile": "179.FO.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-182.jpg",
+        "name": "Style 182",
+        "slug": "style-182",
+        "construction": "overlay",
+        "sourceFile": "182.FO.00_MPL.Nov_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-189.jpg",
+        "name": "Style 189",
+        "slug": "style-189",
+        "construction": "overlay",
+        "sourceFile": "189.FO.00_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-190.jpg",
+        "name": "Style 190",
+        "slug": "style-190",
+        "construction": "overlay",
+        "sourceFile": "190.FO.00.SM.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-191.jpg",
+        "name": "Style 191",
+        "slug": "style-191",
+        "construction": "overlay",
+        "sourceFile": "191.FO.SM.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-268.jpg",
+        "name": "Style 268",
+        "slug": "style-268",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS-ULT_268.FO_RWO.LS10_D2.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/style-735.jpg",
+        "name": "Style 735",
+        "slug": "style-735",
+        "construction": "overlay",
+        "sourceFile": "735.FO.00_QWO.Wpr_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/syracuse.jpg",
+        "name": "Syracuse",
+        "slug": "syracuse",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Syra.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/tabor.jpg",
+        "name": "Tabor",
+        "slug": "tabor",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Tabo.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/taft.jpg",
+        "name": "Taft",
+        "slug": "taft",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Taft.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/tempo.jpg",
+        "name": "Tempo",
+        "slug": "tempo",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Tepo.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/tipton.jpg",
+        "name": "Tipton",
+        "slug": "tipton",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Tipt.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/trinity.jpg",
+        "name": "Trinity",
+        "slug": "trinity",
+        "construction": "overlay",
+        "sourceFile": "Trin.FO.01_MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/tucson.jpg",
+        "name": "Tucson",
+        "slug": "tucson",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Tucs.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/tudor.jpg",
+        "name": "Tudor",
+        "slug": "tudor",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Tudo.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/vail.jpg",
+        "name": "Vail",
+        "slug": "vail",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Vail.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/venice.jpg",
+        "name": "Venice",
+        "slug": "venice",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Veni.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/viola.jpg",
+        "name": "Viola",
+        "slug": "viola",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Viol.5F.FO.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/waterfall.jpg",
+        "name": "Waterfall",
+        "slug": "waterfall",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Wafa.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/waynesville.jpg",
+        "name": "Waynesville",
+        "slug": "waynesville",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Wayn.MPL.Ntl_D.png"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/xavier.jpg",
+        "name": "Xavier",
+        "slug": "xavier",
+        "construction": "overlay",
+        "sourceFile": "STM-FDS_Xavi.MPL.Ntl_D.png"
+      }
+    ]
+  },
+  "finishes": {
+    "groups": [
+      {
+        "slug": "paint",
+        "name": "Paint",
+        "description": "Solid paint colors, tinted varnish, and glazed paint looks.",
+        "count": 36,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-benchmark.jpg",
+            "name": "Paint · Benchmark",
+            "slug": "paint-benchmark",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Bmk_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-benchmark-chocolate-glaze.jpg",
+            "name": "Paint · Benchmark · Chocolate Glaze",
+            "slug": "paint-benchmark-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Bmk.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-benchmark-latte-glaze.jpg",
+            "name": "Paint · Benchmark · Latte Glaze",
+            "slug": "paint-benchmark-latte-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Bmk.Laf_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-black.jpg",
+            "name": "Paint · Black",
+            "slug": "paint-black",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Blk_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-crystal-fog.jpg",
+            "name": "Paint · Crystal Fog",
+            "slug": "paint-crystal-fog",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT.OAK_CrF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-crystal-fog-chocolate-glaze.jpg",
+            "name": "Paint · Crystal Fog · Chocolate Glaze",
+            "slug": "paint-crystal-fog-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_CrF.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-entity.jpg",
+            "name": "Paint · Entity",
+            "slug": "paint-entity",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Ety_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-entity-chocolate-glaze.jpg",
+            "name": "Paint · Entity · Chocolate Glaze",
+            "slug": "paint-entity-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Ety.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-eucalyptus.jpg",
+            "name": "Paint · Eucalyptus",
+            "slug": "paint-eucalyptus",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Euc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-eucalyptus-chocolate-glaze.jpg",
+            "name": "Paint · Eucalyptus · Chocolate Glaze",
+            "slug": "paint-eucalyptus-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Euc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-eucalyptus-ebony-glaze.jpg",
+            "name": "Paint · Eucalyptus · Ebony Glaze",
+            "slug": "paint-eucalyptus-ebony-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Euc.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-marshmallow-cream.jpg",
+            "name": "Paint · Marshmallow Cream",
+            "slug": "paint-marshmallow-cream",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Mrc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-marshmallow-cream-chocolate-glaze.jpg",
+            "name": "Paint · Marshmallow Cream · Chocolate Glaze",
+            "slug": "paint-marshmallow-cream-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Mrc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-marshmallow-cream-latte-glaze.jpg",
+            "name": "Paint · Marshmallow Cream · Latte Glaze",
+            "slug": "paint-marshmallow-cream-latte-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Mrc.LaF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-marshmallow-cream-nickel-glaze.jpg",
+            "name": "Paint · Marshmallow Cream · Nickel Glaze",
+            "slug": "paint-marshmallow-cream-nickel-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Mrc.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-mineral-gray.jpg",
+            "name": "Paint · Mineral Gray",
+            "slug": "paint-mineral-gray",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_MnG_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-moon-bay.jpg",
+            "name": "Paint · Moon Bay",
+            "slug": "paint-moon-bay",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_MBy_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-moss-green.jpg",
+            "name": "Paint · Moss Green",
+            "slug": "paint-moss-green",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_MGr_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-moss-green-chocolate-glaze.jpg",
+            "name": "Paint · Moss Green · Chocolate Glaze",
+            "slug": "paint-moss-green-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_MGr.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-mushroom.jpg",
+            "name": "Paint · Mushroom",
+            "slug": "paint-mushroom",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Mrm_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-mushroom-chocolate-glaze.jpg",
+            "name": "Paint · Mushroom · Chocolate Glaze",
+            "slug": "paint-mushroom-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Mrm.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-pearl.jpg",
+            "name": "Paint · Pearl",
+            "slug": "paint-pearl",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Par_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-pearl-chocolate-glaze.jpg",
+            "name": "Paint · Pearl · Chocolate Glaze",
+            "slug": "paint-pearl-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Par.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-pebble-gray.jpg",
+            "name": "Paint · Pebble Gray",
+            "slug": "paint-pebble-gray",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_PbG_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-repose-grey.jpg",
+            "name": "Paint · Repose Grey",
+            "slug": "paint-repose-grey",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT.OAK_RpG_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-repose-grey-chocolate-glaze.jpg",
+            "name": "Paint · Repose Grey · Chocolate Glaze",
+            "slug": "paint-repose-grey-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_RpG.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-repose-grey-ebony-glaze.jpg",
+            "name": "Paint · Repose Grey · Ebony Glaze",
+            "slug": "paint-repose-grey-ebony-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_RpG.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-simply-white.jpg",
+            "name": "Paint · Simply White",
+            "slug": "paint-simply-white",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_SpW_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-snowbound.jpg",
+            "name": "Paint · Snowbound",
+            "slug": "paint-snowbound",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Snb_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-snowbound-chocolate-glaze.jpg",
+            "name": "Paint · Snowbound · Chocolate Glaze",
+            "slug": "paint-snowbound-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Snb.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-snowbound-latte-glaze.jpg",
+            "name": "Paint · Snowbound · Latte Glaze",
+            "slug": "paint-snowbound-latte-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Snb.LaF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-snowbound-nickel-glaze.jpg",
+            "name": "Paint · Snowbound · Nickel Glaze",
+            "slug": "paint-snowbound-nickel-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Snb.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-stone.jpg",
+            "name": "Paint · Stone",
+            "slug": "paint-stone",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Sne_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-stone-chocolate-glaze.jpg",
+            "name": "Paint · Stone · Chocolate Glaze",
+            "slug": "paint-stone-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Sne.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-stone-ebony-glaze.jpg",
+            "name": "Paint · Stone · Ebony Glaze",
+            "slug": "paint-stone-ebony-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Sne.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/paint/paint-wings.jpg",
+            "name": "Paint · Wings",
+            "slug": "paint-wings",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "STM-FDS_PNT_Wgs_F.png"
+          }
+        ]
+      },
+      {
+        "slug": "maple",
+        "name": "Maple",
+        "description": "Stains and specialty colors on maple.",
+        "count": 27,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-amber-acres.jpg",
+            "name": "Maple · Amber Acres",
+            "slug": "maple-amber-acres",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "AmberAcres_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-biscotti.jpg",
+            "name": "Maple · Biscotti",
+            "slug": "maple-biscotti",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Biscotti_F.jpg"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-breath.jpg",
+            "name": "Maple · Breath",
+            "slug": "maple-breath",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Breath_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-cappuccino.jpg",
+            "name": "Maple · Cappuccino",
+            "slug": "maple-cappuccino",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-cappuccino-chocolate-glaze.jpg",
+            "name": "Maple · Cappuccino · Chocolate Glaze",
+            "slug": "maple-cappuccino-chocolate-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Cpc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-dusk-fern.jpg",
+            "name": "Maple · Dusk Fern",
+            "slug": "maple-dusk-fern",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "DuskFern_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-golden-solace.jpg",
+            "name": "Maple · Golden Solace",
+            "slug": "maple-golden-solace",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "GoldenSolace_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-lush-forest.jpg",
+            "name": "Maple · Lush Forest",
+            "slug": "maple-lush-forest",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Lush Forest_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-melrose.jpg",
+            "name": "Maple · Melrose",
+            "slug": "maple-melrose",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Melrose_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-midnight-grove.jpg",
+            "name": "Maple · Midnight Grove",
+            "slug": "maple-midnight-grove",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "MidnightGrove_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-natural.jpg",
+            "name": "Maple · Natural",
+            "slug": "maple-natural",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-night-currents.jpg",
+            "name": "Maple · Night Currents",
+            "slug": "maple-night-currents",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Night Currents_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-nova.jpg",
+            "name": "Maple · Nova",
+            "slug": "maple-nova",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Nova_MPL._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-oregano-nickel-glaze.jpg",
+            "name": "Maple · Oregano · Nickel Glaze",
+            "slug": "maple-oregano-nickel-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Ogo.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-raindrop.jpg",
+            "name": "Maple · Raindrop",
+            "slug": "maple-raindrop",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Raindrop_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-renewal.jpg",
+            "name": "Maple · Renewal",
+            "slug": "maple-renewal",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Renewal_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-ripple.jpg",
+            "name": "Maple · Ripple",
+            "slug": "maple-ripple",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Ripple_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-sandhill-crane.jpg",
+            "name": "Maple · Sandhill Crane",
+            "slug": "maple-sandhill-crane",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Sandhill Crane_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-seed.jpg",
+            "name": "Maple · Seed",
+            "slug": "maple-seed",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Seed_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-slate.jpg",
+            "name": "Maple · Slate",
+            "slug": "maple-slate",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-slate-chocolate-glaze.jpg",
+            "name": "Maple · Slate · Chocolate Glaze",
+            "slug": "maple-slate-chocolate-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Slt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-slate-ebony-glaze.jpg",
+            "name": "Maple · Slate · Ebony Glaze",
+            "slug": "maple-slate-ebony-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "STM-FDS_MPL_Slt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-tea-chest.jpg",
+            "name": "Maple · Tea Chest",
+            "slug": "maple-tea-chest",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Tea Chest_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-tideway.jpg",
+            "name": "Maple · Tideway",
+            "slug": "maple-tideway",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Tideway_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-wander.jpg",
+            "name": "Maple · Wander",
+            "slug": "maple-wander",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Wander_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-warm-hush.jpg",
+            "name": "Maple · Warm Hush",
+            "slug": "maple-warm-hush",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "WarmHush_MPL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/maple/maple-whisper.jpg",
+            "name": "Maple · Whisper",
+            "slug": "maple-whisper",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "Whisper_MPL_F.png"
+          }
+        ]
+      },
+      {
+        "slug": "cherry",
+        "name": "Cherry",
+        "description": "Stains and specialty colors on cherry.",
+        "count": 24,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-cappuccino.jpg",
+            "name": "Cherry · Cappuccino",
+            "slug": "cherry-cappuccino",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-cappuccino-chocolate-glaze.jpg",
+            "name": "Cherry · Cappuccino · Chocolate Glaze",
+            "slug": "cherry-cappuccino-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Cpc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-harvest.jpg",
+            "name": "Cherry · Harvest",
+            "slug": "cherry-harvest",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Hvt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-harvest-chocolate-glaze.jpg",
+            "name": "Cherry · Harvest · Chocolate Glaze",
+            "slug": "cherry-harvest-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Hvt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-harvest-ebony-glaze.jpg",
+            "name": "Cherry · Harvest · Ebony Glaze",
+            "slug": "cherry-harvest-ebony-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Hvt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-hazelnut.jpg",
+            "name": "Cherry · Hazelnut",
+            "slug": "cherry-hazelnut",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Hzu_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-hazelnut-ebony-glaze.jpg",
+            "name": "Cherry · Hazelnut · Ebony Glaze",
+            "slug": "cherry-hazelnut-ebony-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Hzu.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-melrose.jpg",
+            "name": "Cherry · Melrose",
+            "slug": "cherry-melrose",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "Melrose_CHP_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-natural.jpg",
+            "name": "Cherry · Natural",
+            "slug": "cherry-natural",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-natural-chocolate-glaze.jpg",
+            "name": "Cherry · Natural · Chocolate Glaze",
+            "slug": "cherry-natural-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Ntl.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-oregano.jpg",
+            "name": "Cherry · Oregano",
+            "slug": "cherry-oregano",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Ogo_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-oregano-chocolate-glaze.jpg",
+            "name": "Cherry · Oregano · Chocolate Glaze",
+            "slug": "cherry-oregano-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Ogo.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-oregano-ebony-glaze.jpg",
+            "name": "Cherry · Oregano · Ebony Glaze",
+            "slug": "cherry-oregano-ebony-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Ogo.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-rye.jpg",
+            "name": "Cherry · Rye",
+            "slug": "cherry-rye",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Rye_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-rye-ebony-glaze.jpg",
+            "name": "Cherry · Rye · Ebony Glaze",
+            "slug": "cherry-rye-ebony-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Rye.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-seed.jpg",
+            "name": "Cherry · Seed",
+            "slug": "cherry-seed",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "Seed_CHP_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-slate.jpg",
+            "name": "Cherry · Slate",
+            "slug": "cherry-slate",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-slate-chocolate-glaze.jpg",
+            "name": "Cherry · Slate · Chocolate Glaze",
+            "slug": "cherry-slate-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Slt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-slate-ebony-glaze.jpg",
+            "name": "Cherry · Slate · Ebony Glaze",
+            "slug": "cherry-slate-ebony-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Slt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-slate-nickel-glaze.jpg",
+            "name": "Cherry · Slate · Nickel Glaze",
+            "slug": "cherry-slate-nickel-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Slt.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-tarragon.jpg",
+            "name": "Cherry · Tarragon",
+            "slug": "cherry-tarragon",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Trg_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-tarragon-chocolate-glaze.jpg",
+            "name": "Cherry · Tarragon · Chocolate Glaze",
+            "slug": "cherry-tarragon-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Trg.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-tarragon-ebony-glaze.jpg",
+            "name": "Cherry · Tarragon · Ebony Glaze",
+            "slug": "cherry-tarragon-ebony-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "STM-FDS_CHP_Trg.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/cherry/cherry-wander.jpg",
+            "name": "Cherry · Wander",
+            "slug": "cherry-wander",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "Wander_CHP_F.png"
+          }
+        ]
+      },
+      {
+        "slug": "alder",
+        "name": "Alder",
+        "description": "Stains on alder and rustic alder.",
+        "count": 27,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-cappuccino.jpg",
+            "name": "Alder · Cappuccino",
+            "slug": "alder-cappuccino",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-cappuccino-chocolate-glaze.jpg",
+            "name": "Alder · Cappuccino · Chocolate Glaze",
+            "slug": "alder-cappuccino-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Cpc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-harvest.jpg",
+            "name": "Alder · Harvest",
+            "slug": "alder-harvest",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Hvt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-harvest-chocolate-glaze.jpg",
+            "name": "Alder · Harvest · Chocolate Glaze",
+            "slug": "alder-harvest-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Hvt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-harvest-ebony-glaze.jpg",
+            "name": "Alder · Harvest · Ebony Glaze",
+            "slug": "alder-harvest-ebony-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Hvt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-hazelnut.jpg",
+            "name": "Alder · Hazelnut",
+            "slug": "alder-hazelnut",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Hzu_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-hazelnut-ebony-glaze.jpg",
+            "name": "Alder · Hazelnut · Ebony Glaze",
+            "slug": "alder-hazelnut-ebony-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Hzu.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-melrose.jpg",
+            "name": "Alder · Melrose",
+            "slug": "alder-melrose",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "Melrose_ALD_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-natural.jpg",
+            "name": "Alder · Natural",
+            "slug": "alder-natural",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-natural-chocolate-glaze.jpg",
+            "name": "Alder · Natural · Chocolate Glaze",
+            "slug": "alder-natural-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Ntl.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-oregano.jpg",
+            "name": "Alder · Oregano",
+            "slug": "alder-oregano",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Ogo_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-oregano-chocolate-glaze.jpg",
+            "name": "Alder · Oregano · Chocolate Glaze",
+            "slug": "alder-oregano-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Ogo.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-oregano-ebony-glaze.jpg",
+            "name": "Alder · Oregano · Ebony Glaze",
+            "slug": "alder-oregano-ebony-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Ogo.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-rye.jpg",
+            "name": "Alder · Rye",
+            "slug": "alder-rye",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Rye_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-rye-ebony-glaze.jpg",
+            "name": "Alder · Rye · Ebony Glaze",
+            "slug": "alder-rye-ebony-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Rye.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-seed.jpg",
+            "name": "Alder · Seed",
+            "slug": "alder-seed",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "Seed_ALD_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-slate.jpg",
+            "name": "Alder · Slate",
+            "slug": "alder-slate",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-slate-chocolate-glaze.jpg",
+            "name": "Alder · Slate · Chocolate Glaze",
+            "slug": "alder-slate-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Slt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-slate-ebony-glaze.jpg",
+            "name": "Alder · Slate · Ebony Glaze",
+            "slug": "alder-slate-ebony-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Slt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-slate-nickel-glaze.jpg",
+            "name": "Alder · Slate · Nickel Glaze",
+            "slug": "alder-slate-nickel-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Slt.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-tarragon.jpg",
+            "name": "Alder · Tarragon",
+            "slug": "alder-tarragon",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Trg_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-tarragon-chocolate-glaze.jpg",
+            "name": "Alder · Tarragon · Chocolate Glaze",
+            "slug": "alder-tarragon-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Trg.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-tarragon-ebony-glaze.jpg",
+            "name": "Alder · Tarragon · Ebony Glaze",
+            "slug": "alder-tarragon-ebony-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_ALD_Trg.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/alder-wander.jpg",
+            "name": "Alder · Wander",
+            "slug": "alder-wander",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "Wander_ALD_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/rustic-alder-tarragon.jpg",
+            "name": "Rustic Alder · Tarragon",
+            "slug": "rustic-alder-tarragon",
+            "species": "Rustic Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_RAL_Trg_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/rustic-alder-tarragon-chocolate-glaze.jpg",
+            "name": "Rustic Alder · Tarragon · Chocolate Glaze",
+            "slug": "rustic-alder-tarragon-chocolate-glaze",
+            "species": "Rustic Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_RAL_Trg.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/alder/rustic-alder-tarragon-ebony-glaze.jpg",
+            "name": "Rustic Alder · Tarragon · Ebony Glaze",
+            "slug": "rustic-alder-tarragon-ebony-glaze",
+            "species": "Rustic Alder",
+            "group": "alder",
+            "sourceFile": "STM-FDS_RAL_Trg.EbF_F.png"
+          }
+        ]
+      },
+      {
+        "slug": "hickory",
+        "name": "Hickory",
+        "description": "Stains on hickory and rustic hickory.",
+        "count": 21,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-biscotti.jpg",
+            "name": "Hickory · Biscotti",
+            "slug": "hickory-biscotti",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Biscotti._F.jpg"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-cappuccino.jpg",
+            "name": "Hickory · Cappuccino",
+            "slug": "hickory-cappuccino",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-cappuccino-chocolate-glaze.jpg",
+            "name": "Hickory · Cappuccino · Chocolate Glaze",
+            "slug": "hickory-cappuccino-chocolate-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Cpc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-harvest.jpg",
+            "name": "Hickory · Harvest",
+            "slug": "hickory-harvest",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Hvt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-harvest-chocolate-glaze.jpg",
+            "name": "Hickory · Harvest · Chocolate Glaze",
+            "slug": "hickory-harvest-chocolate-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Hvt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-melrose.jpg",
+            "name": "Hickory · Melrose",
+            "slug": "hickory-melrose",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "Melrose_HKY_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-natural.jpg",
+            "name": "Hickory · Natural",
+            "slug": "hickory-natural",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-natural-chocolate-glaze.jpg",
+            "name": "Hickory · Natural · Chocolate Glaze",
+            "slug": "hickory-natural-chocolate-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Ntl.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-oregano.jpg",
+            "name": "Hickory · Oregano",
+            "slug": "hickory-oregano",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Ogo_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-oregano-chocolate-glaze.jpg",
+            "name": "Hickory · Oregano · Chocolate Glaze",
+            "slug": "hickory-oregano-chocolate-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Ogo.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-seed.jpg",
+            "name": "Hickory · Seed",
+            "slug": "hickory-seed",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "Seed_HKY_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-slate.jpg",
+            "name": "Hickory · Slate",
+            "slug": "hickory-slate",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-slate-chocolate-glaze.jpg",
+            "name": "Hickory · Slate · Chocolate Glaze",
+            "slug": "hickory-slate-chocolate-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Slt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-slate-ebony-glaze.jpg",
+            "name": "Hickory · Slate · Ebony Glaze",
+            "slug": "hickory-slate-ebony-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Slt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-slate-nickel-glaze.jpg",
+            "name": "Hickory · Slate · Nickel Glaze",
+            "slug": "hickory-slate-nickel-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Slt.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-tarragon.jpg",
+            "name": "Hickory · Tarragon",
+            "slug": "hickory-tarragon",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Trg_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-tarragon-chocolate-glaze.jpg",
+            "name": "Hickory · Tarragon · Chocolate Glaze",
+            "slug": "hickory-tarragon-chocolate-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Trg.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-tarragon-ebony-glaze.jpg",
+            "name": "Hickory · Tarragon · Ebony Glaze",
+            "slug": "hickory-tarragon-ebony-glaze",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "STM-FDS_HKY_Trg.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-tea-chest.jpg",
+            "name": "Hickory · Tea Chest",
+            "slug": "hickory-tea-chest",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "Tea Chest_HKY_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-wander.jpg",
+            "name": "Hickory · Wander",
+            "slug": "hickory-wander",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "Wander_HKY_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/hickory/hickory-whisper.jpg",
+            "name": "Hickory · Whisper",
+            "slug": "hickory-whisper",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "Whisper_HKY_F.png"
+          }
+        ]
+      },
+      {
+        "slug": "oak",
+        "name": "Oak",
+        "description": "Stains and specialty colors on oak.",
+        "count": 32,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-biscotti.jpg",
+            "name": "Oak · Biscotti",
+            "slug": "oak-biscotti",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Biscotti_F.jpg"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-cappuccino.jpg",
+            "name": "Oak · Cappuccino",
+            "slug": "oak-cappuccino",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-cappuccino-chocolate-glaze.jpg",
+            "name": "Oak · Cappuccino · Chocolate Glaze",
+            "slug": "oak-cappuccino-chocolate-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Cpc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-harvest.jpg",
+            "name": "Oak · Harvest",
+            "slug": "oak-harvest",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_HVT_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-harvest-chocolate-glaze.jpg",
+            "name": "Oak · Harvest · Chocolate Glaze",
+            "slug": "oak-harvest-chocolate-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Hvt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-hazelnut.jpg",
+            "name": "Oak · Hazelnut",
+            "slug": "oak-hazelnut",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Hzu_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-hazelnut-ebony-glaze.jpg",
+            "name": "Oak · Hazelnut · Ebony Glaze",
+            "slug": "oak-hazelnut-ebony-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Hzu.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-lush-forest.jpg",
+            "name": "Oak · Lush Forest",
+            "slug": "oak-lush-forest",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Lush Forest_OAK._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-melrose.jpg",
+            "name": "Oak · Melrose",
+            "slug": "oak-melrose",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Melrose_OAK.Chocolate_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-natural.jpg",
+            "name": "Oak · Natural",
+            "slug": "oak-natural",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-natural-chocolate-glaze.jpg",
+            "name": "Oak · Natural · Chocolate Glaze",
+            "slug": "oak-natural-chocolate-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Ntl.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-night-currents.jpg",
+            "name": "Oak · Night Currents",
+            "slug": "oak-night-currents",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Night Currents_OAK._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-nova.jpg",
+            "name": "Oak · Nova",
+            "slug": "oak-nova",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Nova_OAK._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-oregano.jpg",
+            "name": "Oak · Oregano",
+            "slug": "oak-oregano",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Ogo_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-oregano-chocolate-glaze.jpg",
+            "name": "Oak · Oregano · Chocolate Glaze",
+            "slug": "oak-oregano-chocolate-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Ogo.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-raindrop.jpg",
+            "name": "Oak · Raindrop",
+            "slug": "oak-raindrop",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Raindrop_OAK._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-rye.jpg",
+            "name": "Oak · Rye",
+            "slug": "oak-rye",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Rye_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-rye-ebony-glaze.jpg",
+            "name": "Oak · Rye · Ebony Glaze",
+            "slug": "oak-rye-ebony-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Rye.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-sandhill-crane.jpg",
+            "name": "Oak · Sandhill Crane",
+            "slug": "oak-sandhill-crane",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Sandhill Crane_OAK._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-seed.jpg",
+            "name": "Oak · Seed",
+            "slug": "oak-seed",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Seed_OAK_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-slate.jpg",
+            "name": "Oak · Slate",
+            "slug": "oak-slate",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-slate-chocolate-glaze.jpg",
+            "name": "Oak · Slate · Chocolate Glaze",
+            "slug": "oak-slate-chocolate-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Slt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-slate-ebony-glaze.jpg",
+            "name": "Oak · Slate · Ebony Glaze",
+            "slug": "oak-slate-ebony-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Slt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-slate-nickel-glaze.jpg",
+            "name": "Oak · Slate · Nickel Glaze",
+            "slug": "oak-slate-nickel-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Slt.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-snowbound-latte-glaze.jpg",
+            "name": "Oak · Snowbound · Latte Glaze",
+            "slug": "oak-snowbound-latte-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "SM_FS_OK.Snb.LaF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-tarragon.jpg",
+            "name": "Oak · Tarragon",
+            "slug": "oak-tarragon",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Trg_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-tarragon-chocolate-glaze.jpg",
+            "name": "Oak · Tarragon · Chocolate Glaze",
+            "slug": "oak-tarragon-chocolate-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Trg.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-tarragon-ebony-glaze.jpg",
+            "name": "Oak · Tarragon · Ebony Glaze",
+            "slug": "oak-tarragon-ebony-glaze",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "STM-FDS_OAK_Trg.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-tea-chest.jpg",
+            "name": "Oak · Tea Chest",
+            "slug": "oak-tea-chest",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Tea Chest_OAK_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-tideway.jpg",
+            "name": "Oak · Tideway",
+            "slug": "oak-tideway",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Tideway_OAK._F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-wander.jpg",
+            "name": "Oak · Wander",
+            "slug": "oak-wander",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Wander_OAK_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/oak/oak-whisper.jpg",
+            "name": "Oak · Whisper",
+            "slug": "oak-whisper",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "Whisper_OAK_F.png"
+          }
+        ]
+      },
+      {
+        "slug": "specialty-woods",
+        "name": "Specialty woods",
+        "description": "Walnut and quartersawn oak finishes.",
+        "count": 34,
+        "items": [
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-biscotti.jpg",
+            "name": "Quartersawn Oak · Biscotti",
+            "slug": "quartersawn-oak-biscotti",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Biscotti._F.jpg"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-cappuccino.jpg",
+            "name": "Quartersawn Oak · Cappuccino",
+            "slug": "quartersawn-oak-cappuccino",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-cappuccino-chocolate-glaze.jpg",
+            "name": "Quartersawn Oak · Cappuccino · Chocolate Glaze",
+            "slug": "quartersawn-oak-cappuccino-chocolate-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "SM_FS_QW.Cpc.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-harvest.jpg",
+            "name": "Quartersawn Oak · Harvest",
+            "slug": "quartersawn-oak-harvest",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Hvt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-harvest-chocolate-glaze.jpg",
+            "name": "Quartersawn Oak · Harvest · Chocolate Glaze",
+            "slug": "quartersawn-oak-harvest-chocolate-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "SM_FS_QW.Hvt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-hazelnut.jpg",
+            "name": "Quartersawn Oak · Hazelnut",
+            "slug": "quartersawn-oak-hazelnut",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Hzn_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-hazelnut-ebony-glaze.jpg",
+            "name": "Quartersawn Oak · Hazelnut · Ebony Glaze",
+            "slug": "quartersawn-oak-hazelnut-ebony-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Hzn.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-melrose.jpg",
+            "name": "Quartersawn Oak · Melrose",
+            "slug": "quartersawn-oak-melrose",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "Melrose_QWO_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-natural.jpg",
+            "name": "Quartersawn Oak · Natural",
+            "slug": "quartersawn-oak-natural",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-natural-chocolate-glaze.jpg",
+            "name": "Quartersawn Oak · Natural · Chocolate Glaze",
+            "slug": "quartersawn-oak-natural-chocolate-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Ntl.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-oregano.jpg",
+            "name": "Quartersawn Oak · Oregano",
+            "slug": "quartersawn-oak-oregano",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Ogo_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-oregano-chocolate-glaze.jpg",
+            "name": "Quartersawn Oak · Oregano · Chocolate Glaze",
+            "slug": "quartersawn-oak-oregano-chocolate-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Ogo.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-rye.jpg",
+            "name": "Quartersawn Oak · Rye",
+            "slug": "quartersawn-oak-rye",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Rye_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-rye-ebony-glaze.jpg",
+            "name": "Quartersawn Oak · Rye · Ebony Glaze",
+            "slug": "quartersawn-oak-rye-ebony-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Rye.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-seed.jpg",
+            "name": "Quartersawn Oak · Seed",
+            "slug": "quartersawn-oak-seed",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "Seed_QWO.Chocolate_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-slate.jpg",
+            "name": "Quartersawn Oak · Slate",
+            "slug": "quartersawn-oak-slate",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-slate-chocolate-glaze.jpg",
+            "name": "Quartersawn Oak · Slate · Chocolate Glaze",
+            "slug": "quartersawn-oak-slate-chocolate-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Slt.CoF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-slate-ebony-glaze.jpg",
+            "name": "Quartersawn Oak · Slate · Ebony Glaze",
+            "slug": "quartersawn-oak-slate-ebony-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Slt.EbF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-slate-nickel-glaze.jpg",
+            "name": "Quartersawn Oak · Slate · Nickel Glaze",
+            "slug": "quartersawn-oak-slate-nickel-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Slt.NiF_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-tarragon.jpg",
+            "name": "Quartersawn Oak · Tarragon",
+            "slug": "quartersawn-oak-tarragon",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Trg.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-tarragon-chocolate-glaze.jpg",
+            "name": "Quartersawn Oak · Tarragon · Chocolate Glaze",
+            "slug": "quartersawn-oak-tarragon-chocolate-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Trg.CoF.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-tarragon-ebony-glaze.jpg",
+            "name": "Quartersawn Oak · Tarragon · Ebony Glaze",
+            "slug": "quartersawn-oak-tarragon-ebony-glaze",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_QWO_Trg.EbF.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-tea-chest.jpg",
+            "name": "Quartersawn Oak · Tea Chest",
+            "slug": "quartersawn-oak-tea-chest",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "Tea Chest_QWO_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-wander.jpg",
+            "name": "Quartersawn Oak · Wander",
+            "slug": "quartersawn-oak-wander",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "Wander_QWO_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/quartersawn-oak-whisper.jpg",
+            "name": "Quartersawn Oak · Whisper",
+            "slug": "quartersawn-oak-whisper",
+            "species": "Quartersawn Oak",
+            "group": "specialty-woods",
+            "sourceFile": "Whisper_QWO_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-cappuccino.jpg",
+            "name": "Walnut · Cappuccino",
+            "slug": "walnut-cappuccino",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Cpc_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-harvest.jpg",
+            "name": "Walnut · Harvest",
+            "slug": "walnut-harvest",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Hvt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-hazelnut.jpg",
+            "name": "Walnut · Hazelnut",
+            "slug": "walnut-hazelnut",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Hzu_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-melrose.jpg",
+            "name": "Walnut · Melrose",
+            "slug": "walnut-melrose",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "Melrose_WAL_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-natural.jpg",
+            "name": "Walnut · Natural",
+            "slug": "walnut-natural",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Ntl_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-oregano.jpg",
+            "name": "Walnut · Oregano",
+            "slug": "walnut-oregano",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Ogo_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-rye.jpg",
+            "name": "Walnut · Rye",
+            "slug": "walnut-rye",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Rye_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-slate.jpg",
+            "name": "Walnut · Slate",
+            "slug": "walnut-slate",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "STM-FDS_WAL_Slt_F.png"
+          },
+          {
+            "src": "/images/brands/starmark/finishes/specialty-woods/walnut-wander.jpg",
+            "name": "Walnut · Wander",
+            "slug": "walnut-wander",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "Wander_WAL_F.png"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "doorsPolicy": "One natural/unfinished maple (or best available) image per distinct door style; inset vs overlay from IN/FO/PO markers. Unmarked STM-FDS door+drawer shots treated as overlay.",
+    "finishesPolicy": "Nearly all usable swatches ≥20KB. Chocolate file variants skipped when a non-Chocolate twin exists. Paint-on-oak substrate dupes deprioritized vs plain paint. Glaze variants (Chocolate/Ebony/Nickel/Latte) kept as separate samples.",
+    "nameAmbiguities": [
+      "Emmr→Emmerich, Fran→Franklin, Haso→Hasbrouck, Kobu→Kobuk, Katm→Katmai, Rocw→Rockwell, Covi→Covington, Ovla→Overlook — confirm against current StarMark literature.",
+      "Paint codes Bmk/Ety/Euc/Sne mapped heuristically (Benchmark/Entity/Eucalyptus/Stone) — confirm dealer names.",
+      "Numeric inset/overlay styles (175–191, 268, 735–737) labeled by construction + number."
+    ]
+  }
+}

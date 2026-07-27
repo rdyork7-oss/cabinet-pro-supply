@@ -35,24 +35,7 @@ export type Brand = {
 	exampleName?: string;
 };
 
-/** Small curated sample from existing CPS archive assets — confirm current programs with manufacturer/dealer. */
-const starmarkFinishes: BrandSample[] = [
-	{ src: '/images/brands/starmark/finishes/painted-black.jpg', name: 'Painted · Black' },
-	{ src: '/images/brands/starmark/finishes/painted-ivory-cream.jpg', name: 'Painted · Ivory Cream' },
-	{ src: '/images/brands/starmark/finishes/maple-butterscotch.jpg', name: 'Maple · Butterscotch' },
-	{ src: '/images/brands/starmark/finishes/cherry-brittany.jpg', name: 'Cherry · Brittany' },
-	{ src: '/images/brands/starmark/finishes/alder-natural.jpg', name: 'Alder · Natural' },
-	{ src: '/images/brands/starmark/finishes/oak-buttercream.jpg', name: 'Oak · Buttercream' },
-];
-
-const starmarkDoors: BrandSample[] = [
-	{ src: '/images/brands/starmark/doors/inset-alexandria.jpg', name: 'Alexandria', category: 'Inset' },
-	{ src: '/images/brands/starmark/doors/inset-charlotte.jpg', name: 'Charlotte', category: 'Inset' },
-	{ src: '/images/brands/starmark/doors/inset-fairhaven.jpg', name: 'Fairhaven', category: 'Inset' },
-	{ src: '/images/brands/starmark/doors/overlay-accord.jpg', name: 'Accord', category: 'Overlay' },
-	{ src: '/images/brands/starmark/doors/overlay-aero.jpg', name: 'Aero', category: 'Overlay' },
-	{ src: '/images/brands/starmark/doors/overlay-altamonte.jpg', name: 'Altamonte', category: 'Overlay' },
-];
+import { starmarkDoors, starmarkFinishes } from './starmark-samples';
 
 const optionsAskNote =
 	'Ask us for current door styles and finish options — manufacturer programs update regularly, and dealer-portal assets are the best source for the latest samples.';
@@ -157,7 +140,7 @@ export const brands: Brand[] = [
 		finishes: starmarkFinishes,
 		doors: starmarkDoors,
 		samplesNote:
-			'Sample images below are a small curated set from our archive and may not reflect current StarMark finish or door names. Ask us for the latest manufacturer door and finish options.',
+			'Preview samples below — open the full inset, overlay, and finish catalogs for every style in our dealer library. Doors are shown natural/unfinished when available so profiles read clearly.',
 		examplePrice: '$5,403',
 		exampleName: 'StarMark FO Stain Slab 10×10 example',
 	},

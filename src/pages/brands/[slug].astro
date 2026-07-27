@@ -20,6 +20,7 @@ if (!brand) {
 
 const otherBrands = brands.filter((b) => b.slug !== brand.slug);
 const hasSamples = brand.finishes.length > 0 || brand.doors.length > 0;
+const isStarmark = brand.slug === 'starmark';
 ---
 
 <BaseLayout
@@ -170,7 +171,96 @@ const hasSamples = brand.finishes.length > 0 || brand.doors.length > 0;
 	<!-- Door / finish samples or scaffold note -->
 	<section class="max-w-7xl mx-auto px-6 pb-14 md:pb-16">
 		{
-			hasSamples ? (
+			isStarmark ? (
+				<div>
+					<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">DOOR & FINISH CATALOG</div>
+					<h2 class="text-3xl font-semibold tracking-tight mb-3">Browse StarMark styles</h2>
+					{brand.samplesNote && <p class="text-slate-600 mb-8 max-w-3xl">{brand.samplesNote}</p>}
+
+					<div class="grid sm:grid-cols-3 gap-4 mb-12">
+						<a
+							href="/brands/starmark/doors/inset"
+							class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
+						>
+							<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">INSET</div>
+							<div class="text-xl font-semibold text-slate-900 mb-1">Inset door styles</div>
+							<p class="text-sm text-slate-600 mb-3">Full doors, click to enlarge</p>
+							<span class="text-sm font-semibold text-[#C8102E]">View inset catalog →</span>
+						</a>
+						<a
+							href="/brands/starmark/doors/overlay"
+							class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
+						>
+							<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">OVERLAY</div>
+							<div class="text-xl font-semibold text-slate-900 mb-1">Overlay door styles</div>
+							<p class="text-sm text-slate-600 mb-3">One sample per style</p>
+							<span class="text-sm font-semibold text-[#C8102E]">View overlay catalog →</span>
+						</a>
+						<a
+							href="/brands/starmark/finishes"
+							class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
+						>
+							<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">FINISHES</div>
+							<div class="text-xl font-semibold text-slate-900 mb-1">Browse finishes</div>
+							<p class="text-sm text-slate-600 mb-3">Paint + wood species groups</p>
+							<span class="text-sm font-semibold text-[#C8102E]">View finish catalog →</span>
+						</a>
+					</div>
+
+					{brand.doors.length > 0 && (
+						<div class="mb-12">
+							<div class="flex flex-wrap items-end justify-between gap-3 mb-5">
+								<h3 class="text-xl font-semibold">Door style preview</h3>
+								<a href="/brands/starmark/doors/overlay" class="text-sm font-semibold text-[#C8102E] hover:underline">
+									See all doors →
+								</a>
+							</div>
+							<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+								{brand.doors.map((door) => (
+									<figure class="rounded-2xl border border-slate-200 bg-white overflow-hidden">
+										<div class="h-48 bg-slate-50 flex items-center justify-center p-3">
+											<img
+												src={door.src}
+												alt={`${door.name} door style`}
+												class="max-h-full max-w-full object-contain"
+											/>
+										</div>
+										<figcaption class="px-3 py-2.5 text-sm">
+											<div class="font-medium text-slate-900">{door.name}</div>
+											{door.category && <div class="text-xs text-slate-500">{door.category}</div>}
+										</figcaption>
+									</figure>
+								))}
+							</div>
+						</div>
+					)}
+
+					{brand.finishes.length > 0 && (
+						<div>
+							<div class="flex flex-wrap items-end justify-between gap-3 mb-5">
+								<h3 class="text-xl font-semibold">Finish preview</h3>
+								<a href="/brands/starmark/finishes" class="text-sm font-semibold text-[#C8102E] hover:underline">
+									See all finishes →
+								</a>
+							</div>
+							<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+								{brand.finishes.map((finish) => (
+									<figure class="rounded-2xl border border-slate-200 bg-white overflow-hidden">
+										<div class="aspect-square bg-slate-50">
+											<img
+												src={finish.src}
+												alt={`${finish.name} finish sample`}
+												class="w-full h-full object-cover"
+											/>
+										</div>
+										<figcaption class="px-3 py-2.5 text-sm font-medium text-slate-900">{finish.name}</figcaption>
+									</figure>
+								))}
+							</div>
+						</div>
+					)}
+				</div>
+			) : hasSamples ? (
 				<div>
 					<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">SAMPLES</div>
 					<h2 class="text-3xl font-semibold tracking-tight mb-3">Door & finish examples</h2>
