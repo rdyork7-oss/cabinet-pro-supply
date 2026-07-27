@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const tips = [
+	'Room type (kitchen, bath, laundry, etc.)',
+	'Rough measurements or a floor plan if you have one',
+	'Style preferences (shaker, slab, inset, painted, stained)',
+	'Brand preference — or we can recommend one',
+	'Whether you’re a contractor, designer, or DIY homeowner',
+];
+---
+
+<BaseLayout
+	title="Contact & Free Quote | Cabinet Pro Supply"
+	description="Request a free cabinet quote from Cabinet Pro Supply. Call 1-877-477-7784 or email info@cabinetprosupply.com — we usually respond within a few hours."
+	canonicalPath="/contact"
+>
+	<Header />
+
+	<!-- Hero -->
+	<section class="bg-slate-900 text-white">
+		<div class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+			<div class="max-w-2xl">
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-red-400 mb-4">CONTACT</div>
+				<h1 class="text-4xl sm:text-5xl font-semibold tracking-tight leading-[1.05] mb-4">
+					Get a free quote
+				</h1>
+				<p class="text-lg md:text-xl text-slate-300">
+					Tell us about your project — we usually respond within a few hours. Prefer to talk? Call or email
+					anytime.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact methods -->
+	<section class="max-w-7xl mx-auto px-6 -mt-8 relative z-10">
+		<div class="grid sm:grid-cols-3 gap-4">
+			<a
+				href="tel:18774777784"
+				class="block bg-white border border-slate-200 rounded-3xl p-6 shadow-sm hover:border-slate-300 transition-colors"
+			>
+				<div class="w-11 h-11 rounded-2xl bg-red-50 text-[#C8102E] flex items-center justify-center mb-4">
+					<i class="fa-solid fa-phone text-lg"></i>
+				</div>
+				<div class="text-sm font-semibold text-slate-500 mb-1">Call us</div>
+				<div class="text-lg font-semibold text-slate-900 mb-1">1-877-477-7784</div>
+				<div class="text-sm text-slate-600">Speak with someone who knows cabinets</div>
+			</a>
+			<a
+				href="mailto:info@cabinetprosupply.com"
+				class="block bg-white border border-slate-200 rounded-3xl p-6 shadow-sm hover:border-slate-300 transition-colors"
+			>
+				<div class="w-11 h-11 rounded-2xl bg-red-50 text-[#C8102E] flex items-center justify-center mb-4">
+					<i class="fa-solid fa-envelope text-lg"></i>
+				</div>
+				<div class="text-sm font-semibold text-slate-500 mb-1">Email</div>
+				<div class="text-lg font-semibold text-slate-900 mb-1">info@cabinetprosupply.com</div>
+				<div class="text-sm text-slate-600">Send plans, photos, or questions anytime</div>
+			</a>
+			<div class="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm">
+				<div class="w-11 h-11 rounded-2xl bg-red-50 text-[#C8102E] flex items-center justify-center mb-4">
+					<i class="fa-solid fa-location-dot text-lg"></i>
+				</div>
+				<div class="text-sm font-semibold text-slate-500 mb-1">Location</div>
+				<div class="text-lg font-semibold text-slate-900 mb-1">Davenport, Florida 33897</div>
+				<div class="text-sm text-slate-600">Nationwide factory-direct delivery</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Form + tips -->
+	<section id="quote" class="max-w-7xl mx-auto px-6 py-16 md:py-20 scroll-mt-28">
+		<div class="grid lg:grid-cols-5 gap-12 items-start">
+			<div class="lg:col-span-3">
+				<div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10 shadow-sm">
+					<h2 class="text-2xl md:text-3xl font-semibold tracking-tight mb-2">Request Your Free Quote</h2>
+					<p class="text-slate-600 mb-8">
+						Fill out the form below and we’ll get back to you shortly.
+					</p>
+					<div id="hubspot-form">
+						<script is:inline src="https://js-na2.hsforms.net/forms/embed/243338171.js" defer></script>
+						<div
+							class="hs-form-frame"
+							data-region="na2"
+							data-form-id="33d8738b-cf6c-4b7a-8c52-00d5f5adada7"
+							data-portal-id="243338171"
+						>
+						</div>
+					</div>
+					<p class="text-slate-500 text-xs mt-6">
+						Your information is secure and will only be used to provide your quote.
+					</p>
+				</div>
+			</div>
+
+			<div class="lg:col-span-2 space-y-8">
+				<div>
+					<h3 class="text-xl font-semibold mb-3">Helpful details to include</h3>
+					<p class="text-slate-600 mb-4">
+						The more you share, the faster we can price accurately. Don’t worry if you don’t have everything
+						yet — a conversation is enough to start.
+					</p>
+					<ul class="space-y-3 text-slate-700">
+						{
+							tips.map((tip) => (
+								<li class="flex gap-x-3">
+									<i class="fa-solid fa-check mt-1 text-[#C8102E]" />
+									<span>{tip}</span>
+								</li>
+							))
+						}
+					</ul>
+				</div>
+
+				<div class="bg-slate-50 border border-slate-200 rounded-3xl p-6">
+					<h3 class="text-lg font-semibold mb-2">Who we work with</h3>
+					<p class="text-slate-600 mb-4">
+						Contractors, designers, remodelers, and DIY homeowners — nationwide.
+					</p>
+					<div class="flex flex-col gap-2 text-sm font-semibold">
+						<a href="/pros" class="text-[#C8102E] hover:underline">For Pros →</a>
+						<a href="/diy" class="text-[#C8102E] hover:underline">For DIY Homeowners →</a>
+						<a href="/about" class="text-[#C8102E] hover:underline">About how we work →</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<Footer quoteHref="#quote" />
+</BaseLayout>

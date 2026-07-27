@@ -1,8 +1,7 @@
 ---
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isHome = pathname === '/';
-const hasLocalQuote = isHome || pathname === '/pros' || pathname === '/diy' || pathname === '/about';
-const quoteHref = hasLocalQuote ? '#quote' : '/#quote';
+const quoteHref = pathname === '/contact' ? '#quote' : '/contact';
 
 const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 ---
@@ -120,6 +119,15 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 					class="px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
 				>
 					Blog
+				</a>
+				<a
+					href="/contact"
+					class:list={[
+						'mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]',
+						pathname === '/contact' && 'text-[#C8102E]',
+					]}
+				>
+					Contact
 				</a>
 				<a href="tel:18774777784" class="px-2 py-3 rounded-xl hover:bg-slate-50 text-[#C8102E] font-semibold">
 					<i class="fa-solid fa-phone mr-2"></i>1-877-477-7784

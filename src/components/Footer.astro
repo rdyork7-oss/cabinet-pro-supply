@@ -3,7 +3,7 @@ interface Props {
 	quoteHref?: string;
 }
 
-const { quoteHref = '/#quote' } = Astro.props;
+const { quoteHref = '/contact' } = Astro.props;
 ---
 
 <footer class="bg-slate-900 text-slate-400 py-12">
@@ -32,6 +32,7 @@ const { quoteHref = '/#quote' } = Astro.props;
 			<a href="/pros" class="block hover:text-white transition-colors">For Pros</a>
 			<a href="/diy" class="block hover:text-white transition-colors mt-1">For DIY</a>
 			<a href="/about" class="block hover:text-white transition-colors mt-1">About Us</a>
+			<a href="/contact" class="block hover:text-white transition-colors mt-1">Contact</a>
 			<a
 				href="https://www.cabinetprosupply.com/cps-blog.html"
 				class="block hover:text-white transition-colors mt-1">Blog</a
