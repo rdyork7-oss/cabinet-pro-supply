@@ -2,7 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { brands, kitchens } from '../data/kitchens';
+import { brands } from '../data/brands';
+import { kitchens } from '../data/kitchens';
 import '../styles/global.css';
 ---
 
@@ -262,12 +263,10 @@ import '../styles/global.css';
 						<div class="text-lg font-semibold text-slate-900 mb-1">{brand.name}</div>
 						<p class="text-sm text-slate-600 mb-4 flex-1">{brand.blurb}</p>
 						<a
-							href={brand.url}
-							target="_blank"
-							rel="noopener noreferrer"
+							href={`/brands/${brand.slug}`}
 							class="text-sm font-semibold text-[#C8102E] hover:underline"
 						>
-							Visit manufacturer →
+							View brand →
 						</a>
 					</div>
 				))

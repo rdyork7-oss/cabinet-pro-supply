@@ -49,7 +49,7 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 					href="/brands"
 					class:list={[
 						'hover:text-[#C8102E] transition-colors',
-						pathname === '/brands' && 'text-[#C8102E]',
+						pathname.startsWith('/brands') && 'text-[#C8102E]',
 					]}
 				>
 					Brands
@@ -120,7 +120,7 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 					href="/brands"
 					class:list={[
 						'mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]',
-						pathname === '/brands' && 'text-[#C8102E]',
+						pathname.startsWith('/brands') && 'text-[#C8102E]',
 					]}
 				>
 					Brands

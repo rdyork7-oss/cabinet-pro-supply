@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { brands } from '../data/kitchens';
+import { brands } from '../data/brands';
 import '../styles/global.css';
 
 const benefits = [
@@ -243,14 +243,12 @@ const steps = [
 			<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
 				{
 					brands.map((brand) => (
-						<a
-							href={brand.url}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="bg-slate-50 border border-slate-200 rounded-2xl p-4 h-24 flex items-center justify-center hover:border-slate-300 transition-colors"
-						>
-							<img src={brand.logo} alt={brand.alt} class={`${brand.logoClass} w-auto object-contain`} />
-						</a>
+					<a
+						href={`/brands/${brand.slug}`}
+						class="bg-slate-50 border border-slate-200 rounded-2xl p-4 h-24 flex items-center justify-center hover:border-slate-300 transition-colors"
+					>
+						<img src={brand.logo} alt={brand.alt} class={`${brand.logoClass} w-auto object-contain`} />
+					</a>
 					))
 				}
 			</div>
