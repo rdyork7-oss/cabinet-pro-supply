@@ -45,7 +45,15 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 				>
 					For DIY
 				</a>
-				<a href={homeHash('#brands')} class="hover:text-[#C8102E] transition-colors">Brands</a>
+				<a
+					href="/brands"
+					class:list={[
+						'hover:text-[#C8102E] transition-colors',
+						pathname === '/brands' && 'text-[#C8102E]',
+					]}
+				>
+					Brands
+				</a>
 			</div>
 
 			<div class="flex items-center gap-x-3">
@@ -109,8 +117,11 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 					For DIY
 				</a>
 				<a
-					href={homeHash('#brands')}
-					class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+					href="/brands"
+					class:list={[
+						'mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]',
+						pathname === '/brands' && 'text-[#C8102E]',
+					]}
 				>
 					Brands
 				</a>
