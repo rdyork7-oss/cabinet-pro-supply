@@ -1,0 +1,295 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { brands } from '../data/kitchens';
+import '../styles/global.css';
+
+const benefits = [
+	{
+		icon: 'fa-hand-holding-heart',
+		title: 'Full control of your project',
+		body: 'You set the style, finish, timeline, and budget. We supply the cabinets and the know-how — you stay in the driver’s seat.',
+	},
+	{
+		icon: 'fa-tags',
+		title: 'Wholesale pricing, no showroom markup',
+		body: 'Same American brands you’d see in a high-end showroom — without the retail markup. Clear quotes with no surprise fees.',
+	},
+	{
+		icon: 'fa-palette',
+		title: 'Huge selection of styles & finishes',
+		body: 'Stock, semi-custom, and full custom. Painted, stained, framed, frameless, inset — enough options to match the kitchen you want.',
+	},
+	{
+		icon: 'fa-comments',
+		title: 'Expert guidance from start to finish',
+		body: 'First kitchen or your fifth remodel — we walk through goals, layout, and product choices so you order with confidence.',
+	},
+	{
+		icon: 'fa-truck',
+		title: 'Delivered to your home',
+		body: 'Cabinets ship factory-direct to your driveway or garage, ready for you or your installer to put in place.',
+	},
+	{
+		icon: 'fa-shield-halved',
+		title: 'Brands that stand behind the product',
+		body: 'We sell lines with real warranties. If something needs fixing after delivery, we help get it handled.',
+	},
+];
+
+const steps = [
+	{
+		n: '01',
+		title: 'Tell us your goals',
+		body: 'Share photos, rough measurements, a sketch, or just describe the kitchen or bath you want. We’ll listen and ask the right questions.',
+	},
+	{
+		n: '02',
+		title: 'Get a clear plan & quote',
+		body: 'We recommend brands and styles that fit your budget, then send transparent pricing you can actually use to decide.',
+	},
+	{
+		n: '03',
+		title: 'Order, deliver, install',
+		body: 'Approve the quote, we place the order, cabinets arrive at your home — and we stay available if anything needs attention.',
+	},
+];
+---
+
+<BaseLayout
+	title="For DIY Homeowners | Wholesale Kitchen Cabinets | Cabinet Pro Supply"
+	description="Buy wholesale American kitchen cabinets for your DIY remodel. Clear pricing, expert guidance, and factory-direct delivery — without the showroom markup."
+	canonicalPath="/diy"
+>
+	<Header />
+
+	<!-- Hero -->
+	<section class="relative overflow-hidden bg-slate-100">
+		<div
+			class="absolute inset-0 opacity-40"
+			style="background-image: url('/images/Home-Display-kitchens/stock-white-shaker.webp'); background-size: cover; background-position: center;"
+		>
+		</div>
+		<div class="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+
+		<div class="relative max-w-7xl mx-auto px-6 py-20 md:py-28">
+			<div class="max-w-2xl">
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-4">
+					FOR DIY HOMEOWNERS
+				</div>
+				<h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.05] mb-5 text-slate-900">
+					High quality cabinets without the showroom markup
+				</h1>
+				<p class="text-lg md:text-xl text-slate-600 mb-8 max-w-xl">
+					Take control of your kitchen or bath remodel. Wholesale American brands, clear pricing, and guidance
+					from people who know cabinets — whether it’s your first project or your next one.
+				</p>
+				<div class="flex flex-col sm:flex-row gap-4">
+					<a
+						href="#quote"
+						class="px-8 py-4 bg-[#C8102E] hover:bg-[#A50E26] text-white font-semibold rounded-3xl text-lg transition-all text-center active:scale-[0.985]"
+					>
+						Start Your Project
+					</a>
+					<a
+						href="tel:18774777784"
+						class="px-8 py-4 border border-slate-300 hover:bg-white font-semibold rounded-3xl text-lg transition-all text-center flex items-center justify-center gap-x-3 text-slate-800"
+					>
+						<i class="fa-solid fa-phone text-[#C8102E]"></i>
+						<span>1-877-477-7784</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Intro -->
+	<section class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+		<div class="grid md:grid-cols-2 gap-12 items-start">
+			<div>
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-5">
+					We’re here to help you succeed
+				</h2>
+				<p class="text-lg text-slate-600 mb-4">
+					Homeowners tackle projects themselves for good reasons — the satisfaction of finishing the job,
+					control over every decision, and real savings. We have the knowledge and tools to help you succeed
+					at your DIY cabinet project.
+				</p>
+				<p class="text-lg text-slate-600">
+					When you contact us, you’ll get an expert consultation. We’ll learn your goals and make a plan to
+					help you achieve them — at the lowest possible price on America’s top cabinetry brands.
+				</p>
+			</div>
+			<div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10">
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">WHAT YOU GET</div>
+				<ul class="space-y-4 text-slate-700">
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Full control over style, finish, and budget</span>
+					</li>
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Huge selection — stock to fully custom</span>
+					</li>
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Clear pricing with no showroom markup</span>
+					</li>
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Guidance from first call through delivery</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Benefits -->
+	<section class="bg-white border-y border-slate-100 py-16 md:py-20">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="max-w-2xl mb-12">
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3">
+					Why DIY homeowners buy from us
+				</h2>
+				<p class="text-lg text-slate-600">
+					You get wholesale access and expert help — without needing a contractor’s account or a showroom
+					appointment.
+				</p>
+			</div>
+
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+				{
+					benefits.map((item) => (
+						<div>
+							<div class="w-12 h-12 rounded-2xl bg-red-50 text-[#C8102E] flex items-center justify-center mb-4">
+								<i class={`fa-solid ${item.icon} text-xl`} />
+							</div>
+							<h3 class="text-xl font-semibold mb-2">{item.title}</h3>
+							<p class="text-slate-600">{item.body}</p>
+						</div>
+					))
+				}
+			</div>
+		</div>
+	</section>
+
+	<!-- How it works -->
+	<section class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+		<div class="max-w-2xl mb-12">
+			<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3">How your project works</h2>
+			<p class="text-lg text-slate-600">Three steps from first conversation to cabinets at your door.</p>
+		</div>
+
+		<div class="grid md:grid-cols-3 gap-8">
+			{
+				steps.map((step) => (
+					<div class="border-t-2 border-[#C8102E] pt-6">
+						<div class="text-sm font-semibold text-[#C8102E] mb-2">{step.n}</div>
+						<h3 class="text-xl font-semibold mb-2">{step.title}</h3>
+						<p class="text-slate-600">{step.body}</p>
+					</div>
+				))
+			}
+		</div>
+	</section>
+
+	<!-- Pricing teaser -->
+	<section class="bg-slate-900 text-white py-16 md:py-20">
+		<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+			<div>
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-red-400 mb-3">EXAMPLE PRICING</div>
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-4">
+					Complete 10×10 kitchens starting at $2,539
+				</h2>
+				<p class="text-slate-300 text-lg mb-6">
+					See real example kitchens across our brands — stock, semi-custom, and full custom — so you know what
+					to expect before you request a quote.
+				</p>
+				<a
+					href="/#kitchens"
+					class="inline-flex px-6 py-3 bg-white text-slate-900 font-semibold rounded-2xl hover:bg-slate-100 transition-colors"
+				>
+					View Kitchen Pricing →
+				</a>
+			</div>
+			<div class="text-center md:text-right">
+				<div class="text-sm text-slate-400 mb-1">Starting at</div>
+				<div class="text-5xl md:text-6xl font-semibold text-white">$2,539</div>
+				<div class="text-slate-400 mt-2">for a complete 10×10 kitchen</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonial -->
+	<section class="max-w-3xl mx-auto px-6 py-16 md:py-20 text-center">
+		<i class="fa-solid fa-quote-left text-3xl text-[#C8102E] mb-6"></i>
+		<blockquote class="text-xl md:text-2xl font-medium leading-relaxed text-slate-800 mb-6">
+			“Excellent communications from Ron at every step of the process. He went out of his way to ensure a smooth
+			transaction and satisfaction follow up. I would recommend Cabinet Pro Supply without hesitation.”
+		</blockquote>
+		<footer class="text-[#C8102E] font-semibold">Les — PA</footer>
+	</section>
+
+	<!-- Brands -->
+	<section class="bg-white border-y border-slate-100 py-16 md:py-20">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="text-center mb-10">
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3">America’s top cabinetry brands</h2>
+				<p class="text-lg text-slate-600 max-w-2xl mx-auto">
+					From value stock to fully custom — pick the line that fits your home and budget.
+				</p>
+			</div>
+			<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 items-center">
+				{
+					brands.map((brand) => (
+						<a
+							href={brand.url}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="bg-slate-50 border border-slate-200 rounded-2xl p-4 h-24 flex items-center justify-center hover:border-slate-300 transition-colors"
+						>
+							<img src={brand.logo} alt={brand.alt} class={`${brand.logoClass} w-auto object-contain`} />
+						</a>
+					))
+				}
+			</div>
+			<div class="text-center mt-8">
+				<a href="/#brands" class="text-[#C8102E] font-semibold hover:underline">See brand details on the homepage →</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Quote -->
+	<section id="quote" class="bg-[#C8102E] py-16 text-white scroll-mt-28">
+		<div class="max-w-3xl mx-auto px-6 text-center">
+			<h2 class="text-4xl font-semibold tracking-tight mb-3">Ready to take control?</h2>
+			<p class="text-red-100 text-xl mb-8">
+				Tell us about your kitchen or bath project — we usually respond within a few hours.
+			</p>
+
+			<div class="max-w-md mx-auto bg-white rounded-3xl p-8 text-left shadow-xl">
+				<div class="mb-6">
+					<h3 class="text-xl font-semibold text-slate-900 mb-1">Request Your Free Quote</h3>
+					<p class="text-sm text-slate-600">Fill out the form below and we’ll get back to you shortly.</p>
+				</div>
+				<div id="hubspot-form">
+					<script is:inline src="https://js-na2.hsforms.net/forms/embed/243338171.js" defer></script>
+					<div
+						class="hs-form-frame"
+						data-region="na2"
+						data-form-id="33d8738b-cf6c-4b7a-8c52-00d5f5adada7"
+						data-portal-id="243338171"
+					>
+					</div>
+				</div>
+			</div>
+
+			<p class="text-red-200 text-xs mt-6">
+				Your information is secure and will only be used to provide your quote.
+			</p>
+		</div>
+	</section>
+
+	<Footer quoteHref="#quote" />
+</BaseLayout>
