@@ -1,7 +1,7 @@
 ---
 const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isHome = pathname === '/';
-const hasLocalQuote = isHome || pathname === '/pros' || pathname === '/diy';
+const hasLocalQuote = isHome || pathname === '/pros' || pathname === '/diy' || pathname === '/about';
 const quoteHref = hasLocalQuote ? '#quote' : '/#quote';
 
 const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
@@ -19,7 +19,15 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 			</a>
 
 			<div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
-				<a href={homeHash('#why-us')} class="hover:text-[#C8102E] transition-colors">Why Us</a>
+				<a
+					href="/about"
+					class:list={[
+						'hover:text-[#C8102E] transition-colors',
+						pathname === '/about' && 'text-[#C8102E]',
+					]}
+				>
+					About
+				</a>
 				<a
 					href="/pros"
 					class:list={[
@@ -69,10 +77,13 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 		<div id="mobile-menu" class="hidden md:hidden border-t border-slate-100 py-4">
 			<div class="flex flex-col gap-1 text-sm font-medium">
 				<a
-					href={homeHash('#why-us')}
-					class="mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+					href="/about"
+					class:list={[
+						'mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]',
+						pathname === '/about' && 'text-[#C8102E]',
+					]}
 				>
-					Why Us
+					About
 				</a>
 				<a
 					href={homeHash('#kitchens')}

@@ -1,0 +1,304 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const pillars = [
+	{
+		icon: 'fa-dollar-sign',
+		title: 'Factory-direct pricing',
+		body: 'Wholesale pricing on name-brand cabinetry — without showroom markup — for builders, contractors, and DIY homeowners.',
+	},
+	{
+		icon: 'fa-award',
+		title: 'Quality American brands',
+		body: 'Stock, semi-custom, and full custom lines from manufacturers that stand behind lifetime warranties on most products.',
+	},
+	{
+		icon: 'fa-layer-group',
+		title: 'Unlimited selection',
+		body: 'Traditional wood, custom paint, thermofoil, high gloss, exotic species, custom sizes, and configurations for challenging layouts.',
+	},
+	{
+		icon: 'fa-graduation-cap',
+		title: 'Real product knowledge',
+		body: 'Design help that goes beyond a catalog — moldings, paneled ends, mixed finishes, range hoods, and the details that make a kitchen look finished.',
+	},
+	{
+		icon: 'fa-clock',
+		title: 'Work on your schedule',
+		body: 'Call, text, or email. We keep you updated with plans, pricing, and elevations so you stay in control from home, office, or jobsite.',
+	},
+	{
+		icon: 'fa-handshake',
+		title: 'Here for the long haul',
+		body: 'Since 2010 we’ve stayed through changing markets so clients can count on us for the next kitchen — and the one after that.',
+	},
+];
+
+const steps = [
+	{
+		n: '01',
+		title: 'Start with your goals',
+		body: 'Tell us about the project — new build, remodel, or replacement. Share photos, measurements, a sketch, or brand preferences.',
+	},
+	{
+		n: '02',
+		title: 'We plan & price it',
+		body: 'You get clear options and transparent quotes. We help turn the vision into a layout you can actually order and install.',
+	},
+	{
+		n: '03',
+		title: 'Order factory-direct',
+		body: 'Approve the quote, we place the order with the manufacturer, and cabinets ship to your home or jobsite.',
+	},
+	{
+		n: '04',
+		title: 'Support after delivery',
+		body: 'Questions during install? Warranty issue later? We stay involved so the cornerstone of your kitchen is done right.',
+	},
+];
+---
+
+<BaseLayout
+	title="About Us | How We Work | Cabinet Pro Supply"
+	description="Since 2010, Cabinet Pro Supply has helped contractors and homeowners buy wholesale American cabinets the right way — great products, clear pricing, and service from quote to delivery."
+	canonicalPath="/about"
+>
+	<Header />
+
+	<!-- Hero -->
+	<section class="relative overflow-hidden bg-slate-900 text-white">
+		<div
+			class="absolute inset-0 opacity-25"
+			style="background-image: url('/images/Home-Display-kitchens/mouser-frameless-two-tone.jpg'); background-size: cover; background-position: center;"
+		>
+		</div>
+		<div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/92 to-slate-900/75"></div>
+
+		<div class="relative max-w-7xl mx-auto px-6 py-20 md:py-28">
+			<div class="max-w-2xl">
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-red-400 mb-4">ABOUT US</div>
+				<h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.05] mb-5">
+					The right way to buy cabinets
+				</h1>
+				<p class="text-lg md:text-xl text-slate-300 mb-8 max-w-xl">
+					Great products, great pricing, and superior service — from the convenience of your home or office.
+					That’s why clients come back again and again.
+				</p>
+				<div class="flex flex-col sm:flex-row gap-4">
+					<a
+						href="#quote"
+						class="px-8 py-4 bg-[#C8102E] hover:bg-[#A50E26] text-white font-semibold rounded-3xl text-lg transition-all text-center active:scale-[0.985]"
+					>
+						Get a Free Quote
+					</a>
+					<a
+						href="#how-we-work"
+						class="px-8 py-4 border border-white/30 hover:bg-white/10 font-semibold rounded-3xl text-lg transition-all text-center"
+					>
+						See How We Work
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Story -->
+	<section class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+		<div class="grid md:grid-cols-2 gap-12 items-start">
+			<div>
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">SINCE 2010</div>
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-5">
+					A partner you can count on for every kitchen
+				</h2>
+				<p class="text-lg text-slate-600 mb-4">
+					Buying kitchen cabinets should be the part of the project you don’t have to worry about. We offer
+					wholesale pricing on high-quality name-brand cabinetry for builders, contractors, DIY homeowners,
+					and trade professionals — with the service to match.
+				</p>
+				<p class="text-lg text-slate-600">
+					Since 2010 we’ve helped regular customers complete their projects and come back when they expand or
+					remodel again. Markets change. Our job stays the same: make sure you can count on us whenever a
+					cabinet need arises.
+				</p>
+			</div>
+			<div class="bg-white border border-slate-200 rounded-3xl p-8 md:p-10">
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">BASED IN</div>
+				<div class="text-2xl font-semibold text-slate-900 mb-2">Davenport, Florida</div>
+				<p class="text-slate-600 mb-6">Serving clients nationwide with factory-direct delivery.</p>
+				<ul class="space-y-3 text-slate-700">
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Phone: <a href="tel:18774777784" class="text-[#C8102E] font-semibold hover:underline">1-877-477-7784</a></span>
+					</li>
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Email: <a href="mailto:info@cabinetprosupply.com" class="text-[#C8102E] font-semibold hover:underline">info@cabinetprosupply.com</a></span>
+					</li>
+					<li class="flex gap-x-3">
+						<i class="fa-solid fa-check mt-1 text-[#C8102E]"></i>
+						<span>Tagline: The right way to buy cabinets</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Pillars -->
+	<section class="bg-white border-y border-slate-100 py-16 md:py-20">
+		<div class="max-w-7xl mx-auto px-6">
+			<div class="max-w-2xl mb-12">
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3">Why Cabinet Pro Supply</h2>
+				<p class="text-lg text-slate-600">
+					Stack us up against the competition and the difference is clear — products, price, and people who
+					know how to finish the job.
+				</p>
+			</div>
+
+			<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+				{
+					pillars.map((item) => (
+						<div>
+							<div class="w-12 h-12 rounded-2xl bg-red-50 text-[#C8102E] flex items-center justify-center mb-4">
+								<i class={`fa-solid ${item.icon} text-xl`} />
+							</div>
+							<h3 class="text-xl font-semibold mb-2">{item.title}</h3>
+							<p class="text-slate-600">{item.body}</p>
+						</div>
+					))
+				}
+			</div>
+		</div>
+	</section>
+
+	<!-- How we work -->
+	<section id="how-we-work" class="max-w-7xl mx-auto px-6 py-16 md:py-20 scroll-mt-28">
+		<div class="max-w-2xl mb-12">
+			<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3">How we work</h2>
+			<p class="text-lg text-slate-600">
+				A straightforward process from first conversation to cabinets on site — designed around how busy people
+				actually buy.
+			</p>
+		</div>
+
+		<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+			{
+				steps.map((step) => (
+					<div class="border-t-2 border-[#C8102E] pt-6">
+						<div class="text-sm font-semibold text-[#C8102E] mb-2">{step.n}</div>
+						<h3 class="text-xl font-semibold mb-2">{step.title}</h3>
+						<p class="text-slate-600">{step.body}</p>
+					</div>
+				))
+			}
+		</div>
+	</section>
+
+	<!-- Complete kitchens / matching messaging (Grok idea) -->
+	<section class="bg-slate-50 border-y border-slate-100 py-16 md:py-20">
+		<div class="max-w-3xl mx-auto px-6 text-center">
+			<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">HOW WE FOCUS</div>
+			<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-5">
+				Built for complete kitchen projects
+			</h2>
+			<p class="text-lg text-slate-600 mb-4">
+				Homeowners choose our cabinets so often that people with existing kitchens regularly reach out looking
+				for perfect matches. That’s a compliment to the brands we carry — and proof that consistency of style
+				and quality is why so many kitchens start with Cabinet Pro Supply.
+			</p>
+			<p class="text-lg text-slate-600">
+				We’re set up to deliver excellent results on <strong class="font-semibold text-slate-800">full kitchen
+				solutions</strong> for new builds and remodels. If you’re ready for a complete kitchen project, we’re
+				ready when you are.
+			</p>
+		</div>
+	</section>
+
+	<!-- Design expertise -->
+	<section class="max-w-7xl mx-auto px-6 py-16 md:py-20">
+		<div class="grid md:grid-cols-2 gap-12 items-center">
+			<div>
+				<h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-5">
+					Turning your vision into a kitchen that works
+				</h2>
+				<p class="text-lg text-slate-600 mb-4">
+					We have vast experience bringing pictures to life — stacking moldings, paneled ends and backs,
+					changing depths, mixing finishes, arranging corbels and legs, range hoods, and more.
+				</p>
+				<p class="text-lg text-slate-600">
+					Don’t trust your next kitchen to just anyone. We have the knowledge to get you the look you want at
+					the best possible price — and most of our products carry a lifetime warranty from U.S. manufacturers
+					who have been building quality cabinets for decades.
+				</p>
+			</div>
+			<div class="rounded-3xl overflow-hidden border border-slate-200">
+				<img
+					src="/images/Home-Display-kitchens/merit-walnut.jpg"
+					alt="Custom Merit Kitchens walnut cabinetry"
+					class="w-full aspect-[4/3] object-cover"
+				/>
+			</div>
+		</div>
+	</section>
+
+	<!-- Audience split -->
+	<section class="max-w-7xl mx-auto px-6 pb-4">
+		<div class="grid md:grid-cols-2 gap-8">
+			<a
+				href="/pros"
+				class="group bg-slate-900 text-white p-10 rounded-3xl hover:bg-slate-800 transition-colors"
+			>
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-red-400 mb-3">FOR PROS</div>
+				<h3 class="text-2xl font-semibold mb-3 group-hover:underline">Contractors &amp; designers →</h3>
+				<p class="text-slate-300">
+					Trade pricing, fast quoting, job site delivery, and dedicated account support.
+				</p>
+			</a>
+			<a
+				href="/diy"
+				class="group bg-white p-10 rounded-3xl border border-slate-200 hover:border-slate-300 transition-colors"
+			>
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">FOR DIY</div>
+				<h3 class="text-2xl font-semibold mb-3 group-hover:underline">Homeowners taking control →</h3>
+				<p class="text-slate-600">
+					Wholesale pricing, clear guidance, and factory-direct delivery — without the showroom markup.
+				</p>
+			</a>
+		</div>
+	</section>
+
+	<!-- Quote -->
+	<section id="quote" class="bg-[#C8102E] py-16 text-white scroll-mt-28 mt-16">
+		<div class="max-w-3xl mx-auto px-6 text-center">
+			<h2 class="text-4xl font-semibold tracking-tight mb-3">Let’s talk about your project</h2>
+			<p class="text-red-100 text-xl mb-8">
+				Get a free quote — we usually respond within a few hours.
+			</p>
+
+			<div class="max-w-md mx-auto bg-white rounded-3xl p-8 text-left shadow-xl">
+				<div class="mb-6">
+					<h3 class="text-xl font-semibold text-slate-900 mb-1">Request Your Free Quote</h3>
+					<p class="text-sm text-slate-600">Fill out the form below and we’ll get back to you shortly.</p>
+				</div>
+				<div id="hubspot-form">
+					<script is:inline src="https://js-na2.hsforms.net/forms/embed/243338171.js" defer></script>
+					<div
+						class="hs-form-frame"
+						data-region="na2"
+						data-form-id="33d8738b-cf6c-4b7a-8c52-00d5f5adada7"
+						data-portal-id="243338171"
+					>
+					</div>
+				</div>
+			</div>
+
+			<p class="text-red-200 text-xs mt-6">
+				Your information is secure and will only be used to provide your quote.
+			</p>
+		</div>
+	</section>
+
+	<Footer quoteHref="#quote" />
+</BaseLayout>
