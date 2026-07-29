@@ -1,0 +1,68 @@
+{
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"redirects": [
+		{ "source": "/Contractors.html", "destination": "/pros", "statusCode": 301 },
+		{ "source": "/contractors.html", "destination": "/pros", "statusCode": 301 },
+		{ "source": "/Contractors-old.html", "destination": "/pros", "statusCode": 301 },
+		{ "source": "/contractors-old.html", "destination": "/pros", "statusCode": 301 },
+
+		{ "source": "/diy-homeowners.html", "destination": "/diy", "statusCode": 301 },
+		{ "source": "/diy-homeowners-old.html", "destination": "/diy", "statusCode": 301 },
+
+		{ "source": "/wholesale-kitchen-cabinets.html", "destination": "/about", "statusCode": 301 },
+
+		{ "source": "/quote-form.html", "destination": "/contact", "statusCode": 301 },
+		{ "source": "/quote-form-old.html", "destination": "/contact", "statusCode": 301 },
+
+		{ "source": "/name-brand-kitchen-cabinets.html", "destination": "/brands", "statusCode": 301 },
+		{ "source": "/discount-kitchen-cabinets.html", "destination": "/brands", "statusCode": 301 },
+		{ "source": "/cabinet-specs.html", "destination": "/brands", "statusCode": 301 },
+
+		{ "source": "/cps-blog.html", "destination": "/blog", "statusCode": 301 },
+		{ "source": "/blog-large-image.html", "destination": "/blog", "statusCode": 301 },
+
+		{ "source": "/Stock-cabinets.html", "destination": "/", "statusCode": 301 },
+		{ "source": "/stock-cabinets.html", "destination": "/", "statusCode": 301 },
+		{ "source": "/Stock-cabinets-page.html", "destination": "/", "statusCode": 301 },
+		{ "source": "/stock-cabinets-page.html", "destination": "/", "statusCode": 301 },
+		{ "source": "/index.html", "destination": "/", "statusCode": 301 },
+
+		{ "source": "/blog-pages/cabinets/painted-cabinets.html", "destination": "/blog/painted-cabinets", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/buying-wholesale-kitchen-cabinets.html", "destination": "/blog/buying-wholesale-kitchen-cabinets", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/wholesale-kitchen-cabinets.html", "destination": "/blog/buying-wholesale-kitchen-cabinets", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/frameless-cabinet-advantages.html", "destination": "/blog/frameless-cabinet-advantages", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/Inset-cabinetry.html", "destination": "/blog/inset-cabinetry", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/inset-cabinetry.html", "destination": "/blog/inset-cabinetry", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/What-makes-a-quality-cabinet.html", "destination": "/blog/what-makes-a-quality-cabinet", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/what-makes-a-quality-cabinet.html", "destination": "/blog/what-makes-a-quality-cabinet", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/custom-cabinets.html", "destination": "/blog/custom-cabinets", "statusCode": 301 },
+		{ "source": "/blog-pages/cabinets/new-blog-post.html", "destination": "/blog", "statusCode": 301 },
+
+		{ "source": "/Starmark-inset-doors.html", "destination": "/brands/starmark/doors/inset", "statusCode": 301 },
+		{ "source": "/starmark-inset-doors.html", "destination": "/brands/starmark/doors/inset", "statusCode": 301 },
+		{ "source": "/starmark-overlay-doors.html", "destination": "/brands/starmark/doors/overlay", "statusCode": 301 },
+		{ "source": "/starmark-painted-finishes.html", "destination": "/brands/starmark/finishes/paint", "statusCode": 301 },
+		{ "source": "/starmark-maple-finishes.html", "destination": "/brands/starmark/finishes/maple", "statusCode": 301 },
+		{ "source": "/starmark-cherry-finishes.html", "destination": "/brands/starmark/finishes/cherry", "statusCode": 301 },
+		{ "source": "/starmark-alder-finishes.html", "destination": "/brands/starmark/finishes/alder", "statusCode": 301 },
+		{ "source": "/starmark-hickory-finishes.html", "destination": "/brands/starmark/finishes/hickory", "statusCode": 301 },
+		{ "source": "/starmark-oak-finishes.html", "destination": "/brands/starmark/finishes/oak", "statusCode": 301 },
+		{ "source": "/starmark-quartersawn-oak-finishes.html", "destination": "/brands/starmark/finishes/specialty-woods", "statusCode": 301 },
+		{ "source": "/starmark-lyptus-finishes.html", "destination": "/brands/starmark/finishes/specialty-woods", "statusCode": 301 },
+		{ "source": "/starmark-specialty-finishes.html", "destination": "/brands/starmark/finishes/specialty-woods", "statusCode": 301 },
+
+		{ "source": "/BJ-Tidwell-kitchen-cabinet-door-styles.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/bj-tidwell-kitchen-cabinet-door-styles.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/BJ-Tidwell-Painted-kitchen-cabinet-finishes.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/BJ-Tidwell-maple-cabinet-finishes.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/BJ-Tidwell-cherry-wood-cabinet-finishes.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/BJ-Tidwell-oak-wood-kitchen-cabinet-finishes.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/BJ-Tidwell-Knotty-Alder-Cabinet-Finishes.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+		{ "source": "/BJ-Tidwell-Beech-wood-cabinet-finishes.html", "destination": "/brands/nations-cabinetry", "statusCode": 301 },
+
+		{ "source": "/Bertch-doorstyles.html", "destination": "/brands", "statusCode": 301 },
+		{ "source": "/bertch-doorstyles.html", "destination": "/brands", "statusCode": 301 },
+		{ "source": "/portfolio-3cols.html", "destination": "/", "statusCode": 301 },
+		{ "source": "/search-test.html", "destination": "/", "statusCode": 301 }
+	]
+}
