@@ -1,0 +1,111 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const dateFmt = new Intl.DateTimeFormat('en-US', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+---
+
+<BaseLayout
+	title="Cabinet Blog | Kitchen & Bath Cabinetry Articles | Cabinet Pro Supply"
+	description="Practical articles on painted cabinets, inset and frameless construction, buying wholesale online, and what makes a quality cabinet — from Cabinet Pro Supply in Davenport, FL."
+	canonicalPath="/blog"
+>
+	<Header />
+
+	<section class="relative overflow-hidden bg-slate-900 text-white">
+		<div
+			class="absolute inset-0 opacity-20"
+			style="background-image: url('/images/blog/painted-cabinets.jpg'); background-size: cover; background-position: center;"
+		>
+		</div>
+		<div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/92 to-slate-900/80"></div>
+		<div class="relative max-w-7xl mx-auto px-6 py-16 md:py-20">
+			<div class="max-w-2xl">
+				<div class="uppercase tracking-[2px] text-xs font-semibold text-red-400 mb-4">BLOG</div>
+				<h1 class="text-4xl sm:text-5xl font-semibold tracking-tight leading-[1.05] mb-4">
+					Cabinet Pro Supply Blog
+				</h1>
+				<p class="text-lg md:text-xl text-slate-300">
+					Practical guidance on cabinet styles, finishes, and buying wholesale American cabinetry for
+					pros and homeowners.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="max-w-7xl mx-auto px-6 py-14 md:py-16">
+		<ul class="space-y-10 md:space-y-12">
+			{
+				posts.map((post) => (
+					<li>
+						<article class="grid md:grid-cols-12 gap-6 md:gap-8 items-start">
+							<a
+								href={`/blog/${post.id}`}
+								class="md:col-span-5 block overflow-hidden rounded-2xl bg-slate-100 aspect-[4/3]"
+							>
+								<img
+									src={post.data.heroImage}
+									alt={post.data.heroAlt}
+									class="h-full w-full object-cover transition-transform duration-500 hover:scale-[1.03]"
+									loading="lazy"
+								/>
+							</a>
+							<div class="md:col-span-7">
+								<div class="text-sm text-slate-500 mb-2">
+									<time datetime={post.data.pubDate.toISOString()}>
+										{dateFmt.format(post.data.pubDate)}
+									</time>
+									<span class="mx-2 text-slate-300">·</span>
+									<span>{post.data.author}</span>
+								</div>
+								<h2 class="text-2xl md:text-3xl font-semibold text-slate-900 tracking-tight mb-3">
+									<a href={`/blog/${post.id}`} class="hover:text-[#C8102E] transition-colors">
+										{post.data.title}
+									</a>
+								</h2>
+								<p class="text-slate-600 leading-relaxed mb-5 max-w-2xl">{post.data.description}</p>
+								<a
+									href={`/blog/${post.id}`}
+									class="inline-flex items-center gap-2 text-sm font-semibold text-[#C8102E] hover:text-[#A50E26] transition-colors"
+								>
+									Read more <i class="fa-solid fa-arrow-right text-xs" />
+								</a>
+							</div>
+						</article>
+					</li>
+				))
+			}
+		</ul>
+	</section>
+
+	<section class="border-t border-slate-200 bg-white">
+		<div class="max-w-7xl mx-auto px-6 py-12 md:py-14 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+			<div>
+				<h2 class="text-xl font-semibold text-slate-900 mb-2">Need help choosing cabinets?</h2>
+				<p class="text-slate-600 max-w-xl">
+					Call 1-877-477-7784 or request a free quote — we serve pros and DIY homeowners from Davenport,
+					FL with nationwide delivery.
+				</p>
+			</div>
+			<a
+				href="/contact"
+				class="inline-flex shrink-0 px-6 py-3 bg-[#C8102E] hover:bg-[#A50E26] text-white text-sm font-semibold rounded-2xl transition-colors"
+			>
+				Get Free Quote
+			</a>
+		</div>
+	</section>
+
+	<Footer />
+</BaseLayout>

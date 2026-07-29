@@ -54,6 +54,15 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 				>
 					Brands
 				</a>
+				<a
+					href="/blog"
+					class:list={[
+						'hover:text-[#C8102E] transition-colors',
+						pathname.startsWith('/blog') && 'text-[#C8102E]',
+					]}
+				>
+					Blog
+				</a>
 			</div>
 
 			<div class="flex items-center gap-x-3">
@@ -126,8 +135,11 @@ const homeHash = (hash: string) => (isHome ? hash : `/${hash}`);
 					Brands
 				</a>
 				<a
-					href="https://www.cabinetprosupply.com/cps-blog.html"
-					class="px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]"
+					href="/blog"
+					class:list={[
+						'mobile-nav-link px-2 py-3 rounded-xl hover:bg-slate-50 hover:text-[#C8102E]',
+						pathname.startsWith('/blog') && 'text-[#C8102E]',
+					]}
 				>
 					Blog
 				</a>
