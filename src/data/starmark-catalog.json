@@ -1,70 +1,231 @@
 {
-  "generatedAt": "2026-07-27T21:10:43.131Z",
+  "generatedAt": "2026-07-29T15:48:39.461Z",
   "brand": "starmark",
   "doors": {
     "inset": [
       {
-        "src": "/images/brands/starmark/doors/inset/style-175.jpg",
-        "name": "Style 175",
-        "slug": "style-175",
+        "src": "/images/brands/starmark/doors/inset/abilene.jpg",
+        "name": "Abilene",
+        "slug": "abilene",
         "construction": "inset",
-        "sourceFile": "175.IN.00_MPL.Nov_D.png"
+        "sourceFile": "abilene.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-177.jpg",
-        "name": "Style 177",
-        "slug": "style-177",
+        "src": "/images/brands/starmark/doors/inset/accord.jpg",
+        "name": "Accord",
+        "slug": "accord",
         "construction": "inset",
-        "sourceFile": "177.IN.01_MPL.Ntl_D.png"
+        "sourceFile": "accord.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-179.jpg",
-        "name": "Style 179",
-        "slug": "style-179",
+        "src": "/images/brands/starmark/doors/inset/avendale.jpg",
+        "name": "Avendale",
+        "slug": "avendale",
         "construction": "inset",
-        "sourceFile": "179.IN.01_MPL.Ntl_D.png"
+        "sourceFile": "avendale.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-182.jpg",
-        "name": "Style 182",
-        "slug": "style-182",
+        "src": "/images/brands/starmark/doors/inset/belfonte.jpg",
+        "name": "Belfonte",
+        "slug": "belfonte",
         "construction": "inset",
-        "sourceFile": "182.IN.01_MPL.Ntl_D.png"
+        "sourceFile": "belfonte.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-191.jpg",
-        "name": "Style 191",
-        "slug": "style-191",
+        "src": "/images/brands/starmark/doors/inset/bonita.jpg",
+        "name": "Bonita",
+        "slug": "bonita",
         "construction": "inset",
-        "sourceFile": "191.IN.SM.01_MPL.Ntl_D.png"
+        "sourceFile": "bonita.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-268.jpg",
-        "name": "Style 268",
-        "slug": "style-268",
+        "src": "/images/brands/starmark/doors/inset/breckenridge.jpg",
+        "name": "Breckenridge",
+        "slug": "breckenridge",
         "construction": "inset",
-        "sourceFile": "268.IN.5F.00_PNT.Nov_D.png"
+        "sourceFile": "breckenridge.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-735.jpg",
-        "name": "Style 735",
-        "slug": "style-735",
+        "src": "/images/brands/starmark/doors/inset/colville.jpg",
+        "name": "Colville",
+        "slug": "colville",
         "construction": "inset",
-        "sourceFile": "735.IN.5F.00_PNT.Nov_D.png"
+        "sourceFile": "colville.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-736.jpg",
-        "name": "Style 736",
-        "slug": "style-736",
+        "src": "/images/brands/starmark/doors/inset/coralville.jpg",
+        "name": "Coralville",
+        "slug": "coralville",
         "construction": "inset",
-        "sourceFile": "736.IN.5F.00_PNT.Nov_D.png"
+        "sourceFile": "coralville.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/inset/style-737.jpg",
-        "name": "Style 737",
-        "slug": "style-737",
+        "src": "/images/brands/starmark/doors/inset/edgemore.jpg",
+        "name": "Edgemore",
+        "slug": "edgemore",
         "construction": "inset",
-        "sourceFile": "737.IN.5F.00_PNT.Nov_D.png"
+        "sourceFile": "edgemore.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/emmerson.jpg",
+        "name": "Emmerson",
+        "slug": "emmerson",
+        "construction": "inset",
+        "sourceFile": "emmerson.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/francis.jpg",
+        "name": "Francis",
+        "slug": "francis",
+        "construction": "inset",
+        "sourceFile": "francis.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/fullerton.jpg",
+        "name": "Fullerton",
+        "slug": "fullerton",
+        "construction": "inset",
+        "sourceFile": "fullerton.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/hanover.jpg",
+        "name": "Hanover",
+        "slug": "hanover",
+        "construction": "inset",
+        "sourceFile": "hanover.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/harrison.jpg",
+        "name": "Harrison",
+        "slug": "harrison",
+        "construction": "inset",
+        "sourceFile": "harrison.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/huntingford.jpg",
+        "name": "Huntingford",
+        "slug": "huntingford",
+        "construction": "inset",
+        "sourceFile": "huntingford.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/layton.jpg",
+        "name": "Layton",
+        "slug": "layton",
+        "construction": "inset",
+        "sourceFile": "layton.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/lehigh.jpg",
+        "name": "Lehigh",
+        "slug": "lehigh",
+        "construction": "inset",
+        "sourceFile": "lehigh.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/manhattan.jpg",
+        "name": "Manhattan",
+        "slug": "manhattan",
+        "construction": "inset",
+        "sourceFile": "manhattan.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/orian.jpg",
+        "name": "Orian",
+        "slug": "orian",
+        "construction": "inset",
+        "sourceFile": "orian.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/ozark.jpg",
+        "name": "Ozark",
+        "slug": "ozark",
+        "construction": "inset",
+        "sourceFile": "ozark.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/remington.jpg",
+        "name": "Remington",
+        "slug": "remington",
+        "construction": "inset",
+        "sourceFile": "remington.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/renwick.jpg",
+        "name": "Renwick",
+        "slug": "renwick",
+        "construction": "inset",
+        "sourceFile": "renwick.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/ridgeville.jpg",
+        "name": "Ridgeville",
+        "slug": "ridgeville",
+        "construction": "inset",
+        "sourceFile": "ridgeville.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/rockwell.jpg",
+        "name": "Rockwell",
+        "slug": "rockwell",
+        "construction": "inset",
+        "sourceFile": "rockwell.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/roswell.jpg",
+        "name": "Roswell",
+        "slug": "roswell",
+        "construction": "inset",
+        "sourceFile": "roswell.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/sawyer.jpg",
+        "name": "Sawyer",
+        "slug": "sawyer",
+        "construction": "inset",
+        "sourceFile": "sawyer.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/shoshone.jpg",
+        "name": "Shoshone",
+        "slug": "shoshone",
+        "construction": "inset",
+        "sourceFile": "shoshone.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/stockton.jpg",
+        "name": "Stockton",
+        "slug": "stockton",
+        "construction": "inset",
+        "sourceFile": "stockton.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/tama.jpg",
+        "name": "Tama",
+        "slug": "tama",
+        "construction": "inset",
+        "sourceFile": "tama.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/vail.jpg",
+        "name": "Vail",
+        "slug": "vail",
+        "construction": "inset",
+        "sourceFile": "vail.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/waterfall.jpg",
+        "name": "Waterfall",
+        "slug": "waterfall",
+        "construction": "inset",
+        "sourceFile": "waterfall.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/inset/xavier.jpg",
+        "name": "Xavier",
+        "slug": "xavier",
+        "construction": "inset",
+        "sourceFile": "xavier.jpg"
       }
     ],
     "overlay": [
@@ -73,504 +234,406 @@
         "name": "Abilene",
         "slug": "abilene",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Abil.MPL.Ntl_D.png"
+        "sourceFile": "abilene.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/accord.jpg",
         "name": "Accord",
         "slug": "accord",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Acco.MPL.Ntl_D.png"
+        "sourceFile": "accord.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/anita.jpg",
         "name": "Anita",
         "slug": "anita",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Anit.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/bedford.jpg",
-        "name": "Bedford",
-        "slug": "bedford",
-        "construction": "overlay",
-        "sourceFile": "STM-FDS_Bedf.MPL.Ntl_D.png"
+        "sourceFile": "anita.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/belfonte.jpg",
         "name": "Belfonte",
         "slug": "belfonte",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Belf.MPL.Ntl_D.png"
+        "sourceFile": "belfonte.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/bonita.jpg",
         "name": "Bonita",
         "slug": "bonita",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Boni.MPL.Ntl_D.png"
+        "sourceFile": "bonita.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/breckenridge.jpg",
         "name": "Breckenridge",
         "slug": "breckenridge",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Brec.MPL.Ntl_D.png"
+        "sourceFile": "breckenridge.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/bridgeport.jpg",
         "name": "Bridgeport",
         "slug": "bridgeport",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Brpo.MPL.Ntl_D.png"
+        "sourceFile": "bridgeport.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/chappell.jpg",
-        "name": "Chappell",
-        "slug": "chappell",
+        "src": "/images/brands/starmark/doors/overlay/chesapeake.jpg",
+        "name": "Chesapeake",
+        "slug": "chesapeake",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Chpe.MPL.Ntl_D.png"
+        "sourceFile": "chesapeake.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/clifton.jpg",
         "name": "Clifton",
         "slug": "clifton",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Clif.MPL.Ntl_D.png"
+        "sourceFile": "clifton.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/colville.jpg",
+        "name": "Colville",
+        "slug": "colville",
+        "construction": "overlay",
+        "sourceFile": "colville.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/coralville.jpg",
         "name": "Coralville",
         "slug": "coralville",
         "construction": "overlay",
-        "sourceFile": "Coralv.QW.Ntl_D.png"
+        "sourceFile": "coralville.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/cosmopolitan.jpg",
         "name": "Cosmopolitan",
         "slug": "cosmopolitan",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Cosm.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/covington.jpg",
-        "name": "Covington",
-        "slug": "covington",
-        "construction": "overlay",
-        "sourceFile": "STM-FDS_Covi.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/custom.jpg",
-        "name": "Custom",
-        "slug": "custom",
-        "construction": "overlay",
-        "sourceFile": "Cust.FO.01_MPL.Ntl_D.png"
+        "sourceFile": "cosmopolitan.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/edgemore.jpg",
         "name": "Edgemore",
         "slug": "edgemore",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Edgm.MPL.Ntl_D.png"
+        "sourceFile": "edgemore.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/edinburgh.jpg",
         "name": "Edinburgh",
         "slug": "edinburgh",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Edin.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/emmerich.jpg",
-        "name": "Emmerich",
-        "slug": "emmerich",
-        "construction": "overlay",
-        "sourceFile": "Emmr.FO.00_MPL.Ntl_D.png"
+        "sourceFile": "edinburgh.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/farmington.jpg",
         "name": "Farmington",
         "slug": "farmington",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Farm.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/franklin.jpg",
-        "name": "Franklin",
-        "slug": "franklin",
-        "construction": "overlay",
-        "sourceFile": "Fran.FO.01_MPL.Ntl_D.png"
+        "sourceFile": "farmington.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/fullerton.jpg",
         "name": "Fullerton",
         "slug": "fullerton",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Full.MPL.Ntl_D.png"
+        "sourceFile": "fullerton.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/hampton.jpg",
         "name": "Hampton",
         "slug": "hampton",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Hamp.MPL.Ntl_D.png"
+        "sourceFile": "hampton.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/hanover.jpg",
         "name": "Hanover",
         "slug": "hanover",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Hano.MPL.Ntl_D.png"
+        "sourceFile": "hanover.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/harbor.jpg",
         "name": "Harbor",
         "slug": "harbor",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Harb.MPL.Ntl_D.png"
+        "sourceFile": "harbor.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/hasbrouck.jpg",
-        "name": "Hasbrouck",
-        "slug": "hasbrouck",
+        "src": "/images/brands/starmark/doors/overlay/harrison.jpg",
+        "name": "Harrison",
+        "slug": "harrison",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Haso.MPL.Ntl_D.png"
+        "sourceFile": "harrison.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/hudson.jpg",
+        "name": "Hudson",
+        "slug": "hudson",
+        "construction": "overlay",
+        "sourceFile": "hudson.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/huntingford.jpg",
         "name": "Huntingford",
         "slug": "huntingford",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Hunt.MPL.Ntl_D.png"
+        "sourceFile": "huntingford.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/katmai.jpg",
-        "name": "Katmai",
-        "slug": "katmai",
+        "src": "/images/brands/starmark/doors/overlay/lakewood.jpg",
+        "name": "Lakewood",
+        "slug": "lakewood",
         "construction": "overlay",
-        "sourceFile": "Katm.FO.S-11_MPL.Ntl_D.png"
+        "sourceFile": "lakewood.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/kobuk.jpg",
-        "name": "Kobuk",
-        "slug": "kobuk",
+        "src": "/images/brands/starmark/doors/overlay/lancaster.jpg",
+        "name": "Lancaster",
+        "slug": "lancaster",
         "construction": "overlay",
-        "sourceFile": "Kobu.FO.01_MPL.Ntl_D.png"
+        "sourceFile": "lancaster.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/layton.jpg",
+        "name": "Layton",
+        "slug": "layton",
+        "construction": "overlay",
+        "sourceFile": "layton.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/lehigh.jpg",
         "name": "Lehigh",
         "slug": "lehigh",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Lehi.MPL.Ntl_D.png"
+        "sourceFile": "lehigh.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/manhattan.jpg",
         "name": "Manhattan",
         "slug": "manhattan",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Manh.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/medina.jpg",
-        "name": "Medina",
-        "slug": "medina",
-        "construction": "overlay",
-        "sourceFile": "STM-FDS_Medi.MPL.Ntl_D.png"
+        "sourceFile": "manhattan.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/melbourne.jpg",
         "name": "Melbourne",
         "slug": "melbourne",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Melb.MPL.Ntl_D.png"
+        "sourceFile": "melbourne.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/milan.jpg",
         "name": "Milan",
         "slug": "milan",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Mila.MPL.Ntl_D.png"
+        "sourceFile": "milan.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/oakland.jpg",
-        "name": "Oakland",
-        "slug": "oakland",
+        "src": "/images/brands/starmark/doors/overlay/moxie.jpg",
+        "name": "Moxie",
+        "slug": "moxie",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Oakl.MPL.Ntl_D.png"
+        "sourceFile": "moxie.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/oakley.jpg",
+        "name": "Oakley",
+        "slug": "oakley",
+        "construction": "overlay",
+        "sourceFile": "oakley.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/orian.jpg",
         "name": "Orian",
         "slug": "orian",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Oria.5F.FO.MPL.Ntl_D.png"
+        "sourceFile": "orian.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/osprey.jpg",
         "name": "Osprey",
         "slug": "osprey",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Ospr.MPL.Ntl_D.png"
+        "sourceFile": "osprey.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/overlook.jpg",
-        "name": "Overlook",
-        "slug": "overlook",
+        "src": "/images/brands/starmark/doors/overlay/overland.jpg",
+        "name": "Overland",
+        "slug": "overland",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Ovla.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/ozark.jpg",
-        "name": "Ozark",
-        "slug": "ozark",
-        "construction": "overlay",
-        "sourceFile": "Ozar.FO.01_MPL.Ntl_D.png"
+        "sourceFile": "overland.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/prescott.jpg",
         "name": "Prescott",
         "slug": "prescott",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Pres.5F.FO.MPL.Ntl_D.png"
+        "sourceFile": "prescott.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/presque.jpg",
+        "name": "Presque",
+        "slug": "presque",
+        "construction": "overlay",
+        "sourceFile": "presque.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/princeton.jpg",
         "name": "Princeton",
         "slug": "princeton",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Prin.5F.FO.MPL.Ntl_D.png"
+        "sourceFile": "princeton.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/remington.jpg",
         "name": "Remington",
         "slug": "remington",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Remi.MPL.Ntl_D.png"
+        "sourceFile": "remington.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/renwick.jpg",
         "name": "Renwick",
         "slug": "renwick",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Renw.MPL.Ntl_D.png"
+        "sourceFile": "renwick.jpg"
+      },
+      {
+        "src": "/images/brands/starmark/doors/overlay/richland.jpg",
+        "name": "Richland",
+        "slug": "richland",
+        "construction": "overlay",
+        "sourceFile": "richland.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/ridgeville.jpg",
         "name": "Ridgeville",
         "slug": "ridgeville",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Rila.MPL.Ntl_D.png"
+        "sourceFile": "ridgeville.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/roanoke.jpg",
         "name": "Roanoke",
         "slug": "roanoke",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Roan.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/rockwell.jpg",
-        "name": "Rockwell",
-        "slug": "rockwell",
-        "construction": "overlay",
-        "sourceFile": "Rocw.FO.00_MPL.Ntl_D.png"
+        "sourceFile": "roanoke.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/roseville.jpg",
         "name": "Roseville",
         "slug": "roseville",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Rose.MPL.Ntl_D.png"
+        "sourceFile": "roseville.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/salem.jpg",
-        "name": "Salem",
-        "slug": "salem",
+        "src": "/images/brands/starmark/doors/overlay/roswell.jpg",
+        "name": "Roswell",
+        "slug": "roswell",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Sale.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/sawyer.jpg",
-        "name": "Sawyer",
-        "slug": "sawyer",
-        "construction": "overlay",
-        "sourceFile": "Sawy.FO.00_MPL.Ntl_D.png"
+        "sourceFile": "roswell.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/stockton.jpg",
         "name": "Stockton",
         "slug": "stockton",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Stoc.MPL.Ntl_D.png"
+        "sourceFile": "stockton.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/stratford.jpg",
         "name": "Stratford",
         "slug": "stratford",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Stra.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-175.jpg",
-        "name": "Style 175",
-        "slug": "style-175",
-        "construction": "overlay",
-        "sourceFile": "175.FO.SM.01.5F_MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-177.jpg",
-        "name": "Style 177",
-        "slug": "style-177",
-        "construction": "overlay",
-        "sourceFile": "177.FO.01_MPL.Tst_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-179.jpg",
-        "name": "Style 179",
-        "slug": "style-179",
-        "construction": "overlay",
-        "sourceFile": "179.FO.01_MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-182.jpg",
-        "name": "Style 182",
-        "slug": "style-182",
-        "construction": "overlay",
-        "sourceFile": "182.FO.00_MPL.Nov_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-189.jpg",
-        "name": "Style 189",
-        "slug": "style-189",
-        "construction": "overlay",
-        "sourceFile": "189.FO.00_MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-190.jpg",
-        "name": "Style 190",
-        "slug": "style-190",
-        "construction": "overlay",
-        "sourceFile": "190.FO.00.SM.01_MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-191.jpg",
-        "name": "Style 191",
-        "slug": "style-191",
-        "construction": "overlay",
-        "sourceFile": "191.FO.SM.01_MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-268.jpg",
-        "name": "Style 268",
-        "slug": "style-268",
-        "construction": "overlay",
-        "sourceFile": "STM-FDS-ULT_268.FO_RWO.LS10_D2.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/style-735.jpg",
-        "name": "Style 735",
-        "slug": "style-735",
-        "construction": "overlay",
-        "sourceFile": "735.FO.00_QWO.Wpr_D.png"
+        "sourceFile": "stratford.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/syracuse.jpg",
         "name": "Syracuse",
         "slug": "syracuse",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Syra.MPL.Ntl_D.png"
+        "sourceFile": "syracuse.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/tabor.jpg",
         "name": "Tabor",
         "slug": "tabor",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Tabo.MPL.Ntl_D.png"
+        "sourceFile": "tabor.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/taft.jpg",
         "name": "Taft",
         "slug": "taft",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Taft.MPL.Ntl_D.png"
+        "sourceFile": "taft.jpg"
       },
       {
-        "src": "/images/brands/starmark/doors/overlay/tempo.jpg",
-        "name": "Tempo",
-        "slug": "tempo",
+        "src": "/images/brands/starmark/doors/overlay/tama.jpg",
+        "name": "Tama",
+        "slug": "tama",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Tepo.MPL.Ntl_D.png"
+        "sourceFile": "tama.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/tipton.jpg",
         "name": "Tipton",
         "slug": "tipton",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Tipt.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/trinity.jpg",
-        "name": "Trinity",
-        "slug": "trinity",
-        "construction": "overlay",
-        "sourceFile": "Trin.FO.01_MPL.Ntl_D.png"
+        "sourceFile": "tipton.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/tucson.jpg",
         "name": "Tucson",
         "slug": "tucson",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Tucs.MPL.Ntl_D.png"
-      },
-      {
-        "src": "/images/brands/starmark/doors/overlay/tudor.jpg",
-        "name": "Tudor",
-        "slug": "tudor",
-        "construction": "overlay",
-        "sourceFile": "STM-FDS_Tudo.MPL.Ntl_D.png"
+        "sourceFile": "tucson.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/vail.jpg",
         "name": "Vail",
         "slug": "vail",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Vail.MPL.Ntl_D.png"
+        "sourceFile": "vail.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/venice.jpg",
         "name": "Venice",
         "slug": "venice",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Veni.MPL.Ntl_D.png"
+        "sourceFile": "venice.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/viola.jpg",
         "name": "Viola",
         "slug": "viola",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Viol.5F.FO.MPL.Ntl_D.png"
+        "sourceFile": "viola.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/waterfall.jpg",
         "name": "Waterfall",
         "slug": "waterfall",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Wafa.MPL.Ntl_D.png"
+        "sourceFile": "waterfall.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/waynesville.jpg",
         "name": "Waynesville",
         "slug": "waynesville",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Wayn.MPL.Ntl_D.png"
+        "sourceFile": "waynesville.jpg"
       },
       {
         "src": "/images/brands/starmark/doors/overlay/xavier.jpg",
         "name": "Xavier",
         "slug": "xavier",
         "construction": "overlay",
-        "sourceFile": "STM-FDS_Xavi.MPL.Ntl_D.png"
+        "sourceFile": "xavier.jpg"
       }
     ]
   },
@@ -2243,12 +2306,12 @@
     ]
   },
   "notes": {
-    "doorsPolicy": "One natural/unfinished maple (or best available) image per distinct door style; inset vs overlay from IN/FO/PO markers. Unmarked STM-FDS door+drawer shots treated as overlay.",
-    "finishesPolicy": "Nearly all usable swatches ≥20KB. Chocolate file variants skipped when a non-Chocolate twin exists. Paint-on-oak substrate dupes deprioritized vs plain paint. Glaze variants (Chocolate/Ebony/Nickel/Latte) kept as separate samples.",
+    "doorsPolicy": "Curated vault: one image per style from Doors/full-overlay and Doors/inset (kebab filenames). Files under 8KB skipped. Legacy flat STM-FDS vault still supported as fallback (prefer natural/maple).",
+    "finishesPolicy": "Nearly all usable swatches ≥20KB. Chocolate file variants skipped when a non-Chocolate twin exists. Paint-on-oak substrate dupes deprioritized vs plain paint. Glaze variants (Chocolate/Ebony/Nickel/Latte) kept as separate samples. Walnut + quartersawn oak combined under specialty-woods; paint is its own group.",
     "nameAmbiguities": [
-      "Emmr→Emmerich, Fran→Franklin, Haso→Hasbrouck, Kobu→Kobuk, Katm→Katmai, Rocw→Rockwell, Covi→Covington, Ovla→Overlook — confirm against current StarMark literature.",
+      "Door display names taken from curated kebab filenames (e.g. emmerson.jpg → Emmerson) — confirm spelling against current StarMark literature.",
       "Paint codes Bmk/Ety/Euc/Sne mapped heuristically (Benchmark/Entity/Eucalyptus/Stone) — confirm dealer names.",
-      "Numeric inset/overlay styles (175–191, 268, 735–737) labeled by construction + number."
+      "Tiny finish PNGs (<20KB) such as AutumnRed/GrapeHarvest skipped as likely broken."
     ]
   }
 }

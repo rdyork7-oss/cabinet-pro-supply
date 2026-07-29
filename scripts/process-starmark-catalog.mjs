@@ -1,7 +1,10 @@
 /**
  * Process StarMark dealer vault images into web catalog assets + JSON.
- * Source: images/brands/Starmark/{Doors,Finishes}
+ * Source: images/brands/Starmark/{Doors/{full-overlay,inset},Finishes}
  * Output: public/images/brands/starmark/{doors,finishes}/ + src/data/starmark-catalog.json
+ *
+ * Doors vault (new): one curated JPEG per style under Doors/full-overlay and Doors/inset
+ * with kebab-case filenames (abilene.jpg). Falls back to legacy flat STM-FDS naming if present.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -14,9 +17,20 @@ const VAULT = path.join(ROOT, 'images', 'brands', 'Starmark');
 const OUT_DOORS = path.join(ROOT, 'public', 'images', 'brands', 'starmark', 'doors');
 const OUT_FINISHES = path.join(ROOT, 'public', 'images', 'brands', 'starmark', 'finishes');
 const OUT_JSON = path.join(ROOT, 'src', 'data', 'starmark-catalog.json');
-const MIN_BYTES = 20 * 1024;
+/** Finishes: skip tiny/broken swatches (dealer PNGs are usually 100KB+). */
+const MIN_FINISH_BYTES = 20 * 1024;
+/** Doors: curated web JPEGs are often 10–30KB at ~425px — only skip empties/broken. */
+const MIN_DOOR_BYTES = 8 * 1024;
+const MIN_BYTES = MIN_FINISH_BYTES; // legacy alias used by finish parser
 const MAX_EDGE = 1100;
 const JPEG_QUALITY = 85;
+
+/** Map source vault folder → public construction slug */
+const DOOR_FOLDER_MAP = {
+	'full-overlay': 'overlay',
+	overlay: 'overlay',
+	inset: 'inset',
+};
 
 const DOOR_NAMES = {
 	175: 'Style 175',
@@ -260,11 +274,43 @@ Write-Host "Done $($jobs.Count)"
 	console.log(r.stdout.trim());
 }
 
+function titleFromKebab(s) {
+	return String(s)
+		.replace(/[-_]+/g, ' ')
+		.replace(/\s+/g, ' ')
+		.trim()
+		.replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+/**
+ * Curated vault: Doors/{full-overlay|inset}/{style-name}.jpg — already one image per style.
+ */
+function parseCuratedDoor(filePath, construction) {
+	const name = path.basename(filePath);
+	const base = name.replace(/\.(png|jpe?g|webp)$/i, '');
+	const size = fs.statSync(filePath).size;
+	if (size < MIN_DOOR_BYTES) return null;
+	if (!/^[a-z0-9][a-z0-9-]*$/i.test(base)) return null;
+
+	const slug = kebab(base);
+	const display = titleFromKebab(base);
+	return {
+		filePath,
+		name,
+		styleKey: slug,
+		display,
+		construction,
+		isNtl: true,
+		score: 200,
+		size,
+	};
+}
+
+/** Legacy flat vault: STM-FDS / Style.FO.Ntl naming with natural-maple preference. */
 function parseDoor(filePath) {
 	const name = path.basename(filePath);
-	const base = name.replace(/\.(png|jpg|jpeg)$/i, '');
 	const size = fs.statSync(filePath).size;
-	if (size < MIN_BYTES) return null;
+	if (size < MIN_DOOR_BYTES) return null;
 
 	let styleKey = null;
 	let construction = 'unknown';
@@ -302,17 +348,15 @@ function parseDoor(filePath) {
 	const isChocolate = /Chocolate/i.test(name);
 	const isQwOnly = /\.QW\./i.test(name) && !isMpl;
 
-	// Score: higher is better
 	let score = 0;
 	if (isNtl) score += 100;
 	if (isMpl) score += 50;
-	else if (isQwOnly) score += 15; // quartersawn natural still useful, prefer maple when present
-	if (!isVariant) score += 30; // prefer full door+drawer presentation
+	else if (isQwOnly) score += 15;
+	if (!isVariant) score += 30;
 	if (!isCoF) score += 20;
 	if (!isDup) score += 10;
 	if (!isChocolate) score += 10;
 	if (construction !== 'unknown') score += 5;
-	// Prefer larger files slightly (clearer detail)
 	score += Math.min(15, Math.floor(size / 100000));
 
 	return {
@@ -327,7 +371,7 @@ function parseDoor(filePath) {
 	};
 }
 
-function pickDoors(files) {
+function pickDoorsFromLegacy(files) {
 	const byStyle = new Map();
 	for (const f of files) {
 		const parsed = parseDoor(f);
@@ -349,11 +393,8 @@ function pickDoors(files) {
 		const best = (cands) => cands.slice().sort((a, b) => b.score - a.score)[0];
 
 		const bestInset = best(insetCands);
-		if (bestInset) {
-			inset.push(bestInset);
-		}
+		if (bestInset) inset.push(bestInset);
 
-		// Prefer highest-scoring overlay or unmarked door+drawer shot (usually MPL.Ntl).
 		const bestOverlay = best(overlayCands);
 		if (bestOverlay) {
 			if (!bestInset || bestOverlay.filePath !== bestInset.filePath) {
@@ -366,6 +407,45 @@ function pickDoors(files) {
 	inset.sort(sortByName);
 	overlay.sort(sortByName);
 	return { inset, overlay };
+}
+
+function collectDoorFiles(doorsDir) {
+	const inset = [];
+	const overlay = [];
+	let usedCurated = false;
+
+	for (const [folderName, construction] of Object.entries(DOOR_FOLDER_MAP)) {
+		const dir = path.join(doorsDir, folderName);
+		if (!fs.existsSync(dir) || !fs.statSync(dir).isDirectory()) continue;
+		usedCurated = true;
+		const files = fs
+			.readdirSync(dir)
+			.filter((f) => /\.(png|jpe?g|webp)$/i.test(f))
+			.map((f) => path.join(dir, f));
+		for (const f of files) {
+			const parsed = parseCuratedDoor(f, construction);
+			if (!parsed) {
+				console.warn('  skip tiny/invalid door:', path.relative(doorsDir, f));
+				continue;
+			}
+			if (construction === 'inset') inset.push(parsed);
+			else overlay.push(parsed);
+		}
+	}
+
+	if (usedCurated) {
+		const sortByName = (a, b) => a.display.localeCompare(b.display, 'en');
+		inset.sort(sortByName);
+		overlay.sort(sortByName);
+		return { inset, overlay, mode: 'curated' };
+	}
+
+	const flat = fs
+		.readdirSync(doorsDir)
+		.filter((f) => /\.(png|jpe?g)$/i.test(f))
+		.map((f) => path.join(doorsDir, f));
+	const picked = pickDoorsFromLegacy(flat);
+	return { ...picked, mode: 'legacy' };
 }
 
 function parseFinish(filePath) {
@@ -619,20 +699,18 @@ function main() {
 	console.log('Archiving flat curated assets…');
 	archiveFlatAssets();
 
-	const doorFiles = fs
-		.readdirSync(doorsDir)
-		.filter((f) => /\.(png|jpe?g)$/i.test(f))
-		.map((f) => path.join(doorsDir, f));
 	const finishFiles = fs
 		.readdirSync(finishesDir)
 		.filter((f) => /\.(png|jpe?g)$/i.test(f))
 		.map((f) => path.join(finishesDir, f));
 
-	console.log(`Scanning ${doorFiles.length} doors, ${finishFiles.length} finishes…`);
-	const { inset, overlay } = pickDoors(doorFiles);
+	const { inset, overlay, mode } = collectDoorFiles(doorsDir);
+	console.log(
+		`Doors mode=${mode}: inset=${inset.length}, overlay=${overlay.length}; finishes scanned=${finishFiles.length}`,
+	);
 	const finishes = pickFinishes(finishFiles);
+	console.log(`Selected finishes=${finishes.length}`);
 
-	console.log(`Selected inset=${inset.length}, overlay=${overlay.length}, finishes=${finishes.length}`);
 	console.log('Converting door images…');
 	const insetOut = writeDoorAssets(inset, 'inset');
 	const overlayOut = writeDoorAssets(overlay, 'overlay');
@@ -658,13 +736,13 @@ function main() {
 		},
 		notes: {
 			doorsPolicy:
-				'One natural/unfinished maple (or best available) image per distinct door style; inset vs overlay from IN/FO/PO markers. Unmarked STM-FDS door+drawer shots treated as overlay.',
+				'Curated vault: one image per style from Doors/full-overlay and Doors/inset (kebab filenames). Files under 8KB skipped. Legacy flat STM-FDS vault still supported as fallback (prefer natural/maple).',
 			finishesPolicy:
-				'Nearly all usable swatches ≥20KB. Chocolate file variants skipped when a non-Chocolate twin exists. Paint-on-oak substrate dupes deprioritized vs plain paint. Glaze variants (Chocolate/Ebony/Nickel/Latte) kept as separate samples.',
+				'Nearly all usable swatches ≥20KB. Chocolate file variants skipped when a non-Chocolate twin exists. Paint-on-oak substrate dupes deprioritized vs plain paint. Glaze variants (Chocolate/Ebony/Nickel/Latte) kept as separate samples. Walnut + quartersawn oak combined under specialty-woods; paint is its own group.',
 			nameAmbiguities: [
-				'Emmr→Emmerich, Fran→Franklin, Haso→Hasbrouck, Kobu→Kobuk, Katm→Katmai, Rocw→Rockwell, Covi→Covington, Ovla→Overlook — confirm against current StarMark literature.',
+				'Door display names taken from curated kebab filenames (e.g. emmerson.jpg → Emmerson) — confirm spelling against current StarMark literature.',
 				'Paint codes Bmk/Ety/Euc/Sne mapped heuristically (Benchmark/Entity/Eucalyptus/Stone) — confirm dealer names.',
-				'Numeric inset/overlay styles (175–191, 268, 735–737) labeled by construction + number.',
+				'Tiny finish PNGs (<20KB) such as AutumnRed/GrapeHarvest skipped as likely broken.',
 			],
 		},
 	};
