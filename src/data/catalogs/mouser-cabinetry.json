@@ -1,0 +1,2526 @@
+{
+  "generatedAt": "2026-07-29T18:00:02.710Z",
+  "brand": "mouser-cabinetry",
+  "displayName": "Mouser Cabinetry",
+  "doorsMode": "flat",
+  "doors": {
+    "all": [
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/amelia-flat.jpg",
+        "name": "Amelia Flat",
+        "slug": "amelia-flat",
+        "construction": "doors",
+        "sourceFile": "amelia-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/amity-flat.jpg",
+        "name": "Amity Flat",
+        "slug": "amity-flat",
+        "construction": "doors",
+        "sourceFile": "amity-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/antiqua.jpg",
+        "name": "Antiqua",
+        "slug": "antiqua",
+        "construction": "doors",
+        "sourceFile": "antiqua.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/arvada-flat.jpg",
+        "name": "Arvada Flat",
+        "slug": "arvada-flat",
+        "construction": "doors",
+        "sourceFile": "arvada-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/ashland-flat.jpg",
+        "name": "Ashland Flat",
+        "slug": "ashland-flat",
+        "construction": "doors",
+        "sourceFile": "ashland-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/avalon.jpg",
+        "name": "Avalon",
+        "slug": "avalon",
+        "construction": "doors",
+        "sourceFile": "avalon.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/barrington-ii.jpg",
+        "name": "Barrington II",
+        "slug": "barrington-ii",
+        "construction": "doors",
+        "sourceFile": "barrington-ii.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/beaumont-flat.jpg",
+        "name": "Beaumont Flat",
+        "slug": "beaumont-flat",
+        "construction": "doors",
+        "sourceFile": "beaumont-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/bedford-flat.jpg",
+        "name": "Bedford Flat",
+        "slug": "bedford-flat",
+        "construction": "doors",
+        "sourceFile": "bedford-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/bethany-flat.jpg",
+        "name": "Bethany Flat",
+        "slug": "bethany-flat",
+        "construction": "doors",
+        "sourceFile": "bethany-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/briarwood-flat.jpg",
+        "name": "Briarwood Flat",
+        "slug": "briarwood-flat",
+        "construction": "doors",
+        "sourceFile": "briarwood-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/bristol-flat.jpg",
+        "name": "Bristol Flat",
+        "slug": "bristol-flat",
+        "construction": "doors",
+        "sourceFile": "bristol-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/brunswick-raised.jpg",
+        "name": "Brunswick Raised",
+        "slug": "brunswick-raised",
+        "construction": "doors",
+        "sourceFile": "brunswick-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/calumet-flat.jpg",
+        "name": "Calumet Flat",
+        "slug": "calumet-flat",
+        "construction": "doors",
+        "sourceFile": "calumet-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/camden-reeded.jpg",
+        "name": "Camden Reeded",
+        "slug": "camden-reeded",
+        "construction": "doors",
+        "sourceFile": "camden-reeded.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/coronado-flat.jpg",
+        "name": "Coronado Flat",
+        "slug": "coronado-flat",
+        "construction": "doors",
+        "sourceFile": "coronado-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/coventry-raised.jpg",
+        "name": "Coventry Raised",
+        "slug": "coventry-raised",
+        "construction": "doors",
+        "sourceFile": "coventry-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/delmar-flat.jpg",
+        "name": "Delmar Flat",
+        "slug": "delmar-flat",
+        "construction": "doors",
+        "sourceFile": "delmar-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/devonshire-flat.jpg",
+        "name": "Devonshire Flat",
+        "slug": "devonshire-flat",
+        "construction": "doors",
+        "sourceFile": "devonshire-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/essence-flat.jpg",
+        "name": "Essence Flat",
+        "slug": "essence-flat",
+        "construction": "doors",
+        "sourceFile": "essence-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/fairmount-raised.jpg",
+        "name": "Fairmount Raised",
+        "slug": "fairmount-raised",
+        "construction": "doors",
+        "sourceFile": "fairmount-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/farmstead-flat.jpg",
+        "name": "Farmstead Flat",
+        "slug": "farmstead-flat",
+        "construction": "doors",
+        "sourceFile": "farmstead-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/geneva-ii.jpg",
+        "name": "Geneva II",
+        "slug": "geneva-ii",
+        "construction": "doors",
+        "sourceFile": "geneva-ii.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/glendale-raised.jpg",
+        "name": "Glendale Raised",
+        "slug": "glendale-raised",
+        "construction": "doors",
+        "sourceFile": "glendale-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/grand-cambridge-raised.jpg",
+        "name": "Grand Cambridge Raised",
+        "slug": "grand-cambridge-raised",
+        "construction": "doors",
+        "sourceFile": "grand-cambridge-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/hawthorne-flat.jpg",
+        "name": "Hawthorne Flat",
+        "slug": "hawthorne-flat",
+        "construction": "doors",
+        "sourceFile": "hawthorne-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/heartland-flat.jpg",
+        "name": "Heartland Flat",
+        "slug": "heartland-flat",
+        "construction": "doors",
+        "sourceFile": "heartland-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/jupiter-flat.jpg",
+        "name": "Jupiter Flat",
+        "slug": "jupiter-flat",
+        "construction": "doors",
+        "sourceFile": "jupiter-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/kensington-estate-flat.jpg",
+        "name": "Kensington Estate Flat",
+        "slug": "kensington-estate-flat",
+        "construction": "doors",
+        "sourceFile": "kensington-estate-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/kensington-flat.jpg",
+        "name": "Kensington Flat",
+        "slug": "kensington-flat",
+        "construction": "doors",
+        "sourceFile": "kensington-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/lenox-flat.jpg",
+        "name": "Lenox Flat",
+        "slug": "lenox-flat",
+        "construction": "doors",
+        "sourceFile": "lenox-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/liberty-raised.jpg",
+        "name": "Liberty Raised",
+        "slug": "liberty-raised",
+        "construction": "doors",
+        "sourceFile": "liberty-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/malibu-slab.jpg",
+        "name": "Malibu Slab",
+        "slug": "malibu-slab",
+        "construction": "doors",
+        "sourceFile": "malibu-slab.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/manchester-raised.jpg",
+        "name": "Manchester Raised",
+        "slug": "manchester-raised",
+        "construction": "doors",
+        "sourceFile": "manchester-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/mayfield-flat.jpg",
+        "name": "Mayfield Flat",
+        "slug": "mayfield-flat",
+        "construction": "doors",
+        "sourceFile": "mayfield-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/meridian-flat.jpg",
+        "name": "Meridian Flat",
+        "slug": "meridian-flat",
+        "construction": "doors",
+        "sourceFile": "meridian-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/milan-raised.jpg",
+        "name": "Milan Raised",
+        "slug": "milan-raised",
+        "construction": "doors",
+        "sourceFile": "milan-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/monroe-flat.jpg",
+        "name": "Monroe Flat",
+        "slug": "monroe-flat",
+        "construction": "doors",
+        "sourceFile": "monroe-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/monterey-raised.jpg",
+        "name": "Monterey Raised",
+        "slug": "monterey-raised",
+        "construction": "doors",
+        "sourceFile": "monterey-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/newcastle.jpg",
+        "name": "Newcastle",
+        "slug": "newcastle",
+        "construction": "doors",
+        "sourceFile": "newcastle.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/olympia-flat.jpg",
+        "name": "Olympia Flat",
+        "slug": "olympia-flat",
+        "construction": "doors",
+        "sourceFile": "olympia-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/paxton-flat.jpg",
+        "name": "Paxton Flat",
+        "slug": "paxton-flat",
+        "construction": "doors",
+        "sourceFile": "paxton-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/penbrook-reededy.jpg",
+        "name": "Penbrook Reededy",
+        "slug": "penbrook-reededy",
+        "construction": "doors",
+        "sourceFile": "penbrook-reededy.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/pinnacle-flat.jpg",
+        "name": "Pinnacle Flat",
+        "slug": "pinnacle-flat",
+        "construction": "doors",
+        "sourceFile": "pinnacle-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/plaza-flat.jpg",
+        "name": "Plaza Flat",
+        "slug": "plaza-flat",
+        "construction": "doors",
+        "sourceFile": "plaza-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/portrait.jpg",
+        "name": "Portrait",
+        "slug": "portrait",
+        "construction": "doors",
+        "sourceFile": "portrait.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/princeton-raised.jpg",
+        "name": "Princeton Raised",
+        "slug": "princeton-raised",
+        "construction": "doors",
+        "sourceFile": "princeton-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/radiance-flat.jpg",
+        "name": "Radiance Flat",
+        "slug": "radiance-flat",
+        "construction": "doors",
+        "sourceFile": "radiance-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/reno-flat.jpg",
+        "name": "Reno Flat",
+        "slug": "reno-flat",
+        "construction": "doors",
+        "sourceFile": "reno-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/richmond-flat.jpg",
+        "name": "Richmond Flat",
+        "slug": "richmond-flat",
+        "construction": "doors",
+        "sourceFile": "richmond-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/ridgeland-flat.jpg",
+        "name": "Ridgeland Flat",
+        "slug": "ridgeland-flat",
+        "construction": "doors",
+        "sourceFile": "ridgeland-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/sanibel-flat.jpg",
+        "name": "Sanibel Flat",
+        "slug": "sanibel-flat",
+        "construction": "doors",
+        "sourceFile": "sanibel-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/sonoma-flat.jpg",
+        "name": "Sonoma Flat",
+        "slug": "sonoma-flat",
+        "construction": "doors",
+        "sourceFile": "sonoma-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/sterling-raised.jpg",
+        "name": "Sterling Raised",
+        "slug": "sterling-raised",
+        "construction": "doors",
+        "sourceFile": "sterling-raised.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/stockton-flat.jpg",
+        "name": "Stockton Flat",
+        "slug": "stockton-flat",
+        "construction": "doors",
+        "sourceFile": "stockton-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/stratford-flat.jpg",
+        "name": "Stratford Flat",
+        "slug": "stratford-flat",
+        "construction": "doors",
+        "sourceFile": "stratford-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/tahoe-flat.jpg",
+        "name": "Tahoe Flat",
+        "slug": "tahoe-flat",
+        "construction": "doors",
+        "sourceFile": "tahoe-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/urbana-flat.jpg",
+        "name": "Urbana Flat",
+        "slug": "urbana-flat",
+        "construction": "doors",
+        "sourceFile": "urbana-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/waverly-flat.jpg",
+        "name": "Waverly Flat",
+        "slug": "waverly-flat",
+        "construction": "doors",
+        "sourceFile": "waverly-flat.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/weston.jpg",
+        "name": "Weston",
+        "slug": "weston",
+        "construction": "doors",
+        "sourceFile": "weston.png"
+      },
+      {
+        "src": "/images/brands/mouser-cabinetry/doors/winchester-flat.jpg",
+        "name": "Winchester Flat",
+        "slug": "winchester-flat",
+        "construction": "doors",
+        "sourceFile": "winchester-flat.png"
+      }
+    ]
+  },
+  "finishes": {
+    "groups": [
+      {
+        "slug": "paint",
+        "name": "Paint",
+        "description": "Solid paint colors and painted looks.",
+        "count": 51,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-alloy.jpg",
+            "name": "Paint · Alloy",
+            "slug": "paint-alloy",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "alloy.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-alpine.jpg",
+            "name": "Paint · Alpine",
+            "slug": "paint-alpine",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "alpine.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-basil.jpg",
+            "name": "Paint · Basil",
+            "slug": "paint-basil",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "basil.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-cafe.jpg",
+            "name": "Paint · Cafe",
+            "slug": "paint-cafe",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "cafe.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-canvas.jpg",
+            "name": "Paint · Canvas",
+            "slug": "paint-canvas",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "canvas.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-carbide.jpg",
+            "name": "Paint · Carbide",
+            "slug": "paint-carbide",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "carbide.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-china.jpg",
+            "name": "Paint · China",
+            "slug": "paint-china",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "china.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-china-chocolate-glaze.jpg",
+            "name": "Paint · China Chocolate Glaze",
+            "slug": "paint-china-chocolate-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "china-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-clay.jpg",
+            "name": "Paint · Clay",
+            "slug": "paint-clay",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "clay.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-clover.jpg",
+            "name": "Paint · Clover",
+            "slug": "paint-clover",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "clover.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-cobalt.jpg",
+            "name": "Paint · Cobalt",
+            "slug": "paint-cobalt",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "cobalt.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-coolmint.jpg",
+            "name": "Paint · Coolmint",
+            "slug": "paint-coolmint",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "coolmint.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-cornflower.jpg",
+            "name": "Paint · Cornflower",
+            "slug": "paint-cornflower",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "cornflower.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-cornsilk.jpg",
+            "name": "Paint · Cornsilk",
+            "slug": "paint-cornsilk",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "cornsilk.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-creekstone.jpg",
+            "name": "Paint · Creekstone",
+            "slug": "paint-creekstone",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "creekstone.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-creme.jpg",
+            "name": "Paint · Creme",
+            "slug": "paint-creme",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "creme.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-divinity.jpg",
+            "name": "Paint · Divinity",
+            "slug": "paint-divinity",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "divinity.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-ebony.jpg",
+            "name": "Paint · Ebony",
+            "slug": "paint-ebony",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "ebony.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-eggshell.jpg",
+            "name": "Paint · Eggshell",
+            "slug": "paint-eggshell",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "eggshell.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-fern.jpg",
+            "name": "Paint · Fern",
+            "slug": "paint-fern",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "fern.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-flint.jpg",
+            "name": "Paint · Flint",
+            "slug": "paint-flint",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "flint.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-fog.jpg",
+            "name": "Paint · Fog",
+            "slug": "paint-fog",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "fog.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-gunmetal.jpg",
+            "name": "Paint · Gunmetal",
+            "slug": "paint-gunmetal",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "gunmetal.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-honeydew.jpg",
+            "name": "Paint · Honeydew",
+            "slug": "paint-honeydew",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "honeydew.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-ice.jpg",
+            "name": "Paint · Ice",
+            "slug": "paint-ice",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "ice.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-ice-glacier-black.jpg",
+            "name": "Paint · Ice Glacier Black",
+            "slug": "paint-ice-glacier-black",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "ice-glacier-black.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-ice-pewter-glaze.jpg",
+            "name": "Paint · Ice Pewter Glaze",
+            "slug": "paint-ice-pewter-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "ice-pewter-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-indigo.jpg",
+            "name": "Paint · Indigo",
+            "slug": "paint-indigo",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "indigo.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-inkwell.jpg",
+            "name": "Paint · Inkwell",
+            "slug": "paint-inkwell",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "inkwell.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-iris.jpg",
+            "name": "Paint · Iris",
+            "slug": "paint-iris",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "iris.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-iron.jpg",
+            "name": "Paint · Iron",
+            "slug": "paint-iron",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "iron.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-lilypad.jpg",
+            "name": "Paint · Lilypad",
+            "slug": "paint-lilypad",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "lilypad.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-linen.jpg",
+            "name": "Paint · Linen",
+            "slug": "paint-linen",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "linen.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-linen-brown-glaze.jpg",
+            "name": "Paint · Linen Brown Glaze",
+            "slug": "paint-linen-brown-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "linen-brown-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-lunar.jpg",
+            "name": "Paint · Lunar",
+            "slug": "paint-lunar",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "lunar.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-nantucket.jpg",
+            "name": "Paint · Nantucket",
+            "slug": "paint-nantucket",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "nantucket.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-ocean.jpg",
+            "name": "Paint · Ocean",
+            "slug": "paint-ocean",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "ocean.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-polar.jpg",
+            "name": "Paint · Polar",
+            "slug": "paint-polar",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "polar.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-quarry.jpg",
+            "name": "Paint · Quarry",
+            "slug": "paint-quarry",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "quarry.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-raspberry.jpg",
+            "name": "Paint · Raspberry",
+            "slug": "paint-raspberry",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "rasberry.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-reef.jpg",
+            "name": "Paint · Reef",
+            "slug": "paint-reef",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "reef.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-seaglass.jpg",
+            "name": "Paint · Seaglass",
+            "slug": "paint-seaglass",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "seaglass.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-shale.jpg",
+            "name": "Paint · Shale",
+            "slug": "paint-shale",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "shale.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-titanium.jpg",
+            "name": "Paint · Titanium",
+            "slug": "paint-titanium",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "titanium.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-truffle.jpg",
+            "name": "Paint · Truffle",
+            "slug": "paint-truffle",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "truffle.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-tungsten.jpg",
+            "name": "Paint · Tungsten",
+            "slug": "paint-tungsten",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "tungsten.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-tungsten-glacier-black.jpg",
+            "name": "Paint · Tungsten Glacier Black",
+            "slug": "paint-tungsten-glacier-black",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "tungsten-glacier-black.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-twilight.jpg",
+            "name": "Paint · Twilight",
+            "slug": "paint-twilight",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "twilight.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-white.jpg",
+            "name": "Paint · White",
+            "slug": "paint-white",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "white.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-white-pewter-glaze.jpg",
+            "name": "Paint · White Pewter Glaze",
+            "slug": "paint-white-pewter-glaze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "white-pewter-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/paint/paint-wintergreen.jpg",
+            "name": "Paint · Wintergreen",
+            "slug": "paint-wintergreen",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "wintergreen.png"
+          }
+        ]
+      },
+      {
+        "slug": "maple",
+        "name": "Maple",
+        "description": "Stains and specialty colors on maple.",
+        "count": 22,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-bedrock.jpg",
+            "name": "Maple · Bedrock",
+            "slug": "maple-bedrock",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-bedrock.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-bedrock-accent.jpg",
+            "name": "Maple · Bedrock Accent",
+            "slug": "maple-bedrock-accent",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-bedrock-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-blueberry.jpg",
+            "name": "Maple · Blueberry",
+            "slug": "maple-blueberry",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-blueberry.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-caramel.jpg",
+            "name": "Maple · Caramel",
+            "slug": "maple-caramel",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-caramel.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-caribou.jpg",
+            "name": "Maple · Caribou",
+            "slug": "maple-caribou",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-caribou.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-cotton.jpg",
+            "name": "Maple · Cotton",
+            "slug": "maple-cotton",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-cotton.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-cotton-chocolate-glaze.jpg",
+            "name": "Maple · Cotton Chocolate Glaze",
+            "slug": "maple-cotton-chocolate-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-cotton-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-crimson.jpg",
+            "name": "Maple · Crimson",
+            "slug": "maple-crimson",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-crimson.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-graphite.jpg",
+            "name": "Maple · Graphite",
+            "slug": "maple-graphite",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-graphite.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-magma.jpg",
+            "name": "Maple · Magma",
+            "slug": "maple-magma",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-magma.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-magma-accent.jpg",
+            "name": "Maple · Magma Accent",
+            "slug": "maple-magma-accent",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-magma-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-natural.jpg",
+            "name": "Maple · Natural",
+            "slug": "maple-natural",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-natural.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-natural-chocolate-glaze.jpg",
+            "name": "Maple · Natural Chocolate Glaze",
+            "slug": "maple-natural-chocolate-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-natural-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-pebble.jpg",
+            "name": "Maple · Pebble",
+            "slug": "maple-pebble",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-pebble.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-pebble-accent.jpg",
+            "name": "Maple · Pebble Accent",
+            "slug": "maple-pebble-accent",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-pebble-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-prairie.jpg",
+            "name": "Maple · Prairie",
+            "slug": "maple-prairie",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-prairie.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-russet.jpg",
+            "name": "Maple · Russet",
+            "slug": "maple-russet",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-russett.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-sienna.jpg",
+            "name": "Maple · Sienna",
+            "slug": "maple-sienna",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-sienna.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-sienna-chocolate-glaze.jpg",
+            "name": "Maple · Sienna Chocolate Glaze",
+            "slug": "maple-sienna-chocolate-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-sienna-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-sienna-java-glaze.jpg",
+            "name": "Maple · Sienna Java Glaze",
+            "slug": "maple-sienna-java-glaze",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-sienna-java-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-slate.jpg",
+            "name": "Maple · Slate",
+            "slug": "maple-slate",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-slate.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/maple/maple-tawny.jpg",
+            "name": "Maple · Tawny",
+            "slug": "maple-tawny",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-tawny.png"
+          }
+        ]
+      },
+      {
+        "slug": "cherry",
+        "name": "Cherry",
+        "description": "Stains and specialty colors on cherry.",
+        "count": 34,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-autumn.jpg",
+            "name": "Cherry · Autumn",
+            "slug": "cherry-autumn",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-autumn.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-autumn-black-glaze.jpg",
+            "name": "Cherry · Autumn Black Glaze",
+            "slug": "cherry-autumn-black-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-autumn-black-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-autumn-java-glaze.jpg",
+            "name": "Cherry · Autumn Java Glaze",
+            "slug": "cherry-autumn-java-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-autumn-java-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-bedrock.jpg",
+            "name": "Cherry · Bedrock",
+            "slug": "cherry-bedrock",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-bedrock.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-bedrock-accent.jpg",
+            "name": "Cherry · Bedrock Accent",
+            "slug": "cherry-bedrock-accent",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-bedrock-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-blueberry.jpg",
+            "name": "Cherry · Blueberry",
+            "slug": "cherry-blueberry",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-blueberry.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-cappuccino.jpg",
+            "name": "Cherry · Cappuccino",
+            "slug": "cherry-cappuccino",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-cappuccino.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-charcoal.jpg",
+            "name": "Cherry · Charcoal",
+            "slug": "cherry-charcoal",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-charcoal.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-cider.jpg",
+            "name": "Cherry · Cider",
+            "slug": "cherry-cider",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-cider.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-cognac.jpg",
+            "name": "Cherry · Cognac",
+            "slug": "cherry-cognac",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-cognac.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-crimson.jpg",
+            "name": "Cherry · Crimson",
+            "slug": "cherry-crimson",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-crimson.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-dune.jpg",
+            "name": "Cherry · Dune",
+            "slug": "cherry-dune",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-dune.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-espresso.jpg",
+            "name": "Cherry · Espresso",
+            "slug": "cherry-espresso",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-espresso.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-graphite.jpg",
+            "name": "Cherry · Graphite",
+            "slug": "cherry-graphite",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-graphite.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-gull.jpg",
+            "name": "Cherry · Gull",
+            "slug": "cherry-gull",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-gull.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-harlow.jpg",
+            "name": "Cherry · Harlow",
+            "slug": "cherry-harlow",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-harlow.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-magma.jpg",
+            "name": "Cherry · Magma",
+            "slug": "cherry-magma",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-magma.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-magma-accent.jpg",
+            "name": "Cherry · Magma Accent",
+            "slug": "cherry-magma-accent",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-magma-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-merlot.jpg",
+            "name": "Cherry · Merlot",
+            "slug": "cherry-merlot",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-merlot.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-mesquite.jpg",
+            "name": "Cherry · Mesquite",
+            "slug": "cherry-mesquite",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-mesquite.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-meteor.jpg",
+            "name": "Cherry · Meteor",
+            "slug": "cherry-meteor",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-metor.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-mocha.jpg",
+            "name": "Cherry · Mocha",
+            "slug": "cherry-mocha",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-mocha.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-molasses.jpg",
+            "name": "Cherry · Molasses",
+            "slug": "cherry-molasses",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-molasses.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-molasses-black-glaze.jpg",
+            "name": "Cherry · Molasses Black Glaze",
+            "slug": "cherry-molasses-black-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-molasses-black-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-moss-accent.jpg",
+            "name": "Cherry · Moss Accent",
+            "slug": "cherry-moss-accent",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-moss-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-natural.jpg",
+            "name": "Cherry · Natural",
+            "slug": "cherry-natural",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-natural.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-natural-chocolate-glaze.jpg",
+            "name": "Cherry · Natural Chocolate Glaze",
+            "slug": "cherry-natural-chocolate-glaze",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-natural-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-onyx.jpg",
+            "name": "Cherry · Onyx",
+            "slug": "cherry-onyx",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-onyx.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-pebble.jpg",
+            "name": "Cherry · Pebble",
+            "slug": "cherry-pebble",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-pebble.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-pebble-accent.jpg",
+            "name": "Cherry · Pebble Accent",
+            "slug": "cherry-pebble-accent",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-pebble-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-porcelain.jpg",
+            "name": "Cherry · Porcelain",
+            "slug": "cherry-porcelain",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-porcelain.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-russet.jpg",
+            "name": "Cherry · Russet",
+            "slug": "cherry-russet",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-russet.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-sorrel.jpg",
+            "name": "Cherry · Sorrel",
+            "slug": "cherry-sorrel",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-sorrell.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/cherry/cherry-toffee.jpg",
+            "name": "Cherry · Toffee",
+            "slug": "cherry-toffee",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-toffee.png"
+          }
+        ]
+      },
+      {
+        "slug": "oak",
+        "name": "Oak",
+        "description": "Stains and specialty colors on oak.",
+        "count": 26,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-bedrock.jpg",
+            "name": "Quarter-sawn white oak · Bedrock",
+            "slug": "quarter-sawn-white-oak-bedrock",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-bedrock.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-bedrock-accent.jpg",
+            "name": "Quarter-sawn white oak · Bedrock Accent",
+            "slug": "quarter-sawn-white-oak-bedrock-accent",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-bedrock-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-blueberry.jpg",
+            "name": "Quarter-sawn white oak · Blueberry",
+            "slug": "quarter-sawn-white-oak-blueberry",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-blueberty.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-cadet.jpg",
+            "name": "Quarter-sawn white oak · Cadet",
+            "slug": "quarter-sawn-white-oak-cadet",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-cadet.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-cappuccino.jpg",
+            "name": "Quarter-sawn white oak · Cappuccino",
+            "slug": "quarter-sawn-white-oak-cappuccino",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-cappuccino.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-cognac-accent.jpg",
+            "name": "Quarter-sawn white oak · Cognac Accent",
+            "slug": "quarter-sawn-white-oak-cognac-accent",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-cognac-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-espresso.jpg",
+            "name": "Quarter-sawn white oak · Espresso",
+            "slug": "quarter-sawn-white-oak-espresso",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-espresso.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-ginger.jpg",
+            "name": "Quarter-sawn white oak · Ginger",
+            "slug": "quarter-sawn-white-oak-ginger",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-ginger.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-graphite.jpg",
+            "name": "Quarter-sawn white oak · Graphite",
+            "slug": "quarter-sawn-white-oak-graphite",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-graphite.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-gull.jpg",
+            "name": "Quarter-sawn white oak · Gull",
+            "slug": "quarter-sawn-white-oak-gull",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-gull.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-magma.jpg",
+            "name": "Quarter-sawn white oak · Magma",
+            "slug": "quarter-sawn-white-oak-magma",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-magma.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-magma-accent.jpg",
+            "name": "Quarter-sawn white oak · Magma Accent",
+            "slug": "quarter-sawn-white-oak-magma-accent",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-magma-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-meteor.jpg",
+            "name": "Quarter-sawn white oak · Meteor",
+            "slug": "quarter-sawn-white-oak-meteor",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-meteor.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-millstone-accent.jpg",
+            "name": "Quarter-sawn white oak · Millstone Accent",
+            "slug": "quarter-sawn-white-oak-millstone-accent",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-millstone-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-natural.jpg",
+            "name": "Quarter-sawn white oak · Natural",
+            "slug": "quarter-sawn-white-oak-natural",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-natural.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-nimbus.jpg",
+            "name": "Quarter-sawn white oak · Nimbus",
+            "slug": "quarter-sawn-white-oak-nimbus",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-nimbus.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-onyx.jpg",
+            "name": "Quarter-sawn white oak · Onyx",
+            "slug": "quarter-sawn-white-oak-onyx",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-onyx.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-pebble.jpg",
+            "name": "Quarter-sawn white oak · Pebble",
+            "slug": "quarter-sawn-white-oak-pebble",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-pebble.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-pebble-accent.jpg",
+            "name": "Quarter-sawn white oak · Pebble Accent",
+            "slug": "quarter-sawn-white-oak-pebble-accent",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-pebble-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-peppercorn.jpg",
+            "name": "Quarter-sawn white oak · Peppercorn",
+            "slug": "quarter-sawn-white-oak-peppercorn",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-peppercorn.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-porcelain.jpg",
+            "name": "Quarter-sawn white oak · Porcelain",
+            "slug": "quarter-sawn-white-oak-porcelain",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quarter-sawn-white-oak-porcelain.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-sage.jpg",
+            "name": "Quarter-sawn white oak · Sage",
+            "slug": "quarter-sawn-white-oak-sage",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-sage.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-sand.jpg",
+            "name": "Quarter-sawn white oak · Sand",
+            "slug": "quarter-sawn-white-oak-sand",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-sand.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-shadow.jpg",
+            "name": "Quarter-sawn white oak · Shadow",
+            "slug": "quarter-sawn-white-oak-shadow",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-shadow.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-silhouette.jpg",
+            "name": "Quarter-sawn white oak · Silhouette",
+            "slug": "quarter-sawn-white-oak-silhouette",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-silhouette.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/oak/quarter-sawn-white-oak-slate.jpg",
+            "name": "Quarter-sawn white oak · Slate",
+            "slug": "quarter-sawn-white-oak-slate",
+            "species": "Quarter-sawn white oak",
+            "group": "oak",
+            "sourceFile": "quartersawn-white-oak-slate.png"
+          }
+        ]
+      },
+      {
+        "slug": "alder",
+        "name": "Alder",
+        "description": "Stains on alder.",
+        "count": 31,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-autumn.jpg",
+            "name": "Alder · Autumn",
+            "slug": "alder-autumn",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-autumn.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-autumn-java.jpg",
+            "name": "Alder · Autumn Java",
+            "slug": "alder-autumn-java",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-autumn-java.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-bedrock.jpg",
+            "name": "Alder · Bedrock",
+            "slug": "alder-bedrock",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-bedrock.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-bedrock-accent.jpg",
+            "name": "Alder · Bedrock Accent",
+            "slug": "alder-bedrock-accent",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-bedrock-accent.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-blueberry.jpg",
+            "name": "Alder · Blueberry",
+            "slug": "alder-blueberry",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-blueberry.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-cadet.jpg",
+            "name": "Alder · Cadet",
+            "slug": "alder-cadet",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-cadet.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-charcoal.jpg",
+            "name": "Alder · Charcoal",
+            "slug": "alder-charcoal",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-charcoal.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-cognac.jpg",
+            "name": "Alder · Cognac",
+            "slug": "alder-cognac",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-cognac.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-dune.jpg",
+            "name": "Alder · Dune",
+            "slug": "alder-dune",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-dune.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-espresso.jpg",
+            "name": "Alder · Espresso",
+            "slug": "alder-espresso",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-espresso.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-graphite.jpg",
+            "name": "Alder · Graphite",
+            "slug": "alder-graphite",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-graphite.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-gull.jpg",
+            "name": "Alder · Gull",
+            "slug": "alder-gull",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-gull.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-harlow.jpg",
+            "name": "Alder · Harlow",
+            "slug": "alder-harlow",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-harlow.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-magma.jpg",
+            "name": "Alder · Magma",
+            "slug": "alder-magma",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-magma.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-merlot.jpg",
+            "name": "Alder · Merlot",
+            "slug": "alder-merlot",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-merlot.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-meteor.jpg",
+            "name": "Alder · Meteor",
+            "slug": "alder-meteor",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-meteor.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-moss.jpg",
+            "name": "Alder · Moss",
+            "slug": "alder-moss",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-moss.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-natural.jpg",
+            "name": "Alder · Natural",
+            "slug": "alder-natural",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-natural.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-natural-black-glaze.jpg",
+            "name": "Alder · Natural Black Glaze",
+            "slug": "alder-natural-black-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-natural-black-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-natural-chocolate-glaze.jpg",
+            "name": "Alder · Natural Chocolate Glaze",
+            "slug": "alder-natural-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-natural-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-natural-java-glaze.jpg",
+            "name": "Alder · Natural Java Glaze",
+            "slug": "alder-natural-java-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-natural-java-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-onyx.jpg",
+            "name": "Alder · Onyx",
+            "slug": "alder-onyx",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-onyx.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-pebble.jpg",
+            "name": "Alder · Pebble",
+            "slug": "alder-pebble",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-pebble.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-porcelain.jpg",
+            "name": "Alder · Porcelain",
+            "slug": "alder-porcelain",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-porcelain.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-russet.jpg",
+            "name": "Alder · Russet",
+            "slug": "alder-russet",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-russet.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-sand.jpg",
+            "name": "Alder · Sand",
+            "slug": "alder-sand",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-sand.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-sienna.jpg",
+            "name": "Alder · Sienna",
+            "slug": "alder-sienna",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-sienna.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-sienna-chocolate-glaze.jpg",
+            "name": "Alder · Sienna Chocolate Glaze",
+            "slug": "alder-sienna-chocolate-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-sienna-chocolate-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-sienna-java-glaze.jpg",
+            "name": "Alder · Sienna Java Glaze",
+            "slug": "alder-sienna-java-glaze",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-sienna-java-glaze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-sorrel.jpg",
+            "name": "Alder · Sorrel",
+            "slug": "alder-sorrel",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-sorrel.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/alder/alder-tawny.jpg",
+            "name": "Alder · Tawny",
+            "slug": "alder-tawny",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "Alder-tawny.png"
+          }
+        ]
+      },
+      {
+        "slug": "hickory",
+        "name": "Hickory",
+        "description": "Stains on hickory.",
+        "count": 9,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-ginger.jpg",
+            "name": "Hickory · Ginger",
+            "slug": "hickory-ginger",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-ginger.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-gull.jpg",
+            "name": "Hickory · Gull",
+            "slug": "hickory-gull",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-gull.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-natural.jpg",
+            "name": "Hickory · Natural",
+            "slug": "hickory-natural",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-natural.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-nimbus.jpg",
+            "name": "Hickory · Nimbus",
+            "slug": "hickory-nimbus",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-nimbus.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-peppercorn.jpg",
+            "name": "Hickory · Peppercorn",
+            "slug": "hickory-peppercorn",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-peppercorn.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-sage.jpg",
+            "name": "Hickory · Sage",
+            "slug": "hickory-sage",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-sage.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-slate.jpg",
+            "name": "Hickory · Slate",
+            "slug": "hickory-slate",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-slate.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-sorrel.jpg",
+            "name": "Hickory · Sorrel",
+            "slug": "hickory-sorrel",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-sorrel.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/hickory/hickory-timber.jpg",
+            "name": "Hickory · Timber",
+            "slug": "hickory-timber",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-timber.png"
+          }
+        ]
+      },
+      {
+        "slug": "laminate",
+        "name": "Laminate",
+        "description": "Laminate finish samples.",
+        "count": 30,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-after-dark.jpg",
+            "name": "Laminate · After Dark",
+            "slug": "laminate-after-dark",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "after-dark.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-boxcar-blonde.jpg",
+            "name": "Laminate · Boxcar Blonde",
+            "slug": "laminate-boxcar-blonde",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "boxcar-blonde.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-capital-starlit.jpg",
+            "name": "Laminate · Capital Starlit",
+            "slug": "laminate-capital-starlit",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "capital-starlit.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-casa-blanca.jpg",
+            "name": "Laminate · Casa Blanca",
+            "slug": "laminate-casa-blanca",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "casa-blanca.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-craft-elm.jpg",
+            "name": "Laminate · Craft Elm",
+            "slug": "laminate-craft-elm",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "craft-elm.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-decoy-dusk.jpg",
+            "name": "Laminate · Decoy Dusk",
+            "slug": "laminate-decoy-dusk",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "decoy-dusk.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-east-elm.jpg",
+            "name": "Laminate · East Elm",
+            "slug": "laminate-east-elm",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "east-elm.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-gaslit-alley.jpg",
+            "name": "Laminate · Gaslit Alley",
+            "slug": "laminate-gaslit-alley",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "gaslit-alley.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-gimlet-haze.jpg",
+            "name": "Laminate · Gimlet Haze",
+            "slug": "laminate-gimlet-haze",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "gimlet-haze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-hi-low.jpg",
+            "name": "Laminate · Hi Low",
+            "slug": "laminate-hi-low",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "hi-low.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-lakefront-elm.jpg",
+            "name": "Laminate · Lakefront Elm",
+            "slug": "laminate-lakefront-elm",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "lakefront-elm.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-loft-oak.jpg",
+            "name": "Laminate · Loft Oak",
+            "slug": "laminate-loft-oak",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "loft-oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-maltese-mist.jpg",
+            "name": "Laminate · Maltese Mist",
+            "slug": "laminate-maltese-mist",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "maltese-mist.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-midnight-dash.jpg",
+            "name": "Laminate · Midnight Dash",
+            "slug": "laminate-midnight-dash",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "midnight-dash.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-mission-maple.jpg",
+            "name": "Laminate · Mission Maple",
+            "slug": "laminate-mission-maple",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "mission-maple.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-mountain-oak.jpg",
+            "name": "Laminate · Mountain Oak",
+            "slug": "laminate-mountain-oak",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "mountain-oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-northern-oak.jpg",
+            "name": "Laminate · Northern Oak",
+            "slug": "laminate-northern-oak",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "northern-oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-olive-detour.jpg",
+            "name": "Laminate · Olive Detour",
+            "slug": "laminate-olive-detour",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "olive-detour.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-platinum-sands.jpg",
+            "name": "Laminate · Platinum Sands",
+            "slug": "laminate-platinum-sands",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "platinum-sands.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-sierra-social.jpg",
+            "name": "Laminate · Sierra Social",
+            "slug": "laminate-sierra-social",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "sierra-social.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-silver-lake.jpg",
+            "name": "Laminate · Silver Lake",
+            "slug": "laminate-silver-lake",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "silver-lake.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-smoke-stack.jpg",
+            "name": "Laminate · Smoke Stack",
+            "slug": "laminate-smoke-stack",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "smoke-stack.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-taupe-farewell.jpg",
+            "name": "Laminate · Taupe Farewell",
+            "slug": "laminate-taupe-farewell",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "taupe-farewell.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-trench-coat.jpg",
+            "name": "Laminate · Trench Coat",
+            "slug": "laminate-trench-coat",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "trench-coat.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-vineyard-oak.jpg",
+            "name": "Laminate · Vineyard Oak",
+            "slug": "laminate-vineyard-oak",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "vineyard-oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-whiskey-oak.jpg",
+            "name": "Laminate · Whiskey Oak",
+            "slug": "laminate-whiskey-oak",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "whiskey-oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-wired-bronze.jpg",
+            "name": "Laminate · Wired Bronze",
+            "slug": "laminate-wired-bronze",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "wired-bronze.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-wired-cobalt.jpg",
+            "name": "Laminate · Wired Cobalt",
+            "slug": "laminate-wired-cobalt",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "wired-cobalt.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-wired-mercury.jpg",
+            "name": "Laminate · Wired Mercury",
+            "slug": "laminate-wired-mercury",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "wired-mercury.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/laminate/laminate-wired-white.jpg",
+            "name": "Laminate · Wired White",
+            "slug": "laminate-wired-white",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "wired-white.png"
+          }
+        ]
+      },
+      {
+        "slug": "acrylic",
+        "name": "Acrylic",
+        "description": "Acrylic finish samples.",
+        "count": 4,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/acrylic/acrylic-black.jpg",
+            "name": "Acrylic · Black",
+            "slug": "acrylic-black",
+            "species": "Acrylic",
+            "group": "acrylic",
+            "sourceFile": "black-acrylic.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/acrylic/acrylic-dark-gray.jpg",
+            "name": "Acrylic · Dark Gray",
+            "slug": "acrylic-dark-gray",
+            "species": "Acrylic",
+            "group": "acrylic",
+            "sourceFile": "dark-gray-acrylic.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/acrylic/acrylic-smoke.jpg",
+            "name": "Acrylic · Smoke",
+            "slug": "acrylic-smoke",
+            "species": "Acrylic",
+            "group": "acrylic",
+            "sourceFile": "smoke-acrylic.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/acrylic/acrylic-white.jpg",
+            "name": "Acrylic · White",
+            "slug": "acrylic-white",
+            "species": "Acrylic",
+            "group": "acrylic",
+            "sourceFile": "white-acrylic.png"
+          }
+        ]
+      },
+      {
+        "slug": "specialty-woods",
+        "name": "Specialty woods",
+        "description": "Walnut, pine, and other specialty wood finishes.",
+        "count": 6,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/specialty-woods/walnut-buckskin.jpg",
+            "name": "Walnut · Buckskin",
+            "slug": "walnut-buckskin",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "walnut-buckskin.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/specialty-woods/walnut-carbon.jpg",
+            "name": "Walnut · Carbon",
+            "slug": "walnut-carbon",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "walnut-carbon.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/specialty-woods/walnut-millstone.jpg",
+            "name": "Walnut · Millstone",
+            "slug": "walnut-millstone",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "walnut-millstone.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/specialty-woods/walnut-mink.jpg",
+            "name": "Walnut · Mink",
+            "slug": "walnut-mink",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "walnut-mink.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/specialty-woods/walnut-saddle.jpg",
+            "name": "Walnut · Saddle",
+            "slug": "walnut-saddle",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "walnut-saddle.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/specialty-woods/walnut-silhouette.jpg",
+            "name": "Walnut · Silhouette",
+            "slug": "walnut-silhouette",
+            "species": "Walnut",
+            "group": "specialty-woods",
+            "sourceFile": "walnut-silhouette.png"
+          }
+        ]
+      },
+      {
+        "slug": "leather",
+        "name": "Leather",
+        "description": "Leather and embossed leather finish samples.",
+        "count": 21,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-bright-white.jpg",
+            "name": "Leather · Buffalo Bright White",
+            "slug": "leather-buffalo-bright-white",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-bright-white.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-coal.jpg",
+            "name": "Leather · Buffalo Coal",
+            "slug": "leather-buffalo-coal",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-coal.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-cocoa.jpg",
+            "name": "Leather · Buffalo Cocoa",
+            "slug": "leather-buffalo-cocoa",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-cocoa.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-gold-gray.jpg",
+            "name": "Leather · Buffalo Gold Gray",
+            "slug": "leather-buffalo-gold-gray",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-gold-gray.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-maple.jpg",
+            "name": "Leather · Buffalo Maple",
+            "slug": "leather-buffalo-maple",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-maple.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-paloma.jpg",
+            "name": "Leather · Buffalo Paloma",
+            "slug": "leather-buffalo-paloma",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-paloma.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-buffalo-umber.jpg",
+            "name": "Leather · Buffalo Umber",
+            "slug": "leather-buffalo-umber",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "buffalo-umber.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-antique-gray.jpg",
+            "name": "Leather · Crocodile Antique Gray",
+            "slug": "leather-crocodile-antique-gray",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "Crocodile-Antique-Gray.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-bright-white.jpg",
+            "name": "Leather · Crocodile Bright White",
+            "slug": "leather-crocodile-bright-white",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "crocodile-bright-white.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-casino-royal.jpg",
+            "name": "Leather · Crocodile Casino Royal",
+            "slug": "leather-crocodile-casino-royal",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "Crocodile-Casino-royal.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-coal.jpg",
+            "name": "Leather · Crocodile Coal",
+            "slug": "leather-crocodile-coal",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "Crocodile-Coal.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-fire.jpg",
+            "name": "Leather · Crocodile Fire",
+            "slug": "leather-crocodile-fire",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "Crocodile-Fire.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-mahogany.jpg",
+            "name": "Leather · Crocodile Mahogany",
+            "slug": "leather-crocodile-mahogany",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "Crocodile-Mahogany.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-crocodile-paloma-grey.jpg",
+            "name": "Leather · Crocodile Paloma Grey",
+            "slug": "leather-crocodile-paloma-grey",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "crocodile-paloma-grey.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-black.jpg",
+            "name": "Leather · Shagreen Black",
+            "slug": "leather-shagreen-black",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "shagreen-black.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-black-knight.jpg",
+            "name": "Leather · Shagreen Black Knight",
+            "slug": "leather-shagreen-black-knight",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "shagreen-black-knight.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-chocolate.jpg",
+            "name": "Leather · Shagreen Chocolate",
+            "slug": "leather-shagreen-chocolate",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "shagreen-chocolate.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-cocoa.jpg",
+            "name": "Leather · Shagreen Cocoa",
+            "slug": "leather-shagreen-cocoa",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "shagreen-cocoa.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-grey-stone.jpg",
+            "name": "Leather · Shagreen Grey Stone",
+            "slug": "leather-shagreen-grey-stone",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "shagreen-grey-stone.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-pebble.jpg",
+            "name": "Leather · Shagreen Pebble",
+            "slug": "leather-shagreen-pebble",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "shagreen-pebble.jpg"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/leather/leather-shagreen-white.jpg",
+            "name": "Leather · Shagreen White",
+            "slug": "leather-shagreen-white",
+            "species": "Leather",
+            "group": "leather",
+            "sourceFile": "Shagreen-White.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "exotic-veneers",
+        "name": "Exotic veneers",
+        "description": "Exotic and specialty veneer samples.",
+        "count": 15,
+        "items": [
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-bamboo.jpg",
+            "name": "Exotic · Bamboo",
+            "slug": "exotic-bamboo",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "bamboo.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-ash.jpg",
+            "name": "Exotic · Quartered Ash",
+            "slug": "exotic-quartered-ash",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-ash.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-ceylon-rosewood.jpg",
+            "name": "Exotic · Quartered Ceylon Rosewood",
+            "slug": "exotic-quartered-ceylon-rosewood",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "Quartered-Ceylon-Rosewood.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-cherry.jpg",
+            "name": "Exotic · Quartered Cherry",
+            "slug": "exotic-quartered-cherry",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-cherry.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-ebony.jpg",
+            "name": "Exotic · Quartered Ebony",
+            "slug": "exotic-quartered-ebony",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-ebony.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-fir.jpg",
+            "name": "Exotic · Quartered Fir",
+            "slug": "exotic-quartered-fir",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-fir.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-grey-oak.jpg",
+            "name": "Exotic · Quartered Grey Oak",
+            "slug": "exotic-quartered-grey-oak",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "Quartered-Grey-Oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-macassar-ebony.jpg",
+            "name": "Exotic · Quartered Macassar Ebony",
+            "slug": "exotic-quartered-macassar-ebony",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "Quartered-Macassar-Ebony.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-mahogany.jpg",
+            "name": "Exotic · Quartered Mahogany",
+            "slug": "exotic-quartered-mahogany",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-mahogany.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-maple.jpg",
+            "name": "Exotic · Quartered Maple",
+            "slug": "exotic-quartered-maple",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-maple.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-teak.jpg",
+            "name": "Exotic · Quartered Teak",
+            "slug": "exotic-quartered-teak",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-teak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-quartered-walnut.jpg",
+            "name": "Exotic · Quartered Walnut",
+            "slug": "exotic-quartered-walnut",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "quartered-walnut.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-rift-white-oak.jpg",
+            "name": "Exotic · Rift White Oak",
+            "slug": "exotic-rift-white-oak",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "rift-white-oak.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-wenge.jpg",
+            "name": "Exotic · Wenge",
+            "slug": "exotic-wenge",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "wenge.png"
+          },
+          {
+            "src": "/images/brands/mouser-cabinetry/finishes/exotic-veneers/exotic-zebrawood.jpg",
+            "name": "Exotic · Zebrawood",
+            "slug": "exotic-zebrawood",
+            "species": "Exotic",
+            "group": "exotic-veneers",
+            "sourceFile": "zebrawood.png"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "vault": "images/brands/mouser",
+    "doorsPolicy": "Flat doors/ folder — one sample per style. Kebab filenames preferred; imgi_* scrape names cleaned. Files under 4KB skipped.",
+    "finishesPolicy": "Mouser paint-colors → paint; stains by species (quarter-sawn white oak → oak; walnut → specialty-woods); laminates (*-acrylic → acrylic); leather; exotic-veneers. Duplicate “ (2)” copies skipped via score. Files under 8KB skipped."
+  }
+}

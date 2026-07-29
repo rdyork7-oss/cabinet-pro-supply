@@ -3,12 +3,14 @@ import merit from './catalogs/merit-kitchens.json';
 import lectus from './catalogs/lectus.json';
 import kith from './catalogs/kith-kitchens.json';
 import nations from './catalogs/nations-cabinetry.json';
+import mouser from './catalogs/mouser-cabinetry.json';
 
 const catalogs: Record<string, BrandCatalog> = {
 	'merit-kitchens': merit as BrandCatalog,
 	lectus: lectus as BrandCatalog,
 	'kith-kitchens': kith as BrandCatalog,
 	'nations-cabinetry': nations as BrandCatalog,
+	'mouser-cabinetry': mouser as BrandCatalog,
 };
 
 /** Brands with generated door/finish catalogs (excludes StarMark — separate module). */

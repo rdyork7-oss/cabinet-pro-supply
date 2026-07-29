@@ -1,11 +1,12 @@
 /**
- * Process dealer vault images for Merit, Lectus, Kith, Nations into web catalog assets + JSON.
- * Skips Mouser (upload in progress) and StarMark (separate process-starmark-catalog.mjs).
+ * Process dealer vault images for Merit, Lectus, Kith, Nations, Mouser into web catalog assets + JSON.
+ * Skips StarMark (separate process-starmark-catalog.mjs).
  *
  * Vault layouts (mirrored as-found):
  * - merit / lectus / kith-kitchens: doors/ (flat), finishes/ (flat kebab names)
  * - kith-kitchens: also kith-specialty-finishes/
  * - nations: doors/ (flat), finishes/{framed,frameless}/
+ * - mouser: doors/ (flat); finishes as sibling folders paint-colors/, stains/, laminates/, leather/, exotic-veneers/
  *
  * Output: public/images/brands/<slug>/{doors,finishes}/ + src/data/catalogs/<slug>.json
  */
@@ -48,6 +49,14 @@ const FINISH_GROUP_META = {
 		name: 'Frameless (DreamCraft)',
 		description: 'Finish samples for Nations DreamCraft frameless cabinetry.',
 	},
+	leather: {
+		name: 'Leather',
+		description: 'Leather and embossed leather finish samples.',
+	},
+	'exotic-veneers': {
+		name: 'Exotic veneers',
+		description: 'Exotic and specialty veneer samples.',
+	},
 };
 
 const BRANDS = [
@@ -80,6 +89,13 @@ const BRANDS = [
 		doorsMode: 'flat',
 		finishesMode: 'framed-frameless',
 	},
+	{
+		vault: 'mouser',
+		slug: 'mouser-cabinetry',
+		displayName: 'Mouser Cabinetry',
+		doorsMode: 'flat',
+		finishesMode: 'mouser-folders',
+	},
 ];
 
 function ensureDir(dir) {
@@ -106,6 +122,19 @@ function titleFromKebab(s) {
 		.replace(/\bMdf\b/g, 'MDF')
 		.replace(/\bJs\b/g, 'JS')
 		.replace(/\bQso\b/g, 'QSO');
+}
+
+/** Strip extension and Windows duplicate suffixes like " (2)". */
+function imageBaseName(name) {
+	return String(name)
+		.replace(IMAGE_EXT, '')
+		.replace(/\s*\(\d+\)$/i, '')
+		.trim();
+}
+
+/** Prefer originals over "name (2).png" copies when deduping. */
+function isDuplicateCopyName(name) {
+	return /\s*\(\d+\)\.[^.]+$/i.test(name);
 }
 
 function convertManyToJpeg(jobs, label = 'images') {
@@ -173,7 +202,7 @@ Write-Host "Done $($jobs.Count) ${label} (fail=$fail)"
 
 /** Clean dealer scrape names like imgi_30_Concord-Slab-1-691x1024 */
 function doorBaseFromFilename(name) {
-	let base = name.replace(IMAGE_EXT, '');
+	let base = imageBaseName(name);
 	const imgi = base.match(/^imgi_\d+_(.+)$/i);
 	if (imgi) {
 		base = imgi[1]
@@ -208,7 +237,10 @@ function parseDoorFile(filePath) {
 		display,
 		isImgi,
 		size,
-		score: (isImgi ? 0 : 50) + Math.min(30, Math.floor(size / 20000)),
+		score:
+			(isImgi ? 0 : 50) +
+			(isDuplicateCopyName(name) ? -20 : 0) +
+			Math.min(30, Math.floor(size / 20000)),
 	};
 }
 
@@ -243,13 +275,14 @@ function parsePrefixedFinish(filePath, { forceGroup, forceSpecialty } = {}) {
 	const size = fs.statSync(filePath).size;
 	if (size < MIN_FINISH_BYTES) return null;
 
-	const base = kebab(name.replace(IMAGE_EXT, ''));
+	const base = kebab(imageBaseName(name));
 	if (!base) return null;
 
 	let group = forceGroup || null;
 	let displayBase = base;
 	let speciesLabel = null;
 
+	const QSO_PREFIX = /^(?:quarter-?sawn-white-oak|quartersawn-white-oak)-(.+)$/i;
 	const SPECIES_PREFIX = /^(maple|cherry|oak|alder|hickory|walnut|pine)-(.+)$/i;
 	const MATERIAL_SUFFIX = /^(.+)-(paint|laminate|thermofoil|acrylic)$/i;
 	const PAINT_PREFIX = /^paint-(.+)$/i;
@@ -258,6 +291,30 @@ function parsePrefixedFinish(filePath, { forceGroup, forceSpecialty } = {}) {
 	if (forceSpecialty) {
 		group = 'specialty';
 		displayBase = base;
+	} else if (forceGroup) {
+		group = forceGroup;
+		if (MATERIAL_SUFFIX.test(base) && forceGroup === 'laminate') {
+			const m = base.match(MATERIAL_SUFFIX);
+			displayBase = m[1];
+			const mat = m[2].toLowerCase();
+			if (mat === 'acrylic') {
+				group = 'acrylic';
+				speciesLabel = 'Acrylic';
+			} else {
+				speciesLabel = 'Laminate';
+			}
+		} else if (group === 'paint') {
+			displayBase = base.replace(/^paint-/i, '');
+			speciesLabel = 'Paint';
+		} else if (group === 'leather') {
+			speciesLabel = 'Leather';
+		} else if (group === 'exotic-veneers') {
+			speciesLabel = 'Exotic';
+		} else if (group === 'laminate') {
+			speciesLabel = 'Laminate';
+		} else {
+			speciesLabel = FINISH_GROUP_META[group]?.name || titleFromKebab(group);
+		}
 	} else if (PAINT_PREFIX.test(base)) {
 		group = 'paint';
 		displayBase = base.replace(PAINT_PREFIX, '$1');
@@ -266,6 +323,11 @@ function parsePrefixedFinish(filePath, { forceGroup, forceSpecialty } = {}) {
 		group = 'acrylic';
 		displayBase = base.replace(ACRYLIC_PREFIX, '$1');
 		speciesLabel = 'Acrylic';
+	} else if (QSO_PREFIX.test(base)) {
+		const m = base.match(QSO_PREFIX);
+		group = 'oak';
+		speciesLabel = 'Quarter-sawn white oak';
+		displayBase = m[1];
 	} else if (SPECIES_PREFIX.test(base)) {
 		const m = base.match(SPECIES_PREFIX);
 		const sp = m[1].toLowerCase();
@@ -307,7 +369,13 @@ function parsePrefixedFinish(filePath, { forceGroup, forceSpecialty } = {}) {
 		.replace(/^rocky-cliff-laminate$/i, 'rocky-cliff')
 		.replace(/^pearl-white$/i, 'pearl-white')
 		.replace(/^snow-powder-frost$/i, 'snow-powder-frost')
-		.replace(/^tahini-opaque$/i, 'tahini');
+		.replace(/^tahini-opaque$/i, 'tahini')
+		.replace(/^blueberty$/i, 'blueberry')
+		.replace(/^rasberry$/i, 'raspberry')
+		.replace(/^metor$/i, 'meteor')
+		.replace(/^sorrell$/i, 'sorrel')
+		.replace(/^russett$/i, 'russet')
+		.replace(/^casino-royal$/i, 'casino-royale');
 
 	const colorName = titleFromKebab(displayBase);
 	const fullName = speciesLabel ? `${speciesLabel} · ${colorName}` : colorName;
@@ -322,7 +390,7 @@ function parsePrefixedFinish(filePath, { forceGroup, forceSpecialty } = {}) {
 		slugBase: kebab(`${speciesLabel || group}-${displayBase}`),
 		dedupeKey: `${group}::${displayBase}`.toLowerCase(),
 		size,
-		score: Math.min(40, Math.floor(size / 10000)),
+		score: (isDuplicateCopyName(name) ? -20 : 0) + Math.min(40, Math.floor(size / 10000)),
 	};
 }
 
@@ -412,6 +480,56 @@ function collectNationsFinishes(finishesRoot) {
 				}
 			}
 			// Prefix fullName with Frameless context only for clarity in mixed lists? Keep species-style.
+			results.push(parsed);
+		}
+	}
+
+	const byKey = new Map();
+	for (const fin of results) {
+		const existing = byKey.get(fin.dedupeKey);
+		if (!existing || fin.score > existing.score) byKey.set(fin.dedupeKey, fin);
+	}
+	return [...byKey.values()].sort((a, b) => a.fullName.localeCompare(b.fullName, 'en'));
+}
+
+/**
+ * Mouser: sibling finish folders (not finishes/).
+ * paint-colors → paint; stains → species groups (QSO → oak; walnut → specialty-woods);
+ * laminates → laminate (*-acrylic → acrylic); leather; exotic-veneers.
+ */
+function collectMouserFinishes(vaultRoot) {
+	const results = [];
+
+	const folderSpecs = [
+		{ dir: 'paint-colors', forceGroup: 'paint' },
+		{ dir: 'laminates', forceGroup: 'laminate' },
+		{ dir: 'leather', forceGroup: 'leather' },
+		{ dir: 'exotic-veneers', forceGroup: 'exotic-veneers' },
+	];
+
+	for (const { dir, forceGroup } of folderSpecs) {
+		const full = path.join(vaultRoot, dir);
+		if (!fs.existsSync(full)) continue;
+		for (const f of fs.readdirSync(full)) {
+			if (!IMAGE_EXT.test(f)) continue;
+			const parsed = parsePrefixedFinish(path.join(full, f), { forceGroup });
+			if (!parsed) {
+				console.warn('  skip tiny/invalid finish:', path.join(dir, f));
+				continue;
+			}
+			results.push(parsed);
+		}
+	}
+
+	const stainsDir = path.join(vaultRoot, 'stains');
+	if (fs.existsSync(stainsDir)) {
+		for (const f of fs.readdirSync(stainsDir)) {
+			if (!IMAGE_EXT.test(f)) continue;
+			const parsed = parsePrefixedFinish(path.join(stainsDir, f));
+			if (!parsed) {
+				console.warn('  skip tiny/invalid stain:', f);
+				continue;
+			}
 			results.push(parsed);
 		}
 	}
@@ -544,6 +662,8 @@ function processBrand(cfg) {
 	let finishes = [];
 	if (cfg.finishesMode === 'framed-frameless') {
 		finishes = collectNationsFinishes(finishesDir);
+	} else if (cfg.finishesMode === 'mouser-folders') {
+		finishes = collectMouserFinishes(vaultRoot);
 	} else {
 		const specialty = cfg.specialtyFinishesDir
 			? path.join(vaultRoot, cfg.specialtyFinishesDir)
@@ -594,7 +714,9 @@ function processBrand(cfg) {
 			finishesPolicy:
 				cfg.finishesMode === 'framed-frameless'
 					? 'Nations finishes/framed kept as Framed (Tidwell). finishes/frameless split by species/material prefix when present; unprefixed solids → paint; specialty woods combined. Files under 8KB skipped.'
-					: 'Finishes grouped by filename prefix/suffix (maple-, paint-, *-laminate, etc.). Specialty folder (Kith) → specialty group. Files under 8KB skipped.',
+					: cfg.finishesMode === 'mouser-folders'
+						? 'Mouser paint-colors → paint; stains by species (quarter-sawn white oak → oak; walnut → specialty-woods); laminates (*-acrylic → acrylic); leather; exotic-veneers. Duplicate “ (2)” copies skipped via score. Files under 8KB skipped.'
+						: 'Finishes grouped by filename prefix/suffix (maple-, paint-, *-laminate, etc.). Specialty folder (Kith) → specialty group. Files under 8KB skipped.',
 		},
 	};
 
@@ -617,8 +739,19 @@ function processBrand(cfg) {
 }
 
 function main() {
+	const only = process.argv.slice(2).map((a) => a.toLowerCase());
+	const list = only.length
+		? BRANDS.filter(
+				(b) => only.includes(b.slug.toLowerCase()) || only.includes(b.vault.toLowerCase()),
+			)
+		: BRANDS;
+	if (only.length && !list.length) {
+		console.error('No matching brands for:', only.join(', '));
+		process.exit(1);
+	}
+
 	const results = [];
-	for (const cfg of BRANDS) {
+	for (const cfg of list) {
 		results.push(processBrand(cfg));
 	}
 	console.log('\nAll brand catalogs processed.');

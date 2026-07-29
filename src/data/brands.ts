@@ -61,6 +61,7 @@ const meritPreviews = catalogPreviews('merit-kitchens');
 const lectusPreviews = catalogPreviews('lectus');
 const kithPreviews = catalogPreviews('kith-kitchens');
 const nationsPreviews = catalogPreviews('nations-cabinetry');
+const mouserPreviews = catalogPreviews('mouser-cabinetry');
 
 export { hasBrandCatalog };
 
@@ -271,9 +272,9 @@ export const brands: Brand[] = [
 				alt: 'Mouser frameless two-tone kitchen',
 			},
 		],
-		finishes: [],
-		doors: [],
-		optionsNote: optionsAskNote,
+		finishes: mouserPreviews.finishes,
+		doors: mouserPreviews.doors,
+		samplesNote: catalogSamplesNote,
 		examplePrice: '$5,986',
 		exampleName: 'Mouser Euro Slab Paint 10×10 example',
 	},
