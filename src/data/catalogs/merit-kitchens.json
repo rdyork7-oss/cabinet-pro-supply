@@ -1,0 +1,538 @@
+{
+  "generatedAt": "2026-07-29T16:02:22.692Z",
+  "brand": "merit-kitchens",
+  "displayName": "Merit Kitchens",
+  "doorsMode": "flat",
+  "doors": {
+    "all": [
+      {
+        "src": "/images/brands/merit-kitchens/doors/blackcomb.jpg",
+        "name": "Blackcomb",
+        "slug": "blackcomb",
+        "construction": "doors",
+        "sourceFile": "blackcomb.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/brentwood.jpg",
+        "name": "Brentwood",
+        "slug": "brentwood",
+        "construction": "doors",
+        "sourceFile": "brentwood.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/bridgeport-flat.jpg",
+        "name": "Bridgeport Flat",
+        "slug": "bridgeport-flat",
+        "construction": "doors",
+        "sourceFile": "bridgeport-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/bridgeport-raised.jpg",
+        "name": "Bridgeport Raised",
+        "slug": "bridgeport-raised",
+        "construction": "doors",
+        "sourceFile": "bridgeport-raised.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/cambridge-flat.jpg",
+        "name": "Cambridge Flat",
+        "slug": "cambridge-flat",
+        "construction": "doors",
+        "sourceFile": "cambridge-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/cambridge-raised.jpg",
+        "name": "Cambridge Raised",
+        "slug": "cambridge-raised",
+        "construction": "doors",
+        "sourceFile": "cambridge-raised.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/crofton.jpg",
+        "name": "Crofton",
+        "slug": "crofton",
+        "construction": "doors",
+        "sourceFile": "crofton.png"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/denver-flat.jpg",
+        "name": "Denver Flat",
+        "slug": "denver-flat",
+        "construction": "doors",
+        "sourceFile": "denver-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/ethos.jpg",
+        "name": "Ethos",
+        "slug": "ethos",
+        "construction": "doors",
+        "sourceFile": "ethos.png"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/fairview-flat.jpg",
+        "name": "Fairview Flat",
+        "slug": "fairview-flat",
+        "construction": "doors",
+        "sourceFile": "fairview-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/fairview-raised.jpg",
+        "name": "Fairview Raised",
+        "slug": "fairview-raised",
+        "construction": "doors",
+        "sourceFile": "fairview-raised.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/gatsby.jpg",
+        "name": "Gatsby",
+        "slug": "gatsby",
+        "construction": "doors",
+        "sourceFile": "gatsby.png"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/geomerit.jpg",
+        "name": "Geomerit",
+        "slug": "geomerit",
+        "construction": "doors",
+        "sourceFile": "Geomerit.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/highland-beaded.jpg",
+        "name": "Highland Beaded",
+        "slug": "highland-beaded",
+        "construction": "doors",
+        "sourceFile": "highland-beaded.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/highland-flat.jpg",
+        "name": "Highland Flat",
+        "slug": "highland-flat",
+        "construction": "doors",
+        "sourceFile": "highland-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/js-front-j-pull.jpg",
+        "name": "JS Front J Pull",
+        "slug": "js-front-j-pull",
+        "construction": "doors",
+        "sourceFile": "js-front-j-pull.png"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/lexington-flat-roman.jpg",
+        "name": "Lexington Flat Roman",
+        "slug": "lexington-flat-roman",
+        "construction": "doors",
+        "sourceFile": "lexington-flat-roman.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/lexington-flat-square.jpg",
+        "name": "Lexington Flat Square",
+        "slug": "lexington-flat-square",
+        "construction": "doors",
+        "sourceFile": "lexington-flat-square.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/lonsdale-flat.jpg",
+        "name": "Lonsdale Flat",
+        "slug": "lonsdale-flat",
+        "construction": "doors",
+        "sourceFile": "lonsdale-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/lonsdale-raised.jpg",
+        "name": "Lonsdale Raised",
+        "slug": "lonsdale-raised",
+        "construction": "doors",
+        "sourceFile": "lonsdale-raised.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/manor.jpg",
+        "name": "Manor",
+        "slug": "manor",
+        "construction": "doors",
+        "sourceFile": "manor.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/mare-street.jpg",
+        "name": "Mare Street",
+        "slug": "mare-street",
+        "construction": "doors",
+        "sourceFile": "mare-street.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/nottingham.jpg",
+        "name": "Nottingham",
+        "slug": "nottingham",
+        "construction": "doors",
+        "sourceFile": "nottingham.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/parksville-flat.jpg",
+        "name": "Parksville Flat",
+        "slug": "parksville-flat",
+        "construction": "doors",
+        "sourceFile": "parksville-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/parksville-raised.jpg",
+        "name": "Parksville Raised",
+        "slug": "parksville-raised",
+        "construction": "doors",
+        "sourceFile": "parksville-raised.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/patrician-flat.jpg",
+        "name": "Patrician Flat",
+        "slug": "patrician-flat",
+        "construction": "doors",
+        "sourceFile": "patrician-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/patrician-raised.jpg",
+        "name": "Patrician Raised",
+        "slug": "patrician-raised",
+        "construction": "doors",
+        "sourceFile": "patrician-raised.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/prairie-school-applied.jpg",
+        "name": "Prairie School Applied",
+        "slug": "prairie-school-applied",
+        "construction": "doors",
+        "sourceFile": "prairie-school-applied.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/prairie-school-flat.jpg",
+        "name": "Prairie School Flat",
+        "slug": "prairie-school-flat",
+        "construction": "doors",
+        "sourceFile": "prairie-school-flat.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/radisson-raised-square.jpg",
+        "name": "Radisson Raised Square",
+        "slug": "radisson-raised-square",
+        "construction": "doors",
+        "sourceFile": "radisson-raised-square.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/radisson-roman.jpg",
+        "name": "Radisson Roman",
+        "slug": "radisson-roman",
+        "construction": "doors",
+        "sourceFile": "radisson-roman.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/tofino.jpg",
+        "name": "Tofino",
+        "slug": "tofino",
+        "construction": "doors",
+        "sourceFile": "tofino.jpg"
+      },
+      {
+        "src": "/images/brands/merit-kitchens/doors/whistler-flat.jpg",
+        "name": "Whistler Flat",
+        "slug": "whistler-flat",
+        "construction": "doors",
+        "sourceFile": "whistler-flat.jpg"
+      }
+    ]
+  },
+  "finishes": {
+    "groups": [
+      {
+        "slug": "paint",
+        "name": "Paint",
+        "description": "Solid paint colors and painted looks.",
+        "count": 6,
+        "items": [
+          {
+            "src": "/images/brands/merit-kitchens/finishes/paint/paint-charcoal.jpg",
+            "name": "Paint · Charcoal",
+            "slug": "paint-charcoal",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "charcoal-paint.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/paint/paint-graphite.jpg",
+            "name": "Paint · Graphite",
+            "slug": "paint-graphite",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "graphite-paint.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/paint/paint-merit-red.jpg",
+            "name": "Paint · Merit Red",
+            "slug": "paint-merit-red",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "merit-red-paint.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/paint/paint-rich-yellow.jpg",
+            "name": "Paint · Rich Yellow",
+            "slug": "paint-rich-yellow",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "rich-yellow-paint.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/paint/paint-rocky-cliff.jpg",
+            "name": "Paint · Rocky Cliff",
+            "slug": "paint-rocky-cliff",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "Rocky-Cliff.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/paint/paint-tahini.jpg",
+            "name": "Paint · Tahini",
+            "slug": "paint-tahini",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "tahini-opaque.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "maple",
+        "name": "Maple",
+        "description": "Stains and specialty colors on maple.",
+        "count": 18,
+        "items": [
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-acorn.jpg",
+            "name": "Maple · Acorn",
+            "slug": "maple-acorn",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-acorn.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-arbatus.jpg",
+            "name": "Maple · Arbatus",
+            "slug": "maple-arbatus",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-arbatus.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-bark.jpg",
+            "name": "Maple · Bark",
+            "slug": "maple-bark",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-bark.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-bistro.jpg",
+            "name": "Maple · Bistro",
+            "slug": "maple-bistro",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-bistro.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-carriage-black.jpg",
+            "name": "Maple · Carriage Black",
+            "slug": "maple-carriage-black",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-carriage-black.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-cashew.jpg",
+            "name": "Maple · Cashew",
+            "slug": "maple-cashew",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-cashew.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-chestnut.jpg",
+            "name": "Maple · Chestnut",
+            "slug": "maple-chestnut",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-chestnut.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-kermode.jpg",
+            "name": "Maple · Kermode",
+            "slug": "maple-kermode",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-kermode.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-nutmeg.jpg",
+            "name": "Maple · Nutmeg",
+            "slug": "maple-nutmeg",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-nutmeg.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-old-growth.jpg",
+            "name": "Maple · Old Growth",
+            "slug": "maple-old-growth",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-old-growth.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-seaside-timberwood.jpg",
+            "name": "Maple · Seaside Timberwood",
+            "slug": "maple-seaside-timberwood",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-seaside-timberwood.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-sepia.jpg",
+            "name": "Maple · Sepia",
+            "slug": "maple-sepia",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-sepia.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-spice.jpg",
+            "name": "Maple · Spice",
+            "slug": "maple-spice",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-spice.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-sunbleached.jpg",
+            "name": "Maple · Sunbleached",
+            "slug": "maple-sunbleached",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-sunbleached.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-truffle.jpg",
+            "name": "Maple · Truffle",
+            "slug": "maple-truffle",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-truffle.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-walnut.jpg",
+            "name": "Maple · Walnut",
+            "slug": "maple-walnut",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-walnut.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-wicker.jpg",
+            "name": "Maple · Wicker",
+            "slug": "maple-wicker",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-wicker.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/maple/maple-wren.jpg",
+            "name": "Maple · Wren",
+            "slug": "maple-wren",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-wren.png"
+          }
+        ]
+      },
+      {
+        "slug": "laminate",
+        "name": "Laminate",
+        "description": "Laminate finish samples.",
+        "count": 9,
+        "items": [
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-cannes.jpg",
+            "name": "Laminate · Cannes",
+            "slug": "laminate-cannes",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "cannes-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-dalia.jpg",
+            "name": "Laminate · Dalia",
+            "slug": "laminate-dalia",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "dalia-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-esterel.jpg",
+            "name": "Laminate · Esterel",
+            "slug": "laminate-esterel",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "esterel-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-mistral.jpg",
+            "name": "Laminate · Mistral",
+            "slug": "laminate-mistral",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "mistral-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-monaco.jpg",
+            "name": "Laminate · Monaco",
+            "slug": "laminate-monaco",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "monaco-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-nizza.jpg",
+            "name": "Laminate · Nizza",
+            "slug": "laminate-nizza",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "nizza-laminate.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-river-bed.jpg",
+            "name": "Laminate · River Bed",
+            "slug": "laminate-river-bed",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "river-bed-laminate.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-rocky-cliff.jpg",
+            "name": "Laminate · Rocky Cliff",
+            "slug": "laminate-rocky-cliff",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "rocky-cliff-laminate.png"
+          },
+          {
+            "src": "/images/brands/merit-kitchens/finishes/laminate/laminate-shale.jpg",
+            "name": "Laminate · Shale",
+            "slug": "laminate-shale",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "shale-laminate.png"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "vault": "images/brands/merit",
+    "doorsPolicy": "Flat doors/ folder — one sample per style. Kebab filenames preferred; imgi_* scrape names cleaned. Files under 4KB skipped.",
+    "finishesPolicy": "Finishes grouped by filename prefix/suffix (maple-, paint-, *-laminate, etc.). Specialty folder (Kith) → specialty group. Files under 8KB skipped."
+  }
+}

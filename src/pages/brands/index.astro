@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { brands } from '../../data/brands';
+import { brands, hasBrandCatalog } from '../../data/brands';
 import '../../styles/global.css';
 ---
 
@@ -96,6 +96,26 @@ import '../../styles/global.css';
 								>
 									View brand details
 								</a>
+								{hasBrandCatalog(brand.slug) && (
+									<>
+										<a
+											href={
+												brand.slug === 'starmark'
+													? '/brands/starmark/doors/overlay'
+													: `/brands/${brand.slug}/doors`
+											}
+											class="inline-flex px-5 py-2.5 border border-slate-300 hover:bg-slate-50 text-sm font-semibold rounded-2xl transition-colors"
+										>
+											Door catalog
+										</a>
+										<a
+											href={`/brands/${brand.slug}/finishes`}
+											class="inline-flex px-5 py-2.5 border border-slate-300 hover:bg-slate-50 text-sm font-semibold rounded-2xl transition-colors"
+										>
+											Finish catalog
+										</a>
+									</>
+								)}
 								<a
 									href={brand.url}
 									target="_blank"

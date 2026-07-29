@@ -9,7 +9,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "process:starmark": "node scripts/process-starmark-catalog.mjs",
+    "process:brands": "node scripts/process-brand-catalogs.mjs"
   },
   "dependencies": {
     "astro": "^7.1.0"

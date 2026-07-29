@@ -1,0 +1,857 @@
+{
+  "generatedAt": "2026-07-29T16:02:33.478Z",
+  "brand": "kith-kitchens",
+  "displayName": "Kith Kitchens",
+  "doorsMode": "flat",
+  "doors": {
+    "all": [
+      {
+        "src": "/images/brands/kith-kitchens/doors/benton.jpg",
+        "name": "Benton",
+        "slug": "benton",
+        "construction": "doors",
+        "sourceFile": "benton.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/briarwood.jpg",
+        "name": "Briarwood",
+        "slug": "briarwood",
+        "construction": "doors",
+        "sourceFile": "briarwood.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/brighton.jpg",
+        "name": "Brighton",
+        "slug": "brighton",
+        "construction": "doors",
+        "sourceFile": "brighton.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/cambridge.jpg",
+        "name": "Cambridge",
+        "slug": "cambridge",
+        "construction": "doors",
+        "sourceFile": "cambridge.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/carolina.jpg",
+        "name": "Carolina",
+        "slug": "carolina",
+        "construction": "doors",
+        "sourceFile": "carolina.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/claremont.jpg",
+        "name": "Claremont",
+        "slug": "claremont",
+        "construction": "doors",
+        "sourceFile": "claremont.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/colony.jpg",
+        "name": "Colony",
+        "slug": "colony",
+        "construction": "doors",
+        "sourceFile": "colony.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/coronado.jpg",
+        "name": "Coronado",
+        "slug": "coronado",
+        "construction": "doors",
+        "sourceFile": "coronado.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/coronado-ii.jpg",
+        "name": "Coronado II",
+        "slug": "coronado-ii",
+        "construction": "doors",
+        "sourceFile": "coronado-ii.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/cottage.jpg",
+        "name": "Cottage",
+        "slug": "cottage",
+        "construction": "doors",
+        "sourceFile": "cottage.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/destin.jpg",
+        "name": "Destin",
+        "slug": "destin",
+        "construction": "doors",
+        "sourceFile": "destin.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/hampton.jpg",
+        "name": "Hampton",
+        "slug": "hampton",
+        "construction": "doors",
+        "sourceFile": "hampton.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/harmony.jpg",
+        "name": "Harmony",
+        "slug": "harmony",
+        "construction": "doors",
+        "sourceFile": "harmony.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/hartford.jpg",
+        "name": "Hartford",
+        "slug": "hartford",
+        "construction": "doors",
+        "sourceFile": "hartford.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/homestead.jpg",
+        "name": "Homestead",
+        "slug": "homestead",
+        "construction": "doors",
+        "sourceFile": "homestead.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/homestead-ii.jpg",
+        "name": "Homestead II",
+        "slug": "homestead-ii",
+        "construction": "doors",
+        "sourceFile": "homestead-ii.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/jamestown.jpg",
+        "name": "Jamestown",
+        "slug": "jamestown",
+        "construction": "doors",
+        "sourceFile": "jamestown.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/lancaster.jpg",
+        "name": "Lancaster",
+        "slug": "lancaster",
+        "construction": "doors",
+        "sourceFile": "lancaster.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/lancaster-ii.jpg",
+        "name": "Lancaster II",
+        "slug": "lancaster-ii",
+        "construction": "doors",
+        "sourceFile": "lancaster-ii.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/lawrence.jpg",
+        "name": "Lawrence",
+        "slug": "lawrence",
+        "construction": "doors",
+        "sourceFile": "lawrence.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/metro.jpg",
+        "name": "Metro",
+        "slug": "metro",
+        "construction": "doors",
+        "sourceFile": "metro.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/norfolk.jpg",
+        "name": "Norfolk",
+        "slug": "norfolk",
+        "construction": "doors",
+        "sourceFile": "norfolk.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/oxford.jpg",
+        "name": "Oxford",
+        "slug": "oxford",
+        "construction": "doors",
+        "sourceFile": "oxford.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/oxford-ii.jpg",
+        "name": "Oxford II",
+        "slug": "oxford-ii",
+        "construction": "doors",
+        "sourceFile": "oxford-ii.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/portrait.jpg",
+        "name": "Portrait",
+        "slug": "portrait",
+        "construction": "doors",
+        "sourceFile": "portrait.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/richmond.jpg",
+        "name": "Richmond",
+        "slug": "richmond",
+        "construction": "doors",
+        "sourceFile": "richmond.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/ridgewood.jpg",
+        "name": "Ridgewood",
+        "slug": "ridgewood",
+        "construction": "doors",
+        "sourceFile": "ridgewood.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/salem.jpg",
+        "name": "Salem",
+        "slug": "salem",
+        "construction": "doors",
+        "sourceFile": "salem.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/savannah.jpg",
+        "name": "Savannah",
+        "slug": "savannah",
+        "construction": "doors",
+        "sourceFile": "savannah.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/shaker.jpg",
+        "name": "Shaker",
+        "slug": "shaker",
+        "construction": "doors",
+        "sourceFile": "shaker.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/shelby.jpg",
+        "name": "Shelby",
+        "slug": "shelby",
+        "construction": "doors",
+        "sourceFile": "shelby.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/whitfield.jpg",
+        "name": "Whitfield",
+        "slug": "whitfield",
+        "construction": "doors",
+        "sourceFile": "whitfield.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/williamsburg.jpg",
+        "name": "Williamsburg",
+        "slug": "williamsburg",
+        "construction": "doors",
+        "sourceFile": "williamsburg.png"
+      },
+      {
+        "src": "/images/brands/kith-kitchens/doors/yorktown.jpg",
+        "name": "Yorktown",
+        "slug": "yorktown",
+        "construction": "doors",
+        "sourceFile": "yorktown.png"
+      }
+    ]
+  },
+  "finishes": {
+    "groups": [
+      {
+        "slug": "paint",
+        "name": "Paint",
+        "description": "Solid paint colors and painted looks.",
+        "count": 21,
+        "items": [
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-alabaster.jpg",
+            "name": "Paint · Alabaster",
+            "slug": "paint-alabaster",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-alabaster.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-antique-white.jpg",
+            "name": "Paint · Antique White",
+            "slug": "paint-antique-white",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-antique-white.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-basil.jpg",
+            "name": "Paint · Basil",
+            "slug": "paint-basil",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-basil.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-beige.jpg",
+            "name": "Paint · Beige",
+            "slug": "paint-beige",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-beige.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-billiard-green.jpg",
+            "name": "Paint · Billiard Green",
+            "slug": "paint-billiard-green",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-billiard-green.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-bright-white.jpg",
+            "name": "Paint · Bright White",
+            "slug": "paint-bright-white",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-bright-white.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-creekstone.jpg",
+            "name": "Paint · Creekstone",
+            "slug": "paint-creekstone",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-creekstone.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-ebony.jpg",
+            "name": "Paint · Ebony",
+            "slug": "paint-ebony",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-ebony.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-fog.jpg",
+            "name": "Paint · Fog",
+            "slug": "paint-fog",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-fog.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-forestwood.jpg",
+            "name": "Paint · Forestwood",
+            "slug": "paint-forestwood",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-forestwood.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-haze.jpg",
+            "name": "Paint · Haze",
+            "slug": "paint-haze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-haze.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-iron.jpg",
+            "name": "Paint · Iron",
+            "slug": "paint-iron",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-iron.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-midnight.jpg",
+            "name": "Paint · Midnight",
+            "slug": "paint-midnight",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-midnight.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-moss.jpg",
+            "name": "Paint · Moss",
+            "slug": "paint-moss",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-moss.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-naval.jpg",
+            "name": "Paint · Naval",
+            "slug": "paint-naval",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-naval.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-oyster.jpg",
+            "name": "Paint · Oyster",
+            "slug": "paint-oyster",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-oyster.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-raisin.jpg",
+            "name": "Paint · Raisin",
+            "slug": "paint-raisin",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-raisin.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-sealskin.jpg",
+            "name": "Paint · Sealskin",
+            "slug": "paint-sealskin",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-sealskin.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-smokey-blue.jpg",
+            "name": "Paint · Smokey Blue",
+            "slug": "paint-smokey-blue",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-smokey-blue.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-thunder.jpg",
+            "name": "Paint · Thunder",
+            "slug": "paint-thunder",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-thunder.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/paint/paint-willow-gray.jpg",
+            "name": "Paint · Willow Gray",
+            "slug": "paint-willow-gray",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "paint-willow-gray.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "maple",
+        "name": "Maple",
+        "description": "Stains and specialty colors on maple.",
+        "count": 13,
+        "items": [
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-ash.jpg",
+            "name": "Maple · Ash",
+            "slug": "maple-ash",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-ash.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-charcoal.jpg",
+            "name": "Maple · Charcoal",
+            "slug": "maple-charcoal",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-charcoal.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-cognac.jpg",
+            "name": "Maple · Cognac",
+            "slug": "maple-cognac",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-cognac.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-driftwood.jpg",
+            "name": "Maple · Driftwood",
+            "slug": "maple-driftwood",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-driftwood.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-espresso.jpg",
+            "name": "Maple · Espresso",
+            "slug": "maple-espresso",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-espresso.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-java.jpg",
+            "name": "Maple · Java",
+            "slug": "maple-java",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-java.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-natural.jpg",
+            "name": "Maple · Natural",
+            "slug": "maple-natural",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-natural.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-nutmeg.jpg",
+            "name": "Maple · Nutmeg",
+            "slug": "maple-nutmeg",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-nutmeg.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-pecan.jpg",
+            "name": "Maple · Pecan",
+            "slug": "maple-pecan",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-pecan.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-sand.jpg",
+            "name": "Maple · Sand",
+            "slug": "maple-sand",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-sand.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-slate.jpg",
+            "name": "Maple · Slate",
+            "slug": "maple-slate",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-slate.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-storm-gray.jpg",
+            "name": "Maple · Storm Gray",
+            "slug": "maple-storm-gray",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-storm-gray.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/maple/maple-toffee.jpg",
+            "name": "Maple · Toffee",
+            "slug": "maple-toffee",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-toffee.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "cherry",
+        "name": "Cherry",
+        "description": "Stains and specialty colors on cherry.",
+        "count": 11,
+        "items": [
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-ash.jpg",
+            "name": "Cherry · Ash",
+            "slug": "cherry-ash",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-ash.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-charcoal.jpg",
+            "name": "Cherry · Charcoal",
+            "slug": "cherry-charcoal",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-charcoal.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-driftwood.jpg",
+            "name": "Cherry · Driftwood",
+            "slug": "cherry-driftwood",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-driftwood.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-espresso.jpg",
+            "name": "Cherry · Espresso",
+            "slug": "cherry-espresso",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-espresso.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-java.jpg",
+            "name": "Cherry · Java",
+            "slug": "cherry-java",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-java.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-natural.jpg",
+            "name": "Cherry · Natural",
+            "slug": "cherry-natural",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-natural.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-nutmeg.jpg",
+            "name": "Cherry · Nutmeg",
+            "slug": "cherry-nutmeg",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-nutmeg.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-pecan.jpg",
+            "name": "Cherry · Pecan",
+            "slug": "cherry-pecan",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-pecan.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-slate.jpg",
+            "name": "Cherry · Slate",
+            "slug": "cherry-slate",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-slate.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-storm-gray.jpg",
+            "name": "Cherry · Storm Gray",
+            "slug": "cherry-storm-gray",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-storm-gray.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/cherry/cherry-toffee.jpg",
+            "name": "Cherry · Toffee",
+            "slug": "cherry-toffee",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-toffee.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "oak",
+        "name": "Oak",
+        "description": "Stains and specialty colors on oak.",
+        "count": 12,
+        "items": [
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-ash.jpg",
+            "name": "Oak · Ash",
+            "slug": "oak-ash",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-ash.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-charcoal.jpg",
+            "name": "Oak · Charcoal",
+            "slug": "oak-charcoal",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-charcoal.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-driftwood.jpg",
+            "name": "Oak · Driftwood",
+            "slug": "oak-driftwood",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-driftwood.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-espresso.jpg",
+            "name": "Oak · Espresso",
+            "slug": "oak-espresso",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-espresso.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-java.jpg",
+            "name": "Oak · Java",
+            "slug": "oak-java",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-java.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-natural.jpg",
+            "name": "Oak · Natural",
+            "slug": "oak-natural",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-natural.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-nutmeg.jpg",
+            "name": "Oak · Nutmeg",
+            "slug": "oak-nutmeg",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-nutmeg.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-pecan.jpg",
+            "name": "Oak · Pecan",
+            "slug": "oak-pecan",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-pecan.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-sand.jpg",
+            "name": "Oak · Sand",
+            "slug": "oak-sand",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-sand.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-slate.jpg",
+            "name": "Oak · Slate",
+            "slug": "oak-slate",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-slate.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-storm.jpg",
+            "name": "Oak · Storm",
+            "slug": "oak-storm",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-storm.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/oak/oak-toffee.jpg",
+            "name": "Oak · Toffee",
+            "slug": "oak-toffee",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-toffee.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "specialty",
+        "name": "Specialty",
+        "description": "Glazes, vintage, and specialty colorways.",
+        "count": 13,
+        "items": [
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-chocolate-glaze-bright-white.jpg",
+            "name": "Chocolate Glaze Bright White",
+            "slug": "specialty-chocolate-glaze-bright-white",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "chocolate-glaze-bright-white.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-coffee-glaze-alabaster.jpg",
+            "name": "Coffee Glaze Alabaster",
+            "slug": "specialty-coffee-glaze-alabaster",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "coffee-glaze-alabaster.jpg"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-ash-vintage.jpg",
+            "name": "Maple Ash Vintage",
+            "slug": "specialty-maple-ash-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-ash-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-charcoal-vintage.jpg",
+            "name": "Maple Charcoal Vintage",
+            "slug": "specialty-maple-charcoal-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-charcoal-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-driftwood-vintage.jpg",
+            "name": "Maple Driftwood Vintage",
+            "slug": "specialty-maple-driftwood-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-driftwood-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-java-vintage.jpg",
+            "name": "Maple Java Vintage",
+            "slug": "specialty-maple-java-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-java-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-natural-vintag.jpg",
+            "name": "Maple Natural Vintag",
+            "slug": "specialty-maple-natural-vintag",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-natural-vintag.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-nutmeg-vintage.jpg",
+            "name": "Maple Nutmeg Vintage",
+            "slug": "specialty-maple-nutmeg-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-nutmeg-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-pecan-vintage.jpg",
+            "name": "Maple Pecan Vintage",
+            "slug": "specialty-maple-pecan-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-pecan-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-slate-vintage.jpg",
+            "name": "Maple Slate Vintage",
+            "slug": "specialty-maple-slate-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-slate-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-storm-vintage.jpg",
+            "name": "Maple Storm Vintage",
+            "slug": "specialty-maple-storm-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-storm-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-maple-toffee-vintage.jpg",
+            "name": "Maple Toffee Vintage",
+            "slug": "specialty-maple-toffee-vintage",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "maple-toffee-vintage.png"
+          },
+          {
+            "src": "/images/brands/kith-kitchens/finishes/specialty/specialty-pewter-glaze-bright-white.jpg",
+            "name": "Pewter Glaze Bright White",
+            "slug": "specialty-pewter-glaze-bright-white",
+            "species": "Specialty",
+            "group": "specialty",
+            "sourceFile": "pewter-glaze-bright-white.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "vault": "images/brands/kith-kitchens",
+    "doorsPolicy": "Flat doors/ folder — one sample per style. Kebab filenames preferred; imgi_* scrape names cleaned. Files under 4KB skipped.",
+    "finishesPolicy": "Finishes grouped by filename prefix/suffix (maple-, paint-, *-laminate, etc.). Specialty folder (Kith) → specialty group. Files under 8KB skipped."
+  }
+}

@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import { brands, getBrandBySlug } from '../../data/brands';
+import { brands, getBrandBySlug, hasBrandCatalog } from '../../data/brands';
 import '../../styles/global.css';
 
 export function getStaticPaths() {
@@ -21,6 +21,9 @@ if (!brand) {
 const otherBrands = brands.filter((b) => b.slug !== brand.slug);
 const hasSamples = brand.finishes.length > 0 || brand.doors.length > 0;
 const isStarmark = brand.slug === 'starmark';
+const hasCatalog = hasBrandCatalog(brand.slug);
+const doorsHref = isStarmark ? '/brands/starmark/doors/overlay' : `/brands/${brand.slug}/doors`;
+const finishesHref = `/brands/${brand.slug}/finishes`;
 ---
 
 <BaseLayout
@@ -171,38 +174,52 @@ const isStarmark = brand.slug === 'starmark';
 	<!-- Door / finish samples or scaffold note -->
 	<section class="max-w-7xl mx-auto px-6 pb-14 md:pb-16">
 		{
-			isStarmark ? (
+			hasCatalog ? (
 				<div>
 					<div class="uppercase tracking-[2px] text-xs font-semibold text-[#C8102E] mb-3">DOOR & FINISH CATALOG</div>
-					<h2 class="text-3xl font-semibold tracking-tight mb-3">Browse StarMark styles</h2>
+					<h2 class="text-3xl font-semibold tracking-tight mb-3">Browse {brand.name} styles</h2>
 					{brand.samplesNote && <p class="text-slate-600 mb-8 max-w-3xl">{brand.samplesNote}</p>}
 
-					<div class="grid sm:grid-cols-3 gap-4 mb-12">
+					<div class:list={['grid gap-4 mb-12', isStarmark ? 'sm:grid-cols-3' : 'sm:grid-cols-2']}>
+						{isStarmark ? (
+							<>
+								<a
+									href="/brands/starmark/doors/inset"
+									class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
+								>
+									<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">INSET</div>
+									<div class="text-xl font-semibold text-slate-900 mb-1">Inset door styles</div>
+									<p class="text-sm text-slate-600 mb-3">Full doors, click to enlarge</p>
+									<span class="text-sm font-semibold text-[#C8102E]">View inset catalog →</span>
+								</a>
+								<a
+									href="/brands/starmark/doors/overlay"
+									class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
+								>
+									<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">OVERLAY</div>
+									<div class="text-xl font-semibold text-slate-900 mb-1">Overlay door styles</div>
+									<p class="text-sm text-slate-600 mb-3">One sample per style</p>
+									<span class="text-sm font-semibold text-[#C8102E]">View overlay catalog →</span>
+								</a>
+							</>
+						) : (
+							<a
+								href={doorsHref}
+								class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
+							>
+								<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">DOORS</div>
+								<div class="text-xl font-semibold text-slate-900 mb-1">Door styles</div>
+								<p class="text-sm text-slate-600 mb-3">Full doors, click to enlarge</p>
+								<span class="text-sm font-semibold text-[#C8102E]">View door catalog →</span>
+							</a>
+						)}
 						<a
-							href="/brands/starmark/doors/inset"
-							class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
-						>
-							<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">INSET</div>
-							<div class="text-xl font-semibold text-slate-900 mb-1">Inset door styles</div>
-							<p class="text-sm text-slate-600 mb-3">Full doors, click to enlarge</p>
-							<span class="text-sm font-semibold text-[#C8102E]">View inset catalog →</span>
-						</a>
-						<a
-							href="/brands/starmark/doors/overlay"
-							class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
-						>
-							<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">OVERLAY</div>
-							<div class="text-xl font-semibold text-slate-900 mb-1">Overlay door styles</div>
-							<p class="text-sm text-slate-600 mb-3">One sample per style</p>
-							<span class="text-sm font-semibold text-[#C8102E]">View overlay catalog →</span>
-						</a>
-						<a
-							href="/brands/starmark/finishes"
+							href={finishesHref}
 							class="rounded-3xl border border-slate-200 bg-white p-6 hover:border-slate-300 hover:shadow-sm transition-all"
 						>
 							<div class="text-xs font-semibold tracking-[2px] uppercase text-[#C8102E] mb-2">FINISHES</div>
 							<div class="text-xl font-semibold text-slate-900 mb-1">Browse finishes</div>
-							<p class="text-sm text-slate-600 mb-3">Paint + wood species groups</p>
+							<p class="text-sm text-slate-600 mb-3">Paint, wood & material groups</p>
 							<span class="text-sm font-semibold text-[#C8102E]">View finish catalog →</span>
 						</a>
 					</div>
@@ -211,7 +228,7 @@ const isStarmark = brand.slug === 'starmark';
 						<div class="mb-12">
 							<div class="flex flex-wrap items-end justify-between gap-3 mb-5">
 								<h3 class="text-xl font-semibold">Door style preview</h3>
-								<a href="/brands/starmark/doors/overlay" class="text-sm font-semibold text-[#C8102E] hover:underline">
+								<a href={doorsHref} class="text-sm font-semibold text-[#C8102E] hover:underline">
 									See all doors →
 								</a>
 							</div>
@@ -239,7 +256,7 @@ const isStarmark = brand.slug === 'starmark';
 						<div>
 							<div class="flex flex-wrap items-end justify-between gap-3 mb-5">
 								<h3 class="text-xl font-semibold">Finish preview</h3>
-								<a href="/brands/starmark/finishes" class="text-sm font-semibold text-[#C8102E] hover:underline">
+								<a href={finishesHref} class="text-sm font-semibold text-[#C8102E] hover:underline">
 									See all finishes →
 								</a>
 							</div>

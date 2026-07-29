@@ -1,0 +1,836 @@
+{
+  "generatedAt": "2026-07-29T16:02:38.040Z",
+  "brand": "nations-cabinetry",
+  "displayName": "Nations Cabinetry",
+  "doorsMode": "flat",
+  "doors": {
+    "all": [
+      {
+        "src": "/images/brands/nations-cabinetry/doors/carlisle.webp",
+        "name": "Carlisle",
+        "slug": "carlisle",
+        "construction": "doors",
+        "sourceFile": "carlisle.webp"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/classic-flat.jpg",
+        "name": "Classic Flat",
+        "slug": "classic-flat",
+        "construction": "doors",
+        "sourceFile": "classic-flat.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/classic-ii-flat.jpg",
+        "name": "Classic II Flat",
+        "slug": "classic-ii-flat",
+        "construction": "doors",
+        "sourceFile": "classic-ii-flat.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/classic-ii-raised.jpg",
+        "name": "Classic II Raised",
+        "slug": "classic-ii-raised",
+        "construction": "doors",
+        "sourceFile": "classic-ii-raised.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/classic-raised.jpg",
+        "name": "Classic Raised",
+        "slug": "classic-raised",
+        "construction": "doors",
+        "sourceFile": "classic-raised.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/devonshire-ii-flat.jpg",
+        "name": "Devonshire II Flat",
+        "slug": "devonshire-ii-flat",
+        "construction": "doors",
+        "sourceFile": "devonshire-ii-flat.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/devonshire-ii-raised.jpg",
+        "name": "Devonshire II Raised",
+        "slug": "devonshire-ii-raised",
+        "construction": "doors",
+        "sourceFile": "devonshire-ii-raised.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/hudson.jpg",
+        "name": "Hudson",
+        "slug": "hudson",
+        "construction": "doors",
+        "sourceFile": "hudson.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/lawton.webp",
+        "name": "Lawton",
+        "slug": "lawton",
+        "construction": "doors",
+        "sourceFile": "lawton.webp"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/miami.jpg",
+        "name": "Miami",
+        "slug": "miami",
+        "construction": "doors",
+        "sourceFile": "miami.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/midway-ii.webp",
+        "name": "Midway II",
+        "slug": "midway-ii",
+        "construction": "doors",
+        "sourceFile": "midway-ii.webp"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/nantucket-ii.jpg",
+        "name": "Nantucket II",
+        "slug": "nantucket-ii",
+        "construction": "doors",
+        "sourceFile": "nantucket-ii.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/newport-ii.jpg",
+        "name": "Newport II",
+        "slug": "newport-ii",
+        "construction": "doors",
+        "sourceFile": "newport-ii.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/seneca.webp",
+        "name": "Seneca",
+        "slug": "seneca",
+        "construction": "doors",
+        "sourceFile": "seneca.webp"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/shaker.jpg",
+        "name": "Shaker",
+        "slug": "shaker",
+        "construction": "doors",
+        "sourceFile": "shaker.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/shaker-ii.jpg",
+        "name": "Shaker II",
+        "slug": "shaker-ii",
+        "construction": "doors",
+        "sourceFile": "shaker-ii.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/sussex-flat.jpg",
+        "name": "Sussex Flat",
+        "slug": "sussex-flat",
+        "construction": "doors",
+        "sourceFile": "sussex-flat.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/sussex-ii-flat.jpg",
+        "name": "Sussex II Flat",
+        "slug": "sussex-ii-flat",
+        "construction": "doors",
+        "sourceFile": "sussex-ii-flat.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/sussex-ii-raised.jpg",
+        "name": "Sussex II Raised",
+        "slug": "sussex-ii-raised",
+        "construction": "doors",
+        "sourceFile": "sussex-ii-raised.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/sussex-raised.jpg",
+        "name": "Sussex Raised",
+        "slug": "sussex-raised",
+        "construction": "doors",
+        "sourceFile": "sussex-raised.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/urban.jpg",
+        "name": "Urban",
+        "slug": "urban",
+        "construction": "doors",
+        "sourceFile": "urban.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/urban-ii.jpg",
+        "name": "Urban II",
+        "slug": "urban-ii",
+        "construction": "doors",
+        "sourceFile": "urban-ii.jpg"
+      },
+      {
+        "src": "/images/brands/nations-cabinetry/doors/westin.webp",
+        "name": "Westin",
+        "slug": "westin",
+        "construction": "doors",
+        "sourceFile": "westin.webp"
+      }
+    ]
+  },
+  "finishes": {
+    "groups": [
+      {
+        "slug": "paint",
+        "name": "Paint",
+        "description": "Solid paint colors and painted looks.",
+        "count": 17,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-antique-white.jpg",
+            "name": "Paint · Antique White",
+            "slug": "paint-antique-white",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "antique-white.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-aqua.jpg",
+            "name": "Paint · Aqua",
+            "slug": "paint-aqua",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "aqua.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-black.jpg",
+            "name": "Paint · Black",
+            "slug": "paint-black",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "black.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-distance-blue.jpg",
+            "name": "Paint · Distance Blue",
+            "slug": "paint-distance-blue",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "distance-blue.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-dovetail.jpg",
+            "name": "Paint · Dovetail",
+            "slug": "paint-dovetail",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "dovetail.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-gray.jpg",
+            "name": "Paint · Gray",
+            "slug": "paint-gray",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "gray.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-khaki.jpg",
+            "name": "Paint · Khaki",
+            "slug": "paint-khaki",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "khaki.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-naval.jpg",
+            "name": "Paint · Naval",
+            "slug": "paint-naval",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "naval.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-outerspace.jpg",
+            "name": "Paint · Outerspace",
+            "slug": "paint-outerspace",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "outerspace.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-pewter.jpg",
+            "name": "Paint · Pewter",
+            "slug": "paint-pewter",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "pewter.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-platinum-gray.jpg",
+            "name": "Paint · Platinum Gray",
+            "slug": "paint-platinum-gray",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "platinum-gray.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-savannah.jpg",
+            "name": "Paint · Savannah",
+            "slug": "paint-savannah",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "savannah.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-shale.jpg",
+            "name": "Paint · Shale",
+            "slug": "paint-shale",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "shale.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-silver-gray.jpg",
+            "name": "Paint · Silver Gray",
+            "slug": "paint-silver-gray",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "silver-gray.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-urbane-bronze.jpg",
+            "name": "Paint · Urbane Bronze",
+            "slug": "paint-urbane-bronze",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "urbane-bronze.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-walnut.jpg",
+            "name": "Paint · Walnut",
+            "slug": "paint-walnut",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "walnut.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/paint/paint-white.jpg",
+            "name": "Paint · White",
+            "slug": "paint-white",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "white.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "maple",
+        "name": "Maple",
+        "description": "Stains and specialty colors on maple.",
+        "count": 4,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/maple/maple-brandy.jpg",
+            "name": "Maple · Brandy",
+            "slug": "maple-brandy",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-brandy.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/maple/maple-charcoal.jpg",
+            "name": "Maple · Charcoal",
+            "slug": "maple-charcoal",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-charcoal.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/maple/maple-chestnut.jpg",
+            "name": "Maple · Chestnut",
+            "slug": "maple-chestnut",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-chestnut.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/maple/maple-espresso.jpg",
+            "name": "Maple · Espresso",
+            "slug": "maple-espresso",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-espresso.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "cherry",
+        "name": "Cherry",
+        "description": "Stains and specialty colors on cherry.",
+        "count": 11,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-brandy.jpg",
+            "name": "Cherry · Brandy",
+            "slug": "cherry-brandy",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-brandy.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-caviar.jpg",
+            "name": "Cherry · Caviar",
+            "slug": "cherry-caviar",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-caviar.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-charcoal.jpg",
+            "name": "Cherry · Charcoal",
+            "slug": "cherry-charcoal",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-charcoal.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-chestnut.jpg",
+            "name": "Cherry · Chestnut",
+            "slug": "cherry-chestnut",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-chestnut.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-cinnamon.jpg",
+            "name": "Cherry · Cinnamon",
+            "slug": "cherry-cinnamon",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-cinnamon.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-dusk.jpg",
+            "name": "Cherry · Dusk",
+            "slug": "cherry-dusk",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-dusk.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-natural.jpg",
+            "name": "Cherry · Natural",
+            "slug": "cherry-natural",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-natural.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-pecan.jpg",
+            "name": "Cherry · Pecan",
+            "slug": "cherry-pecan",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-pecan.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-smoke.jpg",
+            "name": "Cherry · Smoke",
+            "slug": "cherry-smoke",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-smoke.gif"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-toffee.jpg",
+            "name": "Cherry · Toffee",
+            "slug": "cherry-toffee",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-toffee.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/cherry/cherry-wheat.jpg",
+            "name": "Cherry · Wheat",
+            "slug": "cherry-wheat",
+            "species": "Cherry",
+            "group": "cherry",
+            "sourceFile": "cherry-wheat.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "oak",
+        "name": "Oak",
+        "description": "Stains and specialty colors on oak.",
+        "count": 2,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/oak/oak-natural.jpg",
+            "name": "Oak · Natural",
+            "slug": "oak-natural",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-natural.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/oak/oak-smoke.jpg",
+            "name": "Oak · Smoke",
+            "slug": "oak-smoke",
+            "species": "Oak",
+            "group": "oak",
+            "sourceFile": "oak-smoke.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "hickory",
+        "name": "Hickory",
+        "description": "Stains on hickory.",
+        "count": 3,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/hickory/hickory-dusk.jpg",
+            "name": "Hickory · Dusk",
+            "slug": "hickory-dusk",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-dusk.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/hickory/hickory-pecan.jpg",
+            "name": "Hickory · Pecan",
+            "slug": "hickory-pecan",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-pecan.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/hickory/hickory-toffee.jpg",
+            "name": "Hickory · Toffee",
+            "slug": "hickory-toffee",
+            "species": "Hickory",
+            "group": "hickory",
+            "sourceFile": "hickory-toffee.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "acrylic",
+        "name": "Acrylic",
+        "description": "Acrylic finish samples.",
+        "count": 1,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/acrylic/acrylic-white.jpg",
+            "name": "Acrylic · White",
+            "slug": "acrylic-white",
+            "species": "Acrylic",
+            "group": "acrylic",
+            "sourceFile": "acrylic-whte.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "specialty-woods",
+        "name": "Specialty woods",
+        "description": "Walnut, pine, and other specialty wood finishes.",
+        "count": 9,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-gregio-pine.jpg",
+            "name": "Specialty · Gregio Pine",
+            "slug": "specialty-gregio-pine",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "gregio-pine.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-merapi.jpg",
+            "name": "Specialty · Merapi",
+            "slug": "specialty-merapi",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "merapi.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-mochatini.jpg",
+            "name": "Specialty · Mochatini",
+            "slug": "specialty-mochatini",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "mochatini.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-morning-fog.jpg",
+            "name": "Specialty · Morning Fog",
+            "slug": "specialty-morning-fog",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "morning-fog.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-sahali-pine.jpg",
+            "name": "Specialty · Sahali Pine",
+            "slug": "specialty-sahali-pine",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "sahali-pine.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-seared-oak.jpg",
+            "name": "Specialty · Seared Oak",
+            "slug": "specialty-seared-oak",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "seared-oak.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-slate.jpg",
+            "name": "Specialty · Slate",
+            "slug": "specialty-slate",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "slate.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-toasted-oak.jpg",
+            "name": "Specialty · Toasted Oak",
+            "slug": "specialty-toasted-oak",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "toasted-oak.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/specialty-woods/specialty-wenge.jpg",
+            "name": "Specialty · Wenge",
+            "slug": "specialty-wenge",
+            "species": "Specialty",
+            "group": "specialty-woods",
+            "sourceFile": "wenge.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "framed",
+        "name": "Framed (Tidwell)",
+        "description": "Finish samples for Nations Tidwell framed cabinetry.",
+        "count": 27,
+        "items": [
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-antique-white.jpg",
+            "name": "Framed · Antique White",
+            "slug": "framed-antique-white",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "antique-white.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-aqua.jpg",
+            "name": "Framed · Aqua",
+            "slug": "framed-aqua",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "aqua.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-black.jpg",
+            "name": "Framed · Black",
+            "slug": "framed-black",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "black.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-brandy.jpg",
+            "name": "Framed · Brandy",
+            "slug": "framed-brandy",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "brandy.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-caviar.jpg",
+            "name": "Framed · Caviar",
+            "slug": "framed-caviar",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "caviar.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-charcoal.jpg",
+            "name": "Framed · Charcoal",
+            "slug": "framed-charcoal",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "charcoal.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-chestnut.jpg",
+            "name": "Framed · Chestnut",
+            "slug": "framed-chestnut",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "chestnut.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-cinnamon.jpg",
+            "name": "Framed · Cinnamon",
+            "slug": "framed-cinnamon",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "cinnamon.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-distance-blue.jpg",
+            "name": "Framed · Distance Blue",
+            "slug": "framed-distance-blue",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "distance-blue.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-dovetail.jpg",
+            "name": "Framed · Dovetail",
+            "slug": "framed-dovetail",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "dovetail.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-dusk.jpg",
+            "name": "Framed · Dusk",
+            "slug": "framed-dusk",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "dusk.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-gray.jpg",
+            "name": "Framed · Gray",
+            "slug": "framed-gray",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "gray.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-khaki.jpg",
+            "name": "Framed · Khaki",
+            "slug": "framed-khaki",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "khaki.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-natural.jpg",
+            "name": "Framed · Natural",
+            "slug": "framed-natural",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "natural.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-naval.jpg",
+            "name": "Framed · Naval",
+            "slug": "framed-naval",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "naval.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-outerspace.jpg",
+            "name": "Framed · Outerspace",
+            "slug": "framed-outerspace",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "outerspace.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-pecan.jpg",
+            "name": "Framed · Pecan",
+            "slug": "framed-pecan",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "pecan.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-pewter.jpg",
+            "name": "Framed · Pewter",
+            "slug": "framed-pewter",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "pewter.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-platinum-gray.jpg",
+            "name": "Framed · Platinum Gray",
+            "slug": "framed-platinum-gray",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "platinum-gray.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-savannah.jpg",
+            "name": "Framed · Savannah",
+            "slug": "framed-savannah",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "savannah.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-shale.jpg",
+            "name": "Framed · Shale",
+            "slug": "framed-shale",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "shale.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-silver-gray.jpg",
+            "name": "Framed · Silver Gray",
+            "slug": "framed-silver-gray",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "silver-gray.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-smoke.jpg",
+            "name": "Framed · Smoke",
+            "slug": "framed-smoke",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "smoke.gif"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-toffee.jpg",
+            "name": "Framed · Toffee",
+            "slug": "framed-toffee",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "toffee.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-urbane-bronze.jpg",
+            "name": "Framed · Urbane Bronze",
+            "slug": "framed-urbane-bronze",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "urbane-bronze.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-wheat.jpg",
+            "name": "Framed · Wheat",
+            "slug": "framed-wheat",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "wheat.jpg"
+          },
+          {
+            "src": "/images/brands/nations-cabinetry/finishes/framed/framed-white.jpg",
+            "name": "Framed · White",
+            "slug": "framed-white",
+            "species": "Framed",
+            "group": "framed",
+            "sourceFile": "white.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "vault": "images/brands/nations",
+    "doorsPolicy": "Flat doors/ folder — one sample per style. Kebab filenames preferred; imgi_* scrape names cleaned. Files under 4KB skipped.",
+    "finishesPolicy": "Nations finishes/framed kept as Framed (Tidwell). finishes/frameless split by species/material prefix when present; unprefixed solids → paint; specialty woods combined. Files under 8KB skipped."
+  }
+}

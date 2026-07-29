@@ -36,9 +36,33 @@ export type Brand = {
 };
 
 import { starmarkDoors, starmarkFinishes } from './starmark-samples';
+import { getCatalogPreviewDoors, getCatalogPreviewFinishes, hasBrandCatalog } from './brand-catalog';
 
 const optionsAskNote =
 	'Ask us for current door styles and finish options — manufacturer programs update regularly, and dealer-portal assets are the best source for the latest samples.';
+
+const catalogSamplesNote =
+	'Preview samples below — open the full door and finish catalogs for every style in our dealer library. Doors are shown so profiles read clearly; click any sample to enlarge on the catalog pages.';
+
+function catalogPreviews(slug: string) {
+	return {
+		doors: getCatalogPreviewDoors(slug, 10).map((d) => ({
+			src: d.src,
+			name: d.name,
+		})),
+		finishes: getCatalogPreviewFinishes(slug, 12).map((f) => ({
+			src: f.src,
+			name: f.name,
+		})),
+	};
+}
+
+const meritPreviews = catalogPreviews('merit-kitchens');
+const lectusPreviews = catalogPreviews('lectus');
+const kithPreviews = catalogPreviews('kith-kitchens');
+const nationsPreviews = catalogPreviews('nations-cabinetry');
+
+export { hasBrandCatalog };
 
 export const brands: Brand[] = [
 	{
@@ -68,9 +92,9 @@ export const brands: Brand[] = [
 			'German-engineered soft-close hinges & undermount slides',
 		],
 		gallery: [{ src: '/images/Home-Display-kitchens/merit-walnut.jpg', alt: 'Merit Kitchens walnut kitchen' }],
-		finishes: [],
-		doors: [],
-		optionsNote: optionsAskNote,
+		finishes: meritPreviews.finishes,
+		doors: meritPreviews.doors,
+		samplesNote: catalogSamplesNote,
 		examplePrice: '$10,166',
 		exampleName: 'Merit Walnut 10×10 example',
 	},
@@ -101,9 +125,9 @@ export const brands: Brand[] = [
 			'Made-to-order in British Columbia, Canada',
 		],
 		gallery: [{ src: '/images/Home-Display-kitchens/lectus-paint.jpg', alt: 'Lectus painted shaker kitchen' }],
-		finishes: [],
-		doors: [],
-		optionsNote: optionsAskNote,
+		finishes: lectusPreviews.finishes,
+		doors: lectusPreviews.doors,
+		samplesNote: catalogSamplesNote,
 		examplePrice: '$4,937',
 		exampleName: 'Lectus Shaker Paint 10×10 example',
 	},
@@ -171,9 +195,9 @@ export const brands: Brand[] = [
 			'Catalyzed conversion varnish finishes; made in the USA',
 		],
 		gallery: [{ src: '/images/Home-Display-kitchens/kith-painted.jpg', alt: 'Kith painted shaker kitchen' }],
-		finishes: [],
-		doors: [],
-		optionsNote: optionsAskNote,
+		finishes: kithPreviews.finishes,
+		doors: kithPreviews.doors,
+		samplesNote: catalogSamplesNote,
 		examplePrice: '$3,919',
 		exampleName: 'Kith Shaker Paint 10×10 example',
 	},
@@ -209,9 +233,9 @@ export const brands: Brand[] = [
 				alt: 'Nations raised panel painted kitchen',
 			},
 		],
-		finishes: [],
-		doors: [],
-		optionsNote: optionsAskNote,
+		finishes: nationsPreviews.finishes,
+		doors: nationsPreviews.doors,
+		samplesNote: catalogSamplesNote,
 		examplePrice: '$4,557',
 		exampleName: 'Nations Raised Panel Painted 10×10 example',
 	},

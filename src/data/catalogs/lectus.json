@@ -1,0 +1,515 @@
+{
+  "generatedAt": "2026-07-29T16:02:27.092Z",
+  "brand": "lectus",
+  "displayName": "Lectus",
+  "doorsMode": "flat",
+  "doors": {
+    "all": [
+      {
+        "src": "/images/brands/lectus/doors/barcelona-flat.jpg",
+        "name": "Barcelona Flat",
+        "slug": "barcelona-flat",
+        "construction": "doors",
+        "sourceFile": "imgi_32_Barcelona-Flat-687x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/beckham.jpg",
+        "name": "Beckham",
+        "slug": "beckham",
+        "construction": "doors",
+        "sourceFile": "imgi_38_Beckham-web-thumbnail-no-border.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/century-slab.jpg",
+        "name": "Century Slab",
+        "slug": "century-slab",
+        "construction": "doors",
+        "sourceFile": "century-slab.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/concord-slab.jpg",
+        "name": "Concord Slab",
+        "slug": "concord-slab",
+        "construction": "doors",
+        "sourceFile": "imgi_30_Concord-Slab-1-691x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/cordova-mdf.jpg",
+        "name": "Cordova MDF",
+        "slug": "cordova-mdf",
+        "construction": "doors",
+        "sourceFile": "cordova-mdf-door.png"
+      },
+      {
+        "src": "/images/brands/lectus/doors/cosmopolitan-slab.jpg",
+        "name": "Cosmopolitan Slab",
+        "slug": "cosmopolitan-slab",
+        "construction": "doors",
+        "sourceFile": "cosmopolitan-slab-door.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/denman-mdf.jpg",
+        "name": "Denman MDF",
+        "slug": "denman-mdf",
+        "construction": "doors",
+        "sourceFile": "denman-mdf.png"
+      },
+      {
+        "src": "/images/brands/lectus/doors/granville-thermofoil.jpg",
+        "name": "Granville Thermofoil",
+        "slug": "granville-thermofoil",
+        "construction": "doors",
+        "sourceFile": "granville-thermofoil-door.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/hampton-flat.jpg",
+        "name": "Hampton Flat",
+        "slug": "hampton-flat",
+        "construction": "doors",
+        "sourceFile": "imgi_34_Hampton-Flat-689x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/kingston-flat.jpg",
+        "name": "Kingston Flat",
+        "slug": "kingston-flat",
+        "construction": "doors",
+        "sourceFile": "imgi_35_Kingston-Flat-1-691x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/kingston-raised.jpg",
+        "name": "Kingston Raised",
+        "slug": "kingston-raised",
+        "construction": "doors",
+        "sourceFile": "imgi_39_Kingston-Raised-1-697x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/kitsilano.jpg",
+        "name": "Kitsilano",
+        "slug": "kitsilano",
+        "construction": "doors",
+        "sourceFile": "kitsilano-door.png"
+      },
+      {
+        "src": "/images/brands/lectus/doors/laurel-flat.jpg",
+        "name": "Laurel Flat",
+        "slug": "laurel-flat",
+        "construction": "doors",
+        "sourceFile": "laurel-flat.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/laurel-raised.jpg",
+        "name": "Laurel Raised",
+        "slug": "laurel-raised",
+        "construction": "doors",
+        "sourceFile": "laurel-raised.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/liberti-flat.jpg",
+        "name": "Liberti Flat",
+        "slug": "liberti-flat",
+        "construction": "doors",
+        "sourceFile": "liberti-flat-door.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/manchester-flat.jpg",
+        "name": "Manchester Flat",
+        "slug": "manchester-flat",
+        "construction": "doors",
+        "sourceFile": "imgi_33_Manchester-Flat-1-690x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/manhattan-flat.jpg",
+        "name": "Manhattan Flat",
+        "slug": "manhattan-flat",
+        "construction": "doors",
+        "sourceFile": "imgi_31_Manhattan-Flat-1-695x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/paramount-thermofoil.jpg",
+        "name": "Paramount Thermofoil",
+        "slug": "paramount-thermofoil",
+        "construction": "doors",
+        "sourceFile": "paramount-thermofoil-door.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/point-grey-thermofoil.jpg",
+        "name": "Point Grey Thermofoil",
+        "slug": "point-grey-thermofoil",
+        "construction": "doors",
+        "sourceFile": "point-grey-thermofoil-door.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/slab.jpg",
+        "name": "Slab",
+        "slug": "slab",
+        "construction": "doors",
+        "sourceFile": "slab-door.png"
+      },
+      {
+        "src": "/images/brands/lectus/doors/strathcona-thermofoil.jpg",
+        "name": "Strathcona Thermofoil",
+        "slug": "strathcona-thermofoil",
+        "construction": "doors",
+        "sourceFile": "strathcona-thermofoil-door.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/verona-flat.jpg",
+        "name": "Verona Flat",
+        "slug": "verona-flat",
+        "construction": "doors",
+        "sourceFile": "imgi_36_Verona-Flat-1-693x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/verona-raised.jpg",
+        "name": "Verona Raised",
+        "slug": "verona-raised",
+        "construction": "doors",
+        "sourceFile": "imgi_40_Verona-Raised-1-718x1024.jpg"
+      },
+      {
+        "src": "/images/brands/lectus/doors/vogue-flat.jpg",
+        "name": "Vogue Flat",
+        "slug": "vogue-flat",
+        "construction": "doors",
+        "sourceFile": "vogue-flat.jpg"
+      }
+    ]
+  },
+  "finishes": {
+    "groups": [
+      {
+        "slug": "paint",
+        "name": "Paint",
+        "description": "Solid paint colors and painted looks.",
+        "count": 13,
+        "items": [
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-arctic.jpg",
+            "name": "Paint · Arctic",
+            "slug": "paint-arctic",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "arctic-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-baby-blues.jpg",
+            "name": "Paint · Baby Blues",
+            "slug": "paint-baby-blues",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "baby-blues-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-cobble.jpg",
+            "name": "Paint · Cobble",
+            "slug": "paint-cobble",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "cobble-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-floral-elegance.jpg",
+            "name": "Paint · Floral Elegance",
+            "slug": "paint-floral-elegance",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "floral-elegance-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-icing.jpg",
+            "name": "Paint · Icing",
+            "slug": "paint-icing",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "icing-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-marine.jpg",
+            "name": "Paint · Marine",
+            "slug": "paint-marine",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "marine-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-midnight.jpg",
+            "name": "Paint · Midnight",
+            "slug": "paint-midnight",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "lectus-midnight-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-nocturnal-teal.jpg",
+            "name": "Paint · Nocturnal Teal",
+            "slug": "paint-nocturnal-teal",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "nocturnal-teal-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-nougat.jpg",
+            "name": "Paint · Nougat",
+            "slug": "paint-nougat",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "nougat-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-rich-yellow.jpg",
+            "name": "Paint · Rich Yellow",
+            "slug": "paint-rich-yellow",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "rich-yellow-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-sage.jpg",
+            "name": "Paint · Sage",
+            "slug": "paint-sage",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "sage-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-smoke.jpg",
+            "name": "Paint · Smoke",
+            "slug": "paint-smoke",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "smoke-paint.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/paint/paint-soft-moss.jpg",
+            "name": "Paint · Soft Moss",
+            "slug": "paint-soft-moss",
+            "species": "Paint",
+            "group": "paint",
+            "sourceFile": "soft-moss-paint.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "maple",
+        "name": "Maple",
+        "description": "Stains and specialty colors on maple.",
+        "count": 7,
+        "items": [
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-basalt.jpg",
+            "name": "Maple · Basalt",
+            "slug": "maple-basalt",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-basalt.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-cafe.jpg",
+            "name": "Maple · Cafe",
+            "slug": "maple-cafe",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-cafe.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-chicory.jpg",
+            "name": "Maple · Chicory",
+            "slug": "maple-chicory",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-chicory.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-ginger.jpg",
+            "name": "Maple · Ginger",
+            "slug": "maple-ginger",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-ginger.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-hazel.jpg",
+            "name": "Maple · Hazel",
+            "slug": "maple-hazel",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-hazel.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-just.jpg",
+            "name": "Maple · Just",
+            "slug": "maple-just",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-just.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/maple/maple-natural.jpg",
+            "name": "Maple · Natural",
+            "slug": "maple-natural",
+            "species": "Maple",
+            "group": "maple",
+            "sourceFile": "maple-natural.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "alder",
+        "name": "Alder",
+        "description": "Stains on alder.",
+        "count": 1,
+        "items": [
+          {
+            "src": "/images/brands/lectus/finishes/alder/alder-natural.jpg",
+            "name": "Alder · Natural",
+            "slug": "alder-natural",
+            "species": "Alder",
+            "group": "alder",
+            "sourceFile": "alder-natural.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "laminate",
+        "name": "Laminate",
+        "description": "Laminate finish samples.",
+        "count": 11,
+        "items": [
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-biscotti.jpg",
+            "name": "Laminate · Biscotti",
+            "slug": "laminate-biscotti",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "biscotti-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-iron.jpg",
+            "name": "Laminate · Iron",
+            "slug": "laminate-iron",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "iron-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-lead.jpg",
+            "name": "Laminate · Lead",
+            "slug": "laminate-lead",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "lead-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-lithium.jpg",
+            "name": "Laminate · Lithium",
+            "slug": "laminate-lithium",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "lithium-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-madison-gold.jpg",
+            "name": "Laminate · Madison Gold",
+            "slug": "laminate-madison-gold",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "madison-gold-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-nickel.jpg",
+            "name": "Laminate · Nickel",
+            "slug": "laminate-nickel",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "nickel-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-oxide.jpg",
+            "name": "Laminate · Oxide",
+            "slug": "laminate-oxide",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "oxide-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-pittsburg.jpg",
+            "name": "Laminate · Pittsburg",
+            "slug": "laminate-pittsburg",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "pittsburg-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-topaz.jpg",
+            "name": "Laminate · Topaz",
+            "slug": "laminate-topaz",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "topaz-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-toronto.jpg",
+            "name": "Laminate · Toronto",
+            "slug": "laminate-toronto",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "toronto-laminate.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/laminate/laminate-vancouver-trails.jpg",
+            "name": "Laminate · Vancouver Trails",
+            "slug": "laminate-vancouver-trails",
+            "species": "Laminate",
+            "group": "laminate",
+            "sourceFile": "vancouver-trails-laminate.jpg"
+          }
+        ]
+      },
+      {
+        "slug": "thermofoil",
+        "name": "Thermofoil",
+        "description": "Thermofoil finish samples.",
+        "count": 4,
+        "items": [
+          {
+            "src": "/images/brands/lectus/finishes/thermofoil/thermofoil-coconut.jpg",
+            "name": "Thermofoil · Coconut",
+            "slug": "thermofoil-coconut",
+            "species": "Thermofoil",
+            "group": "thermofoil",
+            "sourceFile": "coconut-thermofoil.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/thermofoil/thermofoil-eventide.jpg",
+            "name": "Thermofoil · Eventide",
+            "slug": "thermofoil-eventide",
+            "species": "Thermofoil",
+            "group": "thermofoil",
+            "sourceFile": "eventide-thermofoil.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/thermofoil/thermofoil-graphite.jpg",
+            "name": "Thermofoil · Graphite",
+            "slug": "thermofoil-graphite",
+            "species": "Thermofoil",
+            "group": "thermofoil",
+            "sourceFile": "graphite-thermofoil.jpg"
+          },
+          {
+            "src": "/images/brands/lectus/finishes/thermofoil/thermofoil-sterling.jpg",
+            "name": "Thermofoil · Sterling",
+            "slug": "thermofoil-sterling",
+            "species": "Thermofoil",
+            "group": "thermofoil",
+            "sourceFile": "sterling-thermofoil.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "vault": "images/brands/lectus",
+    "doorsPolicy": "Flat doors/ folder — one sample per style. Kebab filenames preferred; imgi_* scrape names cleaned. Files under 4KB skipped.",
+    "finishesPolicy": "Finishes grouped by filename prefix/suffix (maple-, paint-, *-laminate, etc.). Specialty folder (Kith) → specialty group. Files under 8KB skipped."
+  }
+}
